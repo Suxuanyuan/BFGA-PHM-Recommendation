@@ -62,16 +62,6 @@ BFGA-PHM-Recommendation/
 
 ---
 
-## Documentation
-
-- [docs/data_description.md](docs/data_description.md) — data dictionary.
-- [docs/ceg_schema.md](docs/ceg_schema.md) — node and edge schema (canonical English terminology).
-- [docs/installation.md](docs/installation.md) — install and config.
-- [docs/SECURITY.md](docs/SECURITY.md) — credentials that were removed before public release.
-- [file/README.md](file/README.md) — explanation of the `file/` directory.
-
----
-
 ## License
 
 Apache License 2.0 — see [LICENSE](LICENSE).
