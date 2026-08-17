@@ -1,0 +1,1546 @@
+{
+  "V4UQ9AUE": [
+    {
+      "node_id": "N4393",
+      "node_type": "15-Data Preprocessing Algorithm",
+      "node_name": "Hilbert transform",
+      "node_description": "Applied as a preprocessing method to construct complex analytic signals from raw time-series data, facilitating envelope demodulation and parameter extraction to suppress noise and dominant carrier frequencies while enhancing fault-related transient features. | Demodulating raw vibration signals to extract envelope signals for highlighting fault-induced impact features; Processing stator current signals to construct analytic signals and remove the fundamental frequency component; Decoupling amplitude and frequency modulation modes of fault vibration signals to prevent interference."
+    },
+    {
+      "node_id": "N4791",
+      "node_type": "16-Feature Extraction Algorithm",
+      "node_name": "CNN",
+      "node_description": "Serves as a feature extractor that automatically and adaptively learns deep, hierarchical, and spatial fault feature representations from raw signals, frequency-domain data, and transformed multi-dimensional images using alternating convolutional and pooling operations | Automatically extracting feature vectors from bearing vibration images using convolutional and pooling layers; Automatically extracting robust local spatial features from segmented vibration and current envelope signals using a one-dimensional architecture; Extracting spatial feature representations from two-dimensional images containing attitude tracking errors and controller outputs."
+    },
+    {
+      "node_id": "N6272",
+      "node_type": "17-Core Classifier Algorithm",
+      "node_name": "Softmax Classifier",
+      "node_description": "Serves as the final decision-making layer in diagnostic networks to map extracted high-dimensional features into probability distributions across multiple health states, outputting final fault classification and diagnostic decisions. | Mapping high-dimensional image features to output predictive probabilities for motor health, demagnetization, and bearing faults; converting global fusion features to identify fault types and severity levels of hydraulic system components; predicting fault type, location, and direction for planetary gearboxes based on spatiotemporal features."
+    }
+  ],
+  "PLPK6U6Q": [
+    {
+      "node_id": "N4351",
+      "node_type": "15-Data Preprocessing Algorithm",
+      "node_name": "Fourier Transform",
+      "node_description": "Converts raw time-domain signals such as vibration, current, and voltage into the frequency or time-frequency domain using Fast Fourier Transform or Short-Time Fourier Transform, facilitating spectral feature extraction, noise mitigation, and dimensionality reduction to generate optimized inputs for diagnostic models | Processing raw multi-sensor gearbox vibration signals using Fast Fourier Transform and linear normalization to reduce input dimensionality; Converting one-dimensional vibration signals into two-dimensional time-frequency images using Short-Time Fourier Transform combined with L2 normalization; Performing Fast Fourier Transform on stator current signals to extract amplitude and phase angle for calculating symmetrical components."
+    },
+    {
+      "node_id": "N5468",
+      "node_type": "16-Feature Extraction Algorithm",
+      "node_name": "Statistical Feature Extraction",
+      "node_description": "Calculating mathematical and statistical indicators from time and frequency domain signals to construct feature vectors that represent the operating state and degradation of mechanical systems | Extracting standard deviation, skewness, and kurtosis from time-domain vibration and current signals; computing thirty statistical features like RMS and shape factor from power spectral density; extracting forty-eight statistical indicators including variance and peak amplitude from multi-band vibration spectra"
+    },
+    {
+      "node_id": "N6308",
+      "node_type": "17-Core Classifier Algorithm",
+      "node_name": "Support Vector Machine (SVM)",
+      "node_description": "Acts as a terminal classification and regression decision model that accepts extracted, reduced, or fused feature vectors to perform pattern recognition, fault diagnosis, severity assessment, and health status evaluation for industrial systems and components. | classifying rolling bearing fault types and severity levels based on vibration and entropy features; predicting battery remaining useful life using classification for life stages and regression for near-end-of-life estimation; identifying transformer fault types based on feature vectors output from fuzzy logic."
+    },
+    {
+      "node_id": "N6703",
+      "node_type": "19-Training Optimization Algorithm",
+      "node_name": "Genetic Algorithm (GA)",
+      "node_description": "Used as a global search algorithm to optimize machine learning model hyperparameters, select diagnostic feature subsets, and adaptively tune parameters of signal processing or physical systems to improve fault diagnosis performance. | Optimizing the penalty factor and kernel parameters of support vector machines to improve classification accuracy; selecting the most discriminative feature subsets to reduce dimensionality; adaptively tuning the key parameters of stochastic resonance systems to maximize output signal-to-noise ratio."
+    }
+  ],
+  "2LP67RE5": [
+    {
+      "node_id": "N4686",
+      "node_type": "15-Data Preprocessing Algorithm",
+      "node_name": "Z-score Normalization",
+      "node_description": "Standardizes raw sensor signals or extracted features to a zero-mean and unit-variance distribution, eliminating dimensional differences and scaling effects to accelerate model convergence and improve numerical stability | Standardizing raw multi-channel vibration signals to accelerate network training convergence and reduce sensitivity to different channel data; Standardizing feature data to eliminate feature distribution divergence caused by motor load variations; Normalizing grid state features like voltage amplitude and angle to remove scale differences"
+    },
+    {
+      "node_id": "N5050",
+      "node_type": "16-Feature Extraction Algorithm",
+      "node_name": "HAAPE",
+      "node_description": "Extracting representative features from raw or processed machinery signals through decomposition, dimensionality reduction, complexity measures, or statistical analysis to characterize operating conditions and facilitate fault diagnosis | using hierarchical amplitude-aware permutation entropy to extract high and low-frequency features from vibration signals for health state representation; applying unsupervised attribute clustering based on rough set theory to select representative features and reduce dimensionality; employing an improved multiscale dispersion entropy algorithm to extract complexity and irregularity features from raw vibration signals"
+    },
+    {
+      "node_id": "N6308",
+      "node_type": "17-Core Classifier Algorithm",
+      "node_name": "Support Vector Machine (SVM)",
+      "node_description": "Acts as a terminal classification and regression decision model that accepts extracted, reduced, or fused feature vectors to perform pattern recognition, fault diagnosis, severity assessment, and health status evaluation for industrial systems and components. | classifying rolling bearing fault types and severity levels based on vibration and entropy features; predicting battery remaining useful life using classification for life stages and regression for near-end-of-life estimation; identifying transformer fault types based on feature vectors output from fuzzy logic."
+    }
+  ],
+  "J8RY3KA6": [
+    {
+      "node_id": "N4351",
+      "node_type": "15-Data Preprocessing Algorithm",
+      "node_name": "Fourier Transform",
+      "node_description": "Converts raw time-domain signals such as vibration, current, and voltage into the frequency or time-frequency domain using Fast Fourier Transform or Short-Time Fourier Transform, facilitating spectral feature extraction, noise mitigation, and dimensionality reduction to generate optimized inputs for diagnostic models | Processing raw multi-sensor gearbox vibration signals using Fast Fourier Transform and linear normalization to reduce input dimensionality; Converting one-dimensional vibration signals into two-dimensional time-frequency images using Short-Time Fourier Transform combined with L2 normalization; Performing Fast Fourier Transform on stator current signals to extract amplitude and phase angle for calculating symmetrical components."
+    },
+    {
+      "node_id": "N5461",
+      "node_type": "16-Feature Extraction Algorithm",
+      "node_name": "Stacked Autoencoder",
+      "node_description": "Automatically and adaptively extracts high-level, non-linear, or dimensionally reduced feature representations from raw signals, operational data, or handcrafted features to support health status monitoring and fault diagnosis | Extracting health state features of rotating machinery from raw vibration signals; Learning high-level non-linear features from handcrafted inputs; Dimensionally reducing coal mill operational data to extract low-dimensional fault feature vectors."
+    },
+    {
+      "node_id": "N5706",
+      "node_type": "17-Core Classifier Algorithm",
+      "node_name": "Convolutional Neural Network (CNN)",
+      "node_description": "Serving as a core classifier or discriminator that automatically extracts deep spatial or structural features from inputs such as raw signals time frequency images and feature vectors to perform pattern recognition and output fault diagnosis decisions | Extracting features from input GASF images to output diagnosis decisions for mechanical structural fault states; Training on expanded balanced bearing datasets using multilayer convolutional structures for final fault classification; Training on optimized feature subsets to classify hydraulic directional valve fault states and output probability distributions"
+    },
+    {
+      "node_id": "N6978",
+      "node_type": "19-Training Optimization Algorithm",
+      "node_name": "Unsupervised Pre-training and Supervised Fine-tuning",
+      "node_description": "A two stage training optimization strategy that utilizes unsupervised pre training to initialize network weights and biases, followed by supervised fine tuning via backpropagation to optimize global parameters, prevent local optima, and accelerate network convergence | Initializing network weights through layer wise unsupervised pre training and optimizing overall parameters via global supervised fine tuning to reduce the risk of falling into local optima; Training each autoencoder component independently via layer wise unsupervised pre training prior to stacking to facilitate network convergence; Optimizing deep network parameters and preventing the training process from getting trapped in local optima through unsupervised layer wise pre training combined with supervised fine tuning"
+    }
+  ],
+  "G7JD3IWQ": [
+    {
+      "node_id": "N4286",
+      "node_type": "15-Data Preprocessing Algorithm",
+      "node_name": "Data Normalization",
+      "node_description": "Standardizing raw sensor measurements or extracted feature vectors to a specific range or distribution to eliminate dimensional differences, mitigate the effects of varying operational conditions, and improve model training efficiency and convergence stability. | Scaling raw motor vibration signals to the range of negative one to one to accelerate neural network training convergence; Normalizing stator currents with rated currents to eliminate the impact of load variations on fault diagnostics; Scaling extracted time-domain features to the range of zero to one to prevent dominant eigenvalues in classifier inputs."
+    },
+    {
+      "node_id": "N6176",
+      "node_type": "17-Core Classifier Algorithm",
+      "node_name": "Particle Filter (PF)",
+      "node_description": "Recursively updates system states and model parameters under a Bayesian estimation framework to track degradation processes, diagnose faults, and predict the remaining useful life of components under uncertainty | tracking lithium-ion battery capacity degradation to estimate state of health and remaining useful life; dynamically monitoring bearing degradation trajectories to predict remaining useful life; estimating visual servoing system states to detect and isolate sensor bias faults"
+    },
+    {
+      "node_id": "N6820",
+      "node_type": "19-Training Optimization Algorithm",
+      "node_name": "Maximum Likelihood Estimation",
+      "node_description": "Used to estimate, identify, and initialize parameters of degradation and stochastic models | Adaptive initialization of Paris-Erdogan degradation model parameters; Offline identification and initialization of Brownian motion model parameters"
+    }
+  ],
+  "HTRI3EBM": [
+    {
+      "node_id": "N4351",
+      "node_type": "15-Data Preprocessing Algorithm",
+      "node_name": "Fourier Transform",
+      "node_description": "Converts raw time-domain signals such as vibration, current, and voltage into the frequency or time-frequency domain using Fast Fourier Transform or Short-Time Fourier Transform, facilitating spectral feature extraction, noise mitigation, and dimensionality reduction to generate optimized inputs for diagnostic models | Processing raw multi-sensor gearbox vibration signals using Fast Fourier Transform and linear normalization to reduce input dimensionality; Converting one-dimensional vibration signals into two-dimensional time-frequency images using Short-Time Fourier Transform combined with L2 normalization; Performing Fast Fourier Transform on stator current signals to extract amplitude and phase angle for calculating symmetrical components."
+    },
+    {
+      "node_id": "N4758",
+      "node_type": "16-Feature Extraction Algorithm",
+      "node_name": "Auto-Encoder",
+      "node_description": "Performs unsupervised feature learning and dimensionality reduction to map raw signals, vibration data, or images into low-dimensional, reconstructed, or shared high-level feature spaces for equipment health state representation and domain adaptation | Extracting deep feature representations from raw vibration data; Utilizing stacked auto-encoders to extract low-dimensional reconstructed feature vectors to characterize equipment health states; Projecting source and target domain features into a shared subspace to extract common high-level features"
+    },
+    {
+      "node_id": "N6272",
+      "node_type": "17-Core Classifier Algorithm",
+      "node_name": "Softmax Classifier",
+      "node_description": "Serves as the final decision-making layer in diagnostic networks to map extracted high-dimensional features into probability distributions across multiple health states, outputting final fault classification and diagnostic decisions. | Mapping high-dimensional image features to output predictive probabilities for motor health, demagnetization, and bearing faults; converting global fusion features to identify fault types and severity levels of hydraulic system components; predicting fault type, location, and direction for planetary gearboxes based on spatiotemporal features."
+    },
+    {
+      "node_id": "N6821",
+      "node_type": "19-Training Optimization Algorithm",
+      "node_name": "Maximum Mean Discrepancy (MMD)",
+      "node_description": "Used as a distance metric and optimization loss term to measure and minimize feature distribution discrepancies between different domains or sensors in a kernel space, facilitating domain adaptation, feature alignment, and generalization in cross-domain fault diagnosis and prognosis. | Minimizing distribution distance in reproducing kernel Hilbert space to align source and target features for cross-condition domain adaptation; Measuring spatial distribution discrepancies between heterogeneous sensor features to achieve subnetwork alignment and fusion; Evaluating similarity between current monitoring data and historical trajectories to initialize particle filter parameters."
+    }
+  ],
+  "CIVJRAHU": [
+    {
+      "node_id": "N4286",
+      "node_type": "15-Data Preprocessing Algorithm",
+      "node_name": "Data Normalization",
+      "node_description": "Standardizing raw sensor measurements or extracted feature vectors to a specific range or distribution to eliminate dimensional differences, mitigate the effects of varying operational conditions, and improve model training efficiency and convergence stability. | Scaling raw motor vibration signals to the range of negative one to one to accelerate neural network training convergence; Normalizing stator currents with rated currents to eliminate the impact of load variations on fault diagnostics; Scaling extracted time-domain features to the range of zero to one to prevent dominant eigenvalues in classifier inputs."
+    },
+    {
+      "node_id": "N4763",
+      "node_type": "16-Feature Extraction Algorithm",
+      "node_name": "Average value calculation",
+      "node_description": "Calculates the mean or average absolute value of electrical signals to extract statistical features used for fault detection, localization, and parameter estimation | calculating the average phase current to extract asymmetry features for inverter open-circuit fault detection; calculating the average absolute value of normalized currents to construct variables for fault detection and localization; calculating the average stator current and zero-sequence voltage under signal injection to provide feature parameters for equation solving"
+    },
+    {
+      "node_id": "N6336",
+      "node_type": "17-Core Classifier Algorithm",
+      "node_name": "Threshold Decision",
+      "node_description": "Comparing extracted fault indicators, signal features, or residual values against predefined, adaptive, or interval thresholds to perform fault detection, state classification, severity assessment, and fault isolation or localization | comparing estimated non-diagonal impedance deviation against a set threshold to identify stator inter-turn short circuits; using a preset L-kurtosis threshold to diagnose and classify bearing operating states; comparing normalized diagnostic variables with multiple thresholds to locate open-circuit faults in inverter switches"
+    }
+  ],
+  "M4GBADCQ": [
+    {
+      "node_id": "N4351",
+      "node_type": "15-Data Preprocessing Algorithm",
+      "node_name": "Fourier Transform",
+      "node_description": "Converts raw time-domain signals such as vibration, current, and voltage into the frequency or time-frequency domain using Fast Fourier Transform or Short-Time Fourier Transform, facilitating spectral feature extraction, noise mitigation, and dimensionality reduction to generate optimized inputs for diagnostic models | Processing raw multi-sensor gearbox vibration signals using Fast Fourier Transform and linear normalization to reduce input dimensionality; Converting one-dimensional vibration signals into two-dimensional time-frequency images using Short-Time Fourier Transform combined with L2 normalization; Performing Fast Fourier Transform on stator current signals to extract amplitude and phase angle for calculating symmetrical components."
+    },
+    {
+      "node_id": "N4791",
+      "node_type": "16-Feature Extraction Algorithm",
+      "node_name": "CNN",
+      "node_description": "Serves as a feature extractor that automatically and adaptively learns deep, hierarchical, and spatial fault feature representations from raw signals, frequency-domain data, and transformed multi-dimensional images using alternating convolutional and pooling operations | Automatically extracting feature vectors from bearing vibration images using convolutional and pooling layers; Automatically extracting robust local spatial features from segmented vibration and current envelope signals using a one-dimensional architecture; Extracting spatial feature representations from two-dimensional images containing attitude tracking errors and controller outputs."
+    },
+    {
+      "node_id": "N6308",
+      "node_type": "17-Core Classifier Algorithm",
+      "node_name": "Support Vector Machine (SVM)",
+      "node_description": "Acts as a terminal classification and regression decision model that accepts extracted, reduced, or fused feature vectors to perform pattern recognition, fault diagnosis, severity assessment, and health status evaluation for industrial systems and components. | classifying rolling bearing fault types and severity levels based on vibration and entropy features; predicting battery remaining useful life using classification for life stages and regression for near-end-of-life estimation; identifying transformer fault types based on feature vectors output from fuzzy logic."
+    }
+  ],
+  "JLJHZUIN": [
+    {
+      "node_id": "N4286",
+      "node_type": "15-Data Preprocessing Algorithm",
+      "node_name": "Data Normalization",
+      "node_description": "Standardizing raw sensor measurements or extracted feature vectors to a specific range or distribution to eliminate dimensional differences, mitigate the effects of varying operational conditions, and improve model training efficiency and convergence stability. | Scaling raw motor vibration signals to the range of negative one to one to accelerate neural network training convergence; Normalizing stator currents with rated currents to eliminate the impact of load variations on fault diagnostics; Scaling extracted time-domain features to the range of zero to one to prevent dominant eigenvalues in classifier inputs."
+    },
+    {
+      "node_id": "N5050",
+      "node_type": "16-Feature Extraction Algorithm",
+      "node_name": "HAAPE",
+      "node_description": "Extracting representative features from raw or processed machinery signals through decomposition, dimensionality reduction, complexity measures, or statistical analysis to characterize operating conditions and facilitate fault diagnosis | using hierarchical amplitude-aware permutation entropy to extract high and low-frequency features from vibration signals for health state representation; applying unsupervised attribute clustering based on rough set theory to select representative features and reduce dimensionality; employing an improved multiscale dispersion entropy algorithm to extract complexity and irregularity features from raw vibration signals"
+    },
+    {
+      "node_id": "N6000",
+      "node_type": "17-Core Classifier Algorithm",
+      "node_name": "Kernel Extreme Learning Machine (KELM)",
+      "node_description": "Serves as a core classification and regression model that processes extracted or fused features to execute fault diagnosis and remaining useful life prediction for equipment and components | Classifying normal and fault states of transformers; Outputting gearbox fault diagnosis classification results from fused features; Serving as a regression decision maker for bearing remaining useful life prediction"
+    },
+    {
+      "node_id": "N6604",
+      "node_type": "19-Training Optimization Algorithm",
+      "node_name": "CBA",
+      "node_description": "Automatically optimizing the penalty coefficients and kernel parameters of kernel extreme learning machine classifiers | Optimizing the penalty coefficient and kernel parameters of a core discriminator kernel extreme learning machine; Optimizing the penalty and kernel parameters of a kernel extreme learning machine"
+    }
+  ],
+  "MXCIHZ8N": [
+    {
+      "node_id": "N5326",
+      "node_type": "16-Feature Extraction Algorithm",
+      "node_name": "RMS",
+      "node_description": "Calculates the root mean square value of physical signals to extract time domain or domain specific features that characterize degradation trends, evaluate health conditions, and diagnose faults in mechanical and electrical components | Extracting RMS from raw vibration signals to reflect bearing degradation trends; Calculating the ratio of differential current to phase current RMS to evaluate motor eccentricity fault severity; Calculating the RMS of lower bridge arm voltage within a specific sampling period to characterize open circuit faults."
+    },
+    {
+      "node_id": "N6176",
+      "node_type": "17-Core Classifier Algorithm",
+      "node_name": "Particle Filter (PF)",
+      "node_description": "Recursively updates system states and model parameters under a Bayesian estimation framework to track degradation processes, diagnose faults, and predict the remaining useful life of components under uncertainty | tracking lithium-ion battery capacity degradation to estimate state of health and remaining useful life; dynamically monitoring bearing degradation trajectories to predict remaining useful life; estimating visual servoing system states to detect and isolate sensor bias faults"
+    }
+  ],
+  "4CSQUA9Y": [
+    {
+      "node_id": "N4286",
+      "node_type": "15-Data Preprocessing Algorithm",
+      "node_name": "Data Normalization",
+      "node_description": "Standardizing raw sensor measurements or extracted feature vectors to a specific range or distribution to eliminate dimensional differences, mitigate the effects of varying operational conditions, and improve model training efficiency and convergence stability. | Scaling raw motor vibration signals to the range of negative one to one to accelerate neural network training convergence; Normalizing stator currents with rated currents to eliminate the impact of load variations on fault diagnostics; Scaling extracted time-domain features to the range of zero to one to prevent dominant eigenvalues in classifier inputs."
+    },
+    {
+      "node_id": "N4711",
+      "node_type": "16-Feature Extraction Algorithm",
+      "node_name": "1D-CNN",
+      "node_description": "Automatically extracts multi-level, high-dimensional, and spatial-temporal features from raw time-series, vibration, and frequency-domain signals using one-dimensional convolution and pooling operations to support fault diagnosis and degradation state estimation. | Extracting feature representations from voltage, current, and state-of-charge time-series data using one-dimensional convolution and max pooling; extracting global and local deep fault features directly from raw one-dimensional vibration signals; extracting multi-scale degradation features from bearing frequency-domain signals."
+    },
+    {
+      "node_id": "N5874",
+      "node_type": "17-Core Classifier Algorithm",
+      "node_name": "Fully-Connected Layer (FCL)",
+      "node_description": "Serve as the final classification or regression layer in neural networks to map extracted high-dimensional features, embeddings, or fused features into diagnostic decisions such as fault categories or prognostic metrics like remaining useful life | Map high-dimensional degradation features to bearing remaining useful life prediction values; classify graph node features to output final fault diagnosis results using a softmax activation function; map fused features to continuous remaining useful life predictions as a regression estimator"
+    },
+    {
+      "node_id": "N6839",
+      "node_type": "19-Training Optimization Algorithm",
+      "node_name": "Multi-Task Learning (MTL)",
+      "node_description": "A training optimization strategy that jointly trains multiple related tasks by sharing network parameters or feature representations and optimizing a combined loss function to improve generalization performance and feature richness | Jointly optimizing remaining useful life prediction and health status identification through shared bottom-level feature representations; introducing speed and load identification as auxiliary tasks for multi-loss joint optimization; decoupling compound fault diagnosis into multiple subtasks using a bilevel gradient-based strategy with dynamically optimized task weights"
+    }
+  ],
+  "GL28S47U": [
+    {
+      "node_id": "N4605",
+      "node_type": "15-Data Preprocessing Algorithm",
+      "node_name": "Sliding Window",
+      "node_description": "A data preprocessing method that segments continuous time-series signals into overlapping or non-overlapping windows of fixed length to construct model training samples, capture localized features, perform real-time rolling calculations, and achieve data augmentation. | Segmenting raw vibration signals with overlapping windows to generate training samples for deep learning models; Dividing stator current signals into single-cycle frames to isolate transient characteristics for online fault detection; Splitting multivariate sensor time-series data into sub-sequences to capture dynamic temporal features."
+    },
+    {
+      "node_id": "N4714",
+      "node_type": "16-Feature Extraction Algorithm",
+      "node_name": "1DCNN",
+      "node_description": "Automatically and adaptively extracts multi-scale, high-dimensional, or discriminative feature representations from raw one-dimensional time-series signals, vibration data, or frequency spectra by leveraging convolutional and pooling layers. | Extracting feature representations from raw time-series signals using a wide convolutional kernel in the first layer followed by smaller kernels; Transforming raw magnetic field signals into low-dimensional feature representations as an encoder structure; Leveraging parallel convolutional and max pooling layers to extract high-order spatial-temporal features from coarse-grained signals."
+    },
+    {
+      "node_id": "N6272",
+      "node_type": "17-Core Classifier Algorithm",
+      "node_name": "Softmax Classifier",
+      "node_description": "Serves as the final decision-making layer in diagnostic networks to map extracted high-dimensional features into probability distributions across multiple health states, outputting final fault classification and diagnostic decisions. | Mapping high-dimensional image features to output predictive probabilities for motor health, demagnetization, and bearing faults; converting global fusion features to identify fault types and severity levels of hydraulic system components; predicting fault type, location, and direction for planetary gearboxes based on spatiotemporal features."
+    },
+    {
+      "node_id": "N6839",
+      "node_type": "19-Training Optimization Algorithm",
+      "node_name": "Multi-Task Learning (MTL)",
+      "node_description": "A training optimization strategy that jointly trains multiple related tasks by sharing network parameters or feature representations and optimizing a combined loss function to improve generalization performance and feature richness | Jointly optimizing remaining useful life prediction and health status identification through shared bottom-level feature representations; introducing speed and load identification as auxiliary tasks for multi-loss joint optimization; decoupling compound fault diagnosis into multiple subtasks using a bilevel gradient-based strategy with dynamically optimized task weights"
+    }
+  ],
+  "4Q5VTDX2": [
+    {
+      "node_id": "N4724",
+      "node_type": "16-Feature Extraction Algorithm",
+      "node_name": "AMF-DFA",
+      "node_description": "An adaptive feature extraction algorithm designed to remove unwanted trends and extract multifractal characteristics from non-linear and non-stationary signals. | Adaptively extracting multifractal features from non-linear and non-stationary vibration signals; Automatically eliminating useless trends in signals to extract multifractal features."
+    },
+    {
+      "node_id": "N6308",
+      "node_type": "17-Core Classifier Algorithm",
+      "node_name": "Support Vector Machine (SVM)",
+      "node_description": "Acts as a terminal classification and regression decision model that accepts extracted, reduced, or fused feature vectors to perform pattern recognition, fault diagnosis, severity assessment, and health status evaluation for industrial systems and components. | classifying rolling bearing fault types and severity levels based on vibration and entropy features; predicting battery remaining useful life using classification for life stages and regression for near-end-of-life estimation; identifying transformer fault types based on feature vectors output from fuzzy logic."
+    }
+  ],
+  "7DZ4QNQ4": [
+    {
+      "node_id": "N4605",
+      "node_type": "15-Data Preprocessing Algorithm",
+      "node_name": "Sliding Window",
+      "node_description": "A data preprocessing method that segments continuous time-series signals into overlapping or non-overlapping windows of fixed length to construct model training samples, capture localized features, perform real-time rolling calculations, and achieve data augmentation. | Segmenting raw vibration signals with overlapping windows to generate training samples for deep learning models; Dividing stator current signals into single-cycle frames to isolate transient characteristics for online fault detection; Splitting multivariate sensor time-series data into sub-sequences to capture dynamic temporal features."
+    },
+    {
+      "node_id": "N5000",
+      "node_type": "16-Feature Extraction Algorithm",
+      "node_name": "Frequency Tracking Algorithm",
+      "node_description": "An algorithm used to extract the fundamental wave parameters, such as amplitude and phase angle, of electrical signal components in real-time to serve as key feature inputs for fault diagnosis and indication. | Extracting the fundamental amplitude of zero-sequence voltage in the time-domain as a fault feature; Extracting the amplitude and initial phase of zero-sequence voltage and stator current fundamental components for diagnostic inputs; Utilizing reference frame transformation to online extract the fundamental amplitude and initial phase of zero-sequence components"
+    },
+    {
+      "node_id": "N6335",
+      "node_type": "17-Core Classifier Algorithm",
+      "node_name": "Threshold Comparison",
+      "node_description": "Compares extracted signal features, estimated parameters, or residual values with preset or adaptive thresholds, often incorporating lookup tables or decision logic, to detect faults, classify fault types, and locate faulty components | comparing integer harmonic amplitudes with preset thresholds to diagnose induction motor rotor broken bar faults; comparing current peak and valley values with adaptive thresholds and lookup tables to detect and locate switch open-circuit faults; comparing calibrated RMS ripple currents with set thresholds to detect inter-turn short-circuit faults and identify the faulty phase."
+    }
+  ],
+  "W2TLLZVM": [
+    {
+      "node_id": "N4286",
+      "node_type": "15-Data Preprocessing Algorithm",
+      "node_name": "Data Normalization",
+      "node_description": "Standardizing raw sensor measurements or extracted feature vectors to a specific range or distribution to eliminate dimensional differences, mitigate the effects of varying operational conditions, and improve model training efficiency and convergence stability. | Scaling raw motor vibration signals to the range of negative one to one to accelerate neural network training convergence; Normalizing stator currents with rated currents to eliminate the impact of load variations on fault diagnostics; Scaling extracted time-domain features to the range of zero to one to prevent dominant eigenvalues in classifier inputs."
+    },
+    {
+      "node_id": "N4791",
+      "node_type": "16-Feature Extraction Algorithm",
+      "node_name": "CNN",
+      "node_description": "Serves as a feature extractor that automatically and adaptively learns deep, hierarchical, and spatial fault feature representations from raw signals, frequency-domain data, and transformed multi-dimensional images using alternating convolutional and pooling operations | Automatically extracting feature vectors from bearing vibration images using convolutional and pooling layers; Automatically extracting robust local spatial features from segmented vibration and current envelope signals using a one-dimensional architecture; Extracting spatial feature representations from two-dimensional images containing attitude tracking errors and controller outputs."
+    },
+    {
+      "node_id": "N6272",
+      "node_type": "17-Core Classifier Algorithm",
+      "node_name": "Softmax Classifier",
+      "node_description": "Serves as the final decision-making layer in diagnostic networks to map extracted high-dimensional features into probability distributions across multiple health states, outputting final fault classification and diagnostic decisions. | Mapping high-dimensional image features to output predictive probabilities for motor health, demagnetization, and bearing faults; converting global fusion features to identify fault types and severity levels of hydraulic system components; predicting fault type, location, and direction for planetary gearboxes based on spatiotemporal features."
+    },
+    {
+      "node_id": "N6917",
+      "node_type": "19-Training Optimization Algorithm",
+      "node_name": "SDANN",
+      "node_description": "Optimizing model training and feature representation alignment across different domains or operating conditions through adversarial adaptation, distance-based constraints, and parameter fine-tuning to enhance generalization and diagnostic accuracy | Aligning marginal and joint distributions of source and target domain features using residual joint adaptation networks and joint maximum mean discrepancy; Dynamically allocating weights in multi-source domain weighted adversarial training to prevent negative transfer; Resolving partial domain adaptation under inconsistent label spaces through class and instance level dual weighting mechanisms"
+    }
+  ],
+  "PPMG4PRM": [
+    {
+      "node_id": "N4351",
+      "node_type": "15-Data Preprocessing Algorithm",
+      "node_name": "Fourier Transform",
+      "node_description": "Converts raw time-domain signals such as vibration, current, and voltage into the frequency or time-frequency domain using Fast Fourier Transform or Short-Time Fourier Transform, facilitating spectral feature extraction, noise mitigation, and dimensionality reduction to generate optimized inputs for diagnostic models | Processing raw multi-sensor gearbox vibration signals using Fast Fourier Transform and linear normalization to reduce input dimensionality; Converting one-dimensional vibration signals into two-dimensional time-frequency images using Short-Time Fourier Transform combined with L2 normalization; Performing Fast Fourier Transform on stator current signals to extract amplitude and phase angle for calculating symmetrical components."
+    },
+    {
+      "node_id": "N4782",
+      "node_type": "16-Feature Extraction Algorithm",
+      "node_name": "CAE",
+      "node_description": "Autoencoder variants serve as feature extractors to automatically reconstruct inputs and extract robust, high-level fault features from raw signals or spectra while suppressing noise interference | A convolutional autoencoder extracts fault features and eliminates noise from input signals; A contractive autoencoder extracts noise-robust high-level features from amplitude spectra"
+    },
+    {
+      "node_id": "N6272",
+      "node_type": "17-Core Classifier Algorithm",
+      "node_name": "Softmax Classifier",
+      "node_description": "Serves as the final decision-making layer in diagnostic networks to map extracted high-dimensional features into probability distributions across multiple health states, outputting final fault classification and diagnostic decisions. | Mapping high-dimensional image features to output predictive probabilities for motor health, demagnetization, and bearing faults; converting global fusion features to identify fault types and severity levels of hydraulic system components; predicting fault type, location, and direction for planetary gearboxes based on spatiotemporal features."
+    },
+    {
+      "node_id": "N6978",
+      "node_type": "19-Training Optimization Algorithm",
+      "node_name": "Unsupervised Pre-training and Supervised Fine-tuning",
+      "node_description": "A two stage training optimization strategy that utilizes unsupervised pre training to initialize network weights and biases, followed by supervised fine tuning via backpropagation to optimize global parameters, prevent local optima, and accelerate network convergence | Initializing network weights through layer wise unsupervised pre training and optimizing overall parameters via global supervised fine tuning to reduce the risk of falling into local optima; Training each autoencoder component independently via layer wise unsupervised pre training prior to stacking to facilitate network convergence; Optimizing deep network parameters and preventing the training process from getting trapped in local optima through unsupervised layer wise pre training combined with supervised fine tuning"
+    }
+  ],
+  "ES4HC236": [
+    {
+      "node_id": "N4351",
+      "node_type": "15-Data Preprocessing Algorithm",
+      "node_name": "Fourier Transform",
+      "node_description": "Converts raw time-domain signals such as vibration, current, and voltage into the frequency or time-frequency domain using Fast Fourier Transform or Short-Time Fourier Transform, facilitating spectral feature extraction, noise mitigation, and dimensionality reduction to generate optimized inputs for diagnostic models | Processing raw multi-sensor gearbox vibration signals using Fast Fourier Transform and linear normalization to reduce input dimensionality; Converting one-dimensional vibration signals into two-dimensional time-frequency images using Short-Time Fourier Transform combined with L2 normalization; Performing Fast Fourier Transform on stator current signals to extract amplitude and phase angle for calculating symmetrical components."
+    },
+    {
+      "node_id": "N5283",
+      "node_type": "16-Feature Extraction Algorithm",
+      "node_name": "Park transformation",
+      "node_description": "A coordinate transformation algorithm used to convert three-phase signals from a stationary frame to a rotating or orthogonal dq reference frame to extract decoupled electrical features, harmonics, or components | Transforming three-phase stator currents to extract rotating d-axis and q-axis current components; Converting three-phase current and voltage signals to calculate torque angle features; Transforming signals to a rotating coordinate system to extract specific order harmonic features"
+    },
+    {
+      "node_id": "N6336",
+      "node_type": "17-Core Classifier Algorithm",
+      "node_name": "Threshold Decision",
+      "node_description": "Comparing extracted fault indicators, signal features, or residual values against predefined, adaptive, or interval thresholds to perform fault detection, state classification, severity assessment, and fault isolation or localization | comparing estimated non-diagonal impedance deviation against a set threshold to identify stator inter-turn short circuits; using a preset L-kurtosis threshold to diagnose and classify bearing operating states; comparing normalized diagnostic variables with multiple thresholds to locate open-circuit faults in inverter switches"
+    },
+    {
+      "node_id": "N6459",
+      "node_type": "18-Data Generation Algorithm",
+      "node_name": "Finite Element Method (FEM)",
+      "node_description": "Simulating the physical behaviors of mechanical and electrical components under healthy and various fault conditions to generate synthetic datasets, including electromagnetic, vibration, and thermal signals, for fault diagnosis and algorithm validation. | Simulating gear contact dynamics to generate transmission error signals under normal, spalling, and crack states; modeling motor electromagnetic fields to generate voltage and current data under inter-turn short circuit and demagnetization faults; applying multiphysics analysis to simulate steady-state fault temperatures under varying wind and ambient temperatures."
+    }
+  ],
+  "QSIUJHZG": [
+    {
+      "node_id": "N4224",
+      "node_type": "15-Data Preprocessing Algorithm",
+      "node_name": "Band-pass Filter",
+      "node_description": "Used as a preprocessing method to filter raw signals by isolating specific target frequency bands, such as resonance bands or fault-characteristic frequencies, while suppressing out-of-band noise, DC bias, and irrelevant interference components to improve signal-to-noise ratio and enhance fault-related features | Preprocessing motor stator current signals to retain the 35 to 65 Hz fault modulation range while filtering out irrelevant noise; Filtering raw vibration signals to extract the high-frequency resonance band containing bearing fault information while isolating low-frequency gear meshing interference; Filtering displacement sensor signals in orthogonal directions to remove DC bias and retain the shaft fundamental and harmonic frequency components."
+    },
+    {
+      "node_id": "N5050",
+      "node_type": "16-Feature Extraction Algorithm",
+      "node_name": "HAAPE",
+      "node_description": "Extracting representative features from raw or processed machinery signals through decomposition, dimensionality reduction, complexity measures, or statistical analysis to characterize operating conditions and facilitate fault diagnosis | using hierarchical amplitude-aware permutation entropy to extract high and low-frequency features from vibration signals for health state representation; applying unsupervised attribute clustering based on rough set theory to select representative features and reduce dimensionality; employing an improved multiscale dispersion entropy algorithm to extract complexity and irregularity features from raw vibration signals"
+    },
+    {
+      "node_id": "N5945",
+      "node_type": "17-Core Classifier Algorithm",
+      "node_name": "Hilbert Envelope Spectrum Analysis",
+      "node_description": "Analyzing the demodulated envelope spectrum of processed vibration signals to identify fault characteristic frequencies and their harmonics, thereby enabling fault detection and diagnostic decision-making for rotating machinery components. | Analyzing the Hilbert envelope spectrum of extracted optimal subband signals to identify characteristic frequencies and determine rolling bearing fault types; Conducting Hilbert envelope spectrum analysis on decoupled components to detect gear spalling and shaft misalignment in gearboxes; Performing envelope spectrum analysis on extracted periodic impulses to identify fault characteristic frequencies for diagnosis decisions."
+    },
+    {
+      "node_id": "N6884",
+      "node_type": "19-Training Optimization Algorithm",
+      "node_name": "Particle Swarm Optimization (PSO)",
+      "node_description": "An evolutionary optimization algorithm used to perform global parameter search and hyperparameter tuning for machine learning classifiers, neural network architectures, and signal processing methods to enhance diagnostic accuracy and feature extraction quality. | Optimizing the penalty factor and kernel parameters of support vector machines; tuning the structural hyperparameters and learning rates of neural networks; adaptively determining the mode number and penalty factor of variational mode decomposition."
+    }
+  ],
+  "VW62J9J5": [
+    {
+      "node_id": "N4472",
+      "node_type": "15-Data Preprocessing Algorithm",
+      "node_name": "Min-Max Normalization",
+      "node_description": "Scales raw sensor measurements, signal data, or extracted features into a unified numerical range, typically 0 to 1 or -1 to 1, to eliminate dimensional discrepancies, normalize data distributions, and enhance the training stability and convergence rate of neural networks and machine learning models. | Normalizing one-dimensional vibration signals and converting them into two-dimensional grayscale images as network inputs; Linearly scaling SCADA data to the range of 0 to 1 to eliminate dimensional impacts and accelerate model training convergence; Processing reactor operating parameter data to eliminate physical dimension discrepancies for support vector machine classification."
+    },
+    {
+      "node_id": "N4791",
+      "node_type": "16-Feature Extraction Algorithm",
+      "node_name": "CNN",
+      "node_description": "Serves as a feature extractor that automatically and adaptively learns deep, hierarchical, and spatial fault feature representations from raw signals, frequency-domain data, and transformed multi-dimensional images using alternating convolutional and pooling operations | Automatically extracting feature vectors from bearing vibration images using convolutional and pooling layers; Automatically extracting robust local spatial features from segmented vibration and current envelope signals using a one-dimensional architecture; Extracting spatial feature representations from two-dimensional images containing attitude tracking errors and controller outputs."
+    },
+    {
+      "node_id": "N6272",
+      "node_type": "17-Core Classifier Algorithm",
+      "node_name": "Softmax Classifier",
+      "node_description": "Serves as the final decision-making layer in diagnostic networks to map extracted high-dimensional features into probability distributions across multiple health states, outputting final fault classification and diagnostic decisions. | Mapping high-dimensional image features to output predictive probabilities for motor health, demagnetization, and bearing faults; converting global fusion features to identify fault types and severity levels of hydraulic system components; predicting fault type, location, and direction for planetary gearboxes based on spatiotemporal features."
+    },
+    {
+      "node_id": "N6485",
+      "node_type": "18-Data Generation Algorithm",
+      "node_name": "MWFT",
+      "node_description": "Data generation algorithms that simulate or reconstruct fault-state signal samples using physical modeling or deep learning decoders to address data scarcity in health management | Simulating stator current samples under bearing faults by calculating time-varying inductance with modified winding function theory; Reconstructing one-dimensional vibration signals for data augmentation using a stacked autoencoder decoder"
+    },
+    {
+      "node_id": "N6760",
+      "node_type": "19-Training Optimization Algorithm",
+      "node_name": "Joint Optimization",
+      "node_description": "An optimization approach that jointly minimizes supervised classification loss and unsupervised reconstruction error to train neural networks | Jointly optimizing classification cross-entropy loss and autoencoder reconstruction error for one-stage end-to-end multi-branch network training; Combining unsupervised reconstruction error and BPNN-Softmax classification error to jointly train a stacked autoencoder"
+    }
+  ],
+  "IDP29JMR": [
+    {
+      "node_id": "N4962",
+      "node_type": "16-Feature Extraction Algorithm",
+      "node_name": "FFT",
+      "node_description": "Converts time-domain monitoring signals such as vibration, current, voltage, and magnetic flux into the frequency domain to extract diagnostic features including harmonic amplitudes, fault-characteristic frequencies, sidebands, and spectral energy. | Transforming stator current and neutral voltage to extract rotor slot harmonic amplitudes; Converting vibration signals to the frequency domain to calculate spectral energy for leakage detection; Extracting fundamental and third harmonic components from leakage magnetic flux to identify inter-turn short circuits."
+    },
+    {
+      "node_id": "N6323",
+      "node_type": "17-Core Classifier Algorithm",
+      "node_name": "TLFD",
+      "node_description": "Serving as the core decision-making, classification, or estimation model to identify fault categories, assess health degradation, and predict remaining useful life of industrial components based on feature inputs or system residues | Classifying and diagnosing multiple fault modes of aircraft fuel systems as the core decision model; Predicting bearing degradation trends and remaining useful life by combining self-attention and ConvLSTM; Utilizing twin support vector machines with a partial binary tree to diagnose transformer fault types"
+    }
+  ],
+  "BDSZ85BY": [
+    {
+      "node_id": "N4479",
+      "node_type": "15-Data Preprocessing Algorithm",
+      "node_name": "Morlet Wavelet",
+      "node_description": "Used to perform bandpass filtering and denoising on raw vibration signals to suppress noise, enhance signal-to-noise ratio, and extract weak or early fault impulse features. | Filtering bearing vibration signals using a complex Morlet wavelet filter to retain resonance bands and improve signal-to-noise ratio; Bandpass filtering and denoising raw vibration signals to match and extract weak bearing fault impulse features; Reconstructing impulse signals with early fault information using optimized Morlet wavelet transform combined with kurtosis index and adaptive soft-threshold denoising"
+    },
+    {
+      "node_id": "N5458",
+      "node_type": "16-Feature Extraction Algorithm",
+      "node_name": "Squared envelope spectrum",
+      "node_description": "Analyzing filtered or processed vibration signals to extract characteristic frequencies, periodic impact features, and modulation sidebands for diagnosing faults in rotating machinery components | Extracting the squared envelope spectrum of filtered signals to characterize rolling bearing fault impact features; Analyzing sub-signals processed by singular value decomposition and correlation grouping to extract periodic impact characteristic frequencies of different bearing faults; Analyzing optimal bandpass filtered signals to extract characteristic frequencies and modulation sidebands of gear faults"
+    },
+    {
+      "node_id": "N5806",
+      "node_type": "17-Core Classifier Algorithm",
+      "node_name": "Envelope Spectrum Analysis",
+      "node_description": "Demodulates and analyzes the frequency components of reconstructed, filtered, or decomposed signals to identify fault characteristic frequencies and their harmonics, providing diagnostic decisions by comparing observed spectral peaks with theoretical fault signatures of mechanical components | Diagnosing bearing fault locations by comparing extracted mode envelope frequencies with theoretical calculations; Identifying solar gear faults by analyzing the characteristic frequencies and order ratios of enhanced signals; Detecting clearance faults in reciprocating compressor bearings by identifying double rotation frequency peaks in product function envelope spectra"
+    },
+    {
+      "node_id": "N6994",
+      "node_type": "19-Training Optimization Algorithm",
+      "node_name": "Whale Optimization Algorithm",
+      "node_description": "Optimizes key parameters of signal processing, filtering, and decomposition algorithms to improve computational efficiency, search accuracy, and extraction performance | Optimizing the center frequency and bandwidth parameters of a Morlet wavelet filter; Optimizing high-dimensional atom parameters in matching pursuit to improve sparse decomposition efficiency and accuracy; Optimizing key threshold parameters in swarm decomposition to minimize the envelope spectrum sparsity metric"
+    }
+  ],
+  "HNHC8HF5": [
+    {
+      "node_id": "N4472",
+      "node_type": "15-Data Preprocessing Algorithm",
+      "node_name": "Min-Max Normalization",
+      "node_description": "Scales raw sensor measurements, signal data, or extracted features into a unified numerical range, typically 0 to 1 or -1 to 1, to eliminate dimensional discrepancies, normalize data distributions, and enhance the training stability and convergence rate of neural networks and machine learning models. | Normalizing one-dimensional vibration signals and converting them into two-dimensional grayscale images as network inputs; Linearly scaling SCADA data to the range of 0 to 1 to eliminate dimensional impacts and accelerate model training convergence; Processing reactor operating parameter data to eliminate physical dimension discrepancies for support vector machine classification."
+    },
+    {
+      "node_id": "N4791",
+      "node_type": "16-Feature Extraction Algorithm",
+      "node_name": "CNN",
+      "node_description": "Serves as a feature extractor that automatically and adaptively learns deep, hierarchical, and spatial fault feature representations from raw signals, frequency-domain data, and transformed multi-dimensional images using alternating convolutional and pooling operations | Automatically extracting feature vectors from bearing vibration images using convolutional and pooling layers; Automatically extracting robust local spatial features from segmented vibration and current envelope signals using a one-dimensional architecture; Extracting spatial feature representations from two-dimensional images containing attitude tracking errors and controller outputs."
+    },
+    {
+      "node_id": "N6272",
+      "node_type": "17-Core Classifier Algorithm",
+      "node_name": "Softmax Classifier",
+      "node_description": "Serves as the final decision-making layer in diagnostic networks to map extracted high-dimensional features into probability distributions across multiple health states, outputting final fault classification and diagnostic decisions. | Mapping high-dimensional image features to output predictive probabilities for motor health, demagnetization, and bearing faults; converting global fusion features to identify fault types and severity levels of hydraulic system components; predicting fault type, location, and direction for planetary gearboxes based on spatiotemporal features."
+    },
+    {
+      "node_id": "N6839",
+      "node_type": "19-Training Optimization Algorithm",
+      "node_name": "Multi-Task Learning (MTL)",
+      "node_description": "A training optimization strategy that jointly trains multiple related tasks by sharing network parameters or feature representations and optimizing a combined loss function to improve generalization performance and feature richness | Jointly optimizing remaining useful life prediction and health status identification through shared bottom-level feature representations; introducing speed and load identification as auxiliary tasks for multi-loss joint optimization; decoupling compound fault diagnosis into multiple subtasks using a bilevel gradient-based strategy with dynamically optimized task weights"
+    }
+  ],
+  "89FBE9W7": [
+    {
+      "node_id": "N5560",
+      "node_type": "16-Feature Extraction Algorithm",
+      "node_name": "Wavelet Packet Transform",
+      "node_description": "Decomposes raw physical signals into multi-scale frequency bands to extract time-frequency domain features, such as sub-band energy, entropy, and statistical moments, for characterizing machinery health status and identifying faults. | Decomposing engine acoustic signals into three layers to calculate terminal node energy and entropy; Performing five-layer decomposition on vibration signals to extract coefficient energy at fault characteristic frequencies; Decomposing bearing vibration signals into different frequency bands to extract the second-order temporal moments of coefficients."
+    },
+    {
+      "node_id": "N6308",
+      "node_type": "17-Core Classifier Algorithm",
+      "node_name": "Support Vector Machine (SVM)",
+      "node_description": "Acts as a terminal classification and regression decision model that accepts extracted, reduced, or fused feature vectors to perform pattern recognition, fault diagnosis, severity assessment, and health status evaluation for industrial systems and components. | classifying rolling bearing fault types and severity levels based on vibration and entropy features; predicting battery remaining useful life using classification for life stages and regression for near-end-of-life estimation; identifying transformer fault types based on feature vectors output from fuzzy logic."
+    }
+  ],
+  "I9Y7XCUQ": [
+    {
+      "node_id": "N4678",
+      "node_type": "15-Data Preprocessing Algorithm",
+      "node_name": "Wavelet Packet Transform",
+      "node_description": "Decomposing raw sensor signals into multiple frequency sub-bands through multi-scale time-frequency analysis to perform denoising, signal reconstruction, and feature extraction for health monitoring | Decomposing raw vibration signals to calculate the energy values of eight sub-bands for feature extraction; Denoising contact resistance signals of electrical connectors to reduce noise interference; Decomposing and reconstructing one-dimensional vibration signals into two-dimensional wavelet coefficient matrices as neural network inputs"
+    },
+    {
+      "node_id": "N4883",
+      "node_type": "16-Feature Extraction Algorithm",
+      "node_name": "Deep Residual Network",
+      "node_description": "Extracting deep, high-dimensional, and discriminative features from input data or time-frequency representations using residual learning architectures to support fault diagnosis and health monitoring | Stacking multiple residual blocks to extract deep high-dimensional transferable fault features from input data; Utilizing identity shortcut connections to automatically learn deep discriminative status features from two-dimensional wavelet matrices; Combining convolutional and dynamic weighting layers to adaptively extract high-dimensional features and weight frequency bands."
+    },
+    {
+      "node_id": "N6272",
+      "node_type": "17-Core Classifier Algorithm",
+      "node_name": "Softmax Classifier",
+      "node_description": "Serves as the final decision-making layer in diagnostic networks to map extracted high-dimensional features into probability distributions across multiple health states, outputting final fault classification and diagnostic decisions. | Mapping high-dimensional image features to output predictive probabilities for motor health, demagnetization, and bearing faults; converting global fusion features to identify fault types and severity levels of hydraulic system components; predicting fault type, location, and direction for planetary gearboxes based on spatiotemporal features."
+    }
+  ],
+  "IK4D6KTP": [
+    {
+      "node_id": "N4849",
+      "node_type": "16-Feature Extraction Algorithm",
+      "node_name": "DAE",
+      "node_description": "Utilizing deep autoencoders to automatically learn and extract high-level representation features from raw vibration signals for machinery health monitoring. | Training multiple deep autoencoders with different activation functions to parallelly extract diverse deep features from raw vibration data for feature pool construction; Learning deep fault feature representations automatically from raw vibration signals."
+    },
+    {
+      "node_id": "N6272",
+      "node_type": "17-Core Classifier Algorithm",
+      "node_name": "Softmax Classifier",
+      "node_description": "Serves as the final decision-making layer in diagnostic networks to map extracted high-dimensional features into probability distributions across multiple health states, outputting final fault classification and diagnostic decisions. | Mapping high-dimensional image features to output predictive probabilities for motor health, demagnetization, and bearing faults; converting global fusion features to identify fault types and severity levels of hydraulic system components; predicting fault type, location, and direction for planetary gearboxes based on spatiotemporal features."
+    }
+  ],
+  "PJV3HZV9": [
+    {
+      "node_id": "N4210",
+      "node_type": "15-Data Preprocessing Algorithm",
+      "node_name": "Angular Resampling",
+      "node_description": "Resamples non-stationary time-domain signals into the angular domain at equal angular increments to convert them into stationary signals, thereby eliminating frequency smearing and spectrum blurring caused by rotational speed fluctuations, or adjusts sampling rates to reduce computational burden | Converting time-domain vibration signals into the angular domain to eliminate frequency blurring caused by rotational speed fluctuations for order spectrum analysis; Transforming non-stationary acoustic signals to the angular domain using equal-phase pulses to address variable speed issues; Resampling stator current signals to achieve stationarity and reduce data volume to lighten the computational burden of filtering algorithms"
+    },
+    {
+      "node_id": "N5461",
+      "node_type": "16-Feature Extraction Algorithm",
+      "node_name": "Stacked Autoencoder",
+      "node_description": "Automatically and adaptively extracts high-level, non-linear, or dimensionally reduced feature representations from raw signals, operational data, or handcrafted features to support health status monitoring and fault diagnosis | Extracting health state features of rotating machinery from raw vibration signals; Learning high-level non-linear features from handcrafted inputs; Dimensionally reducing coal mill operational data to extract low-dimensional fault feature vectors."
+    },
+    {
+      "node_id": "N6308",
+      "node_type": "17-Core Classifier Algorithm",
+      "node_name": "Support Vector Machine (SVM)",
+      "node_description": "Acts as a terminal classification and regression decision model that accepts extracted, reduced, or fused feature vectors to perform pattern recognition, fault diagnosis, severity assessment, and health status evaluation for industrial systems and components. | classifying rolling bearing fault types and severity levels based on vibration and entropy features; predicting battery remaining useful life using classification for life stages and regression for near-end-of-life estimation; identifying transformer fault types based on feature vectors output from fuzzy logic."
+    },
+    {
+      "node_id": "N6978",
+      "node_type": "19-Training Optimization Algorithm",
+      "node_name": "Unsupervised Pre-training and Supervised Fine-tuning",
+      "node_description": "A two stage training optimization strategy that utilizes unsupervised pre training to initialize network weights and biases, followed by supervised fine tuning via backpropagation to optimize global parameters, prevent local optima, and accelerate network convergence | Initializing network weights through layer wise unsupervised pre training and optimizing overall parameters via global supervised fine tuning to reduce the risk of falling into local optima; Training each autoencoder component independently via layer wise unsupervised pre training prior to stacking to facilitate network convergence; Optimizing deep network parameters and preventing the training process from getting trapped in local optima through unsupervised layer wise pre training combined with supervised fine tuning"
+    }
+  ],
+  "8AFQM964": [
+    {
+      "node_id": "N4868",
+      "node_type": "16-Feature Extraction Algorithm",
+      "node_name": "DTCWT",
+      "node_description": "Used to perform multiscale decomposition and reconstruction on motor signals to extract energy features across different frequency bands for feature vector construction | decomposing motor three axis vibration signals and calculating the normalized energy of reconstructed detail signals to construct a 13 dimensional feature vector; decomposing and reconstructing motor current signals to extract frequency band energy as feature vectors"
+    },
+    {
+      "node_id": "N6308",
+      "node_type": "17-Core Classifier Algorithm",
+      "node_name": "Support Vector Machine (SVM)",
+      "node_description": "Acts as a terminal classification and regression decision model that accepts extracted, reduced, or fused feature vectors to perform pattern recognition, fault diagnosis, severity assessment, and health status evaluation for industrial systems and components. | classifying rolling bearing fault types and severity levels based on vibration and entropy features; predicting battery remaining useful life using classification for life stages and regression for near-end-of-life estimation; identifying transformer fault types based on feature vectors output from fuzzy logic."
+    },
+    {
+      "node_id": "N6703",
+      "node_type": "19-Training Optimization Algorithm",
+      "node_name": "Genetic Algorithm (GA)",
+      "node_description": "Used as a global search algorithm to optimize machine learning model hyperparameters, select diagnostic feature subsets, and adaptively tune parameters of signal processing or physical systems to improve fault diagnosis performance. | Optimizing the penalty factor and kernel parameters of support vector machines to improve classification accuracy; selecting the most discriminative feature subsets to reduce dimensionality; adaptively tuning the key parameters of stochastic resonance systems to maximize output signal-to-noise ratio."
+    }
+  ],
+  "XRUQGDZ4": [
+    {
+      "node_id": "N4351",
+      "node_type": "15-Data Preprocessing Algorithm",
+      "node_name": "Fourier Transform",
+      "node_description": "Converts raw time-domain signals such as vibration, current, and voltage into the frequency or time-frequency domain using Fast Fourier Transform or Short-Time Fourier Transform, facilitating spectral feature extraction, noise mitigation, and dimensionality reduction to generate optimized inputs for diagnostic models | Processing raw multi-sensor gearbox vibration signals using Fast Fourier Transform and linear normalization to reduce input dimensionality; Converting one-dimensional vibration signals into two-dimensional time-frequency images using Short-Time Fourier Transform combined with L2 normalization; Performing Fast Fourier Transform on stator current signals to extract amplitude and phase angle for calculating symmetrical components."
+    },
+    {
+      "node_id": "N4709",
+      "node_type": "16-Feature Extraction Algorithm",
+      "node_name": "1D CNN",
+      "node_description": "Extracts deep, high-dimensional, and temporal feature representations automatically and adaptively from raw time-series, vibration, or frequency-domain signals | Adaptively extracting one-dimensional feature representations from normalized time-domain vibration signals; extracting local and global temporal features from multi-sensor data along the time axis; automatically learning high-dimensional degradation representations from frequency domain data"
+    },
+    {
+      "node_id": "N6272",
+      "node_type": "17-Core Classifier Algorithm",
+      "node_name": "Softmax Classifier",
+      "node_description": "Serves as the final decision-making layer in diagnostic networks to map extracted high-dimensional features into probability distributions across multiple health states, outputting final fault classification and diagnostic decisions. | Mapping high-dimensional image features to output predictive probabilities for motor health, demagnetization, and bearing faults; converting global fusion features to identify fault types and severity levels of hydraulic system components; predicting fault type, location, and direction for planetary gearboxes based on spatiotemporal features."
+    },
+    {
+      "node_id": "N6676",
+      "node_type": "19-Training Optimization Algorithm",
+      "node_name": "Episodic Training",
+      "node_description": "A training strategy that simulates few-shot learning tasks during the training phase to optimize model parameters, thereby enhancing the model's cross-task fast adaptation and generalization capabilities in data-scarce scenarios. | Simulating few-shot tasks on source domain data to enable rapid cross-task adaptation; simulating few-shot testing tasks during training to enhance generalization in cross-component scenarios."
+    }
+  ],
+  "TB2IP634": [
+    {
+      "node_id": "N4677",
+      "node_type": "15-Data Preprocessing Algorithm",
+      "node_name": "Wavelet Denoising",
+      "node_description": "Performs wavelet-based decomposition, thresholding, and filtering on raw physical signals like vibration, current, and voltage to eliminate background noise, random fluctuations, and high-frequency interference, thereby enhancing the signal-to-noise ratio and preserving key transient features for subsequent diagnostics. | Filtering and denoising raw vibration signals of rolling bearings to suppress noise and obtain smooth preprocessed signals; Using wavelet thresholding combined with empirical mode decomposition to denoise gear vibration signal high-frequency IMF components to highlight fault features; Applying db2 and sym7 wavelets for multi-layer decomposition and filtering of three-phase fault current signals to extract useful signals."
+    },
+    {
+      "node_id": "N4787",
+      "node_type": "16-Feature Extraction Algorithm",
+      "node_name": "CEEMDAN",
+      "node_description": "Decomposing signals or feature sequences into intrinsic mode functions or trend components to eliminate noise and extract sensitive features for health monitoring and fault diagnosis | Decomposing denoised signals to calculate energy entropy from selected components for fault feature vectors; Decomposing vibration signals to extract features representing gear meshing states; Reconstructing trends of basic time and frequency domain features to extract smooth residuals for degradation tracking"
+    },
+    {
+      "node_id": "N6020",
+      "node_type": "17-Core Classifier Algorithm",
+      "node_name": "Least Squares Support Vector Machine (LSSVM)",
+      "node_description": "Acts as a core classifier or regression model to perform intelligent fault pattern recognition, multi-class state diagnosis, and remaining useful life prediction based on extracted, fused, or dimensionality-reduced feature vectors | Classifying CEEMDAN energy entropy features to identify rolling bearing fault types and damage severity; Diagnosing wind turbine misalignment faults based on dimensionality-reduced fused features; Establishing a nonlinear regression model between degradation features and remaining useful life."
+    },
+    {
+      "node_id": "N6884",
+      "node_type": "19-Training Optimization Algorithm",
+      "node_name": "Particle Swarm Optimization (PSO)",
+      "node_description": "An evolutionary optimization algorithm used to perform global parameter search and hyperparameter tuning for machine learning classifiers, neural network architectures, and signal processing methods to enhance diagnostic accuracy and feature extraction quality. | Optimizing the penalty factor and kernel parameters of support vector machines; tuning the structural hyperparameters and learning rates of neural networks; adaptively determining the mode number and penalty factor of variational mode decomposition."
+    }
+  ],
+  "TLVNPMZ5": [
+    {
+      "node_id": "N4372",
+      "node_type": "15-Data Preprocessing Algorithm",
+      "node_name": "Gaussian Noise Addition",
+      "node_description": "Used for data augmentation by adding Gaussian noise to raw signals or training data to simulate industrial noise environments, thereby preventing overfitting and enhancing model robustness, stability, and generalization | Adding white Gaussian noise to raw vibration signals to simulate industrial settings with background noise and test model robustness; Combining Gaussian noise with amplitude shift to expand target domain samples and prevent overfitting; Superimposing Gaussian noise on training data to evaluate the stability of remaining useful life prediction models under measurement errors."
+    },
+    {
+      "node_id": "N4791",
+      "node_type": "16-Feature Extraction Algorithm",
+      "node_name": "CNN",
+      "node_description": "Serves as a feature extractor that automatically and adaptively learns deep, hierarchical, and spatial fault feature representations from raw signals, frequency-domain data, and transformed multi-dimensional images using alternating convolutional and pooling operations | Automatically extracting feature vectors from bearing vibration images using convolutional and pooling layers; Automatically extracting robust local spatial features from segmented vibration and current envelope signals using a one-dimensional architecture; Extracting spatial feature representations from two-dimensional images containing attitude tracking errors and controller outputs."
+    },
+    {
+      "node_id": "N6272",
+      "node_type": "17-Core Classifier Algorithm",
+      "node_name": "Softmax Classifier",
+      "node_description": "Serves as the final decision-making layer in diagnostic networks to map extracted high-dimensional features into probability distributions across multiple health states, outputting final fault classification and diagnostic decisions. | Mapping high-dimensional image features to output predictive probabilities for motor health, demagnetization, and bearing faults; converting global fusion features to identify fault types and severity levels of hydraulic system components; predicting fault type, location, and direction for planetary gearboxes based on spatiotemporal features."
+    },
+    {
+      "node_id": "N6846",
+      "node_type": "19-Training Optimization Algorithm",
+      "node_name": "Multiple adversarial domain adaptation",
+      "node_description": "Domain adaptation through adversarial training with multiple discriminators on paired same-category data to align feature distributions between source and target domains and mitigate label space mismatch | Aligning fault features using multiple class-domain discriminators to resolve negative transfer and label space mismatch under few-shot conditions; Pairing identical category data for local adversarial training to align feature distributions and solve label space mismatch"
+    }
+  ],
+  "57LP6DL6": [
+    {
+      "node_id": "N4286",
+      "node_type": "15-Data Preprocessing Algorithm",
+      "node_name": "Data Normalization",
+      "node_description": "Standardizing raw sensor measurements or extracted feature vectors to a specific range or distribution to eliminate dimensional differences, mitigate the effects of varying operational conditions, and improve model training efficiency and convergence stability. | Scaling raw motor vibration signals to the range of negative one to one to accelerate neural network training convergence; Normalizing stator currents with rated currents to eliminate the impact of load variations on fault diagnostics; Scaling extracted time-domain features to the range of zero to one to prevent dominant eigenvalues in classifier inputs."
+    },
+    {
+      "node_id": "N5125",
+      "node_type": "16-Feature Extraction Algorithm",
+      "node_name": "Kernel Principal Component Analysis",
+      "node_description": "Performs non-linear dimensionality reduction and feature extraction by projecting data into a high-dimensional space, capturing non-linear characteristics, and filtering out redundant information to retain key principal components for fault diagnosis and process monitoring | Extracting the top 25 principal components containing 98 percent of feature information from high-dimensional feature vectors; Extracting non-linear features from process data and calculating Q-statistics; Reducing the dimensionality of time-domain statistical features to eliminate redundancy and extract core feature vectors"
+    },
+    {
+      "node_id": "N5823",
+      "node_type": "17-Core Classifier Algorithm",
+      "node_name": "Extreme Learning Machine (ELM)",
+      "node_description": "Serving as a fast classifier or regression model to map extracted or dimension-reduced feature vectors to target classes, enabling real-time fault diagnosis, state recognition, and severity assessment of machinery and power systems. | Classifying wind turbine gearbox single and concurrent faults; Identifying rolling bearing fault types and severity based on multi-scale features; Diagnosing slipper wear faults through pattern recognition on extracted features."
+    }
+  ],
+  "C97VPD9A": [
+    {
+      "node_id": "N4320",
+      "node_type": "15-Data Preprocessing Algorithm",
+      "node_name": "Empirical Mode Decomposition",
+      "node_description": "Decomposes non-linear and non-stationary signals adaptively into a set of intrinsic mode functions and a residual component to facilitate signal denoising, feature extraction, and the isolation of degradation trends. | Adaptively decomposing bearing vibration signals into intrinsic mode functions to extract time-frequency features for fault diagnostics; Decomposing battery capacity data to extract the residual component representing the long-term degradation trend by removing capacity regeneration noise; Processing non-stationary motor and gearbox vibration signals to filter noise and reconstruct clean signals based on dominant intrinsic mode functions."
+    },
+    {
+      "node_id": "N5654",
+      "node_type": "17-Core Classifier Algorithm",
+      "node_name": "Bidirectional Long Short-Term Memory (Bi-LSTM)",
+      "node_description": "Serves as a sequence modeling network that captures bidirectional temporal dependencies from sequential monitoring data to perform fault classification, state of health estimation, and remaining useful life regression | Capturing fault correlations from forward and backward data directions to output classification diagnosis results; Forecasting fuel cell stack voltage based on smoothed health indicator sequences to achieve short-term remaining useful life prediction; Estimating battery state of health and predicting remaining useful life using charging-discharging current, voltage, and denoised capacity residuals"
+    }
+  ],
+  "ZUQZN9HL": [
+    {
+      "node_id": "N4351",
+      "node_type": "15-Data Preprocessing Algorithm",
+      "node_name": "Fourier Transform",
+      "node_description": "Converts raw time-domain signals such as vibration, current, and voltage into the frequency or time-frequency domain using Fast Fourier Transform or Short-Time Fourier Transform, facilitating spectral feature extraction, noise mitigation, and dimensionality reduction to generate optimized inputs for diagnostic models | Processing raw multi-sensor gearbox vibration signals using Fast Fourier Transform and linear normalization to reduce input dimensionality; Converting one-dimensional vibration signals into two-dimensional time-frequency images using Short-Time Fourier Transform combined with L2 normalization; Performing Fast Fourier Transform on stator current signals to extract amplitude and phase angle for calculating symmetrical components."
+    },
+    {
+      "node_id": "N6148",
+      "node_type": "17-Core Classifier Algorithm",
+      "node_name": "One-Dimensional Convolutional Neural Network (1D-CNN)",
+      "node_description": "A deep learning model and classifier that extracts features from one-dimensional input data, such as frequency spectra, feature vectors, or low-dimensional features, to perform fault classification, state recognition, and diagnostic decision-making. | Classifying fault severity levels of switch machines using low-dimensional features; Categorizing rolling bearing faults based on one-dimensional frequency spectrum signals; Performing deep feature learning on IMF feature vectors for fault classification and localization in high-speed train bogies."
+    },
+    {
+      "node_id": "N6450",
+      "node_type": "18-Data Generation Algorithm",
+      "node_name": "D2CGANs",
+      "node_description": "An algorithm that integrates conditional generative adversarial networks and a dual-discriminator architecture to generate synthetic frequency-domain signals and spectral samples of machinery components for addressing data imbalance in fault diagnosis | Synthesizing multimodal rolling bearing fault spectrum samples to solve data imbalance; Generating simulated one-dimensional frequency-domain signals across various fault categories to expand imbalanced datasets"
+    }
+  ],
+  "ZN4Z6QPP": [
+    {
+      "node_id": "N5158",
+      "node_type": "16-Feature Extraction Algorithm",
+      "node_name": "Locality Preserving Projection",
+      "node_description": "Performs dimensionality reduction and feature extraction by projecting high-dimensional data to a lower-dimensional space while preserving local neighborhood geometric and manifold structures | Reducing the dimension of fault features and extracting feature representations while maintaining local neighborhood geometry; Fusing and reducing the dimension of high-dimensional deep features learned by deep belief networks while preserving local manifold structures"
+    },
+    {
+      "node_id": "N6272",
+      "node_type": "17-Core Classifier Algorithm",
+      "node_name": "Softmax Classifier",
+      "node_description": "Serves as the final decision-making layer in diagnostic networks to map extracted high-dimensional features into probability distributions across multiple health states, outputting final fault classification and diagnostic decisions. | Mapping high-dimensional image features to output predictive probabilities for motor health, demagnetization, and bearing faults; converting global fusion features to identify fault types and severity levels of hydraulic system components; predicting fault type, location, and direction for planetary gearboxes based on spatiotemporal features."
+    }
+  ],
+  "9WYMRQ2V": [
+    {
+      "node_id": "N4686",
+      "node_type": "15-Data Preprocessing Algorithm",
+      "node_name": "Z-score Normalization",
+      "node_description": "Standardizes raw sensor signals or extracted features to a zero-mean and unit-variance distribution, eliminating dimensional differences and scaling effects to accelerate model convergence and improve numerical stability | Standardizing raw multi-channel vibration signals to accelerate network training convergence and reduce sensitivity to different channel data; Standardizing feature data to eliminate feature distribution divergence caused by motor load variations; Normalizing grid state features like voltage amplitude and angle to remove scale differences"
+    },
+    {
+      "node_id": "N4791",
+      "node_type": "16-Feature Extraction Algorithm",
+      "node_name": "CNN",
+      "node_description": "Serves as a feature extractor that automatically and adaptively learns deep, hierarchical, and spatial fault feature representations from raw signals, frequency-domain data, and transformed multi-dimensional images using alternating convolutional and pooling operations | Automatically extracting feature vectors from bearing vibration images using convolutional and pooling layers; Automatically extracting robust local spatial features from segmented vibration and current envelope signals using a one-dimensional architecture; Extracting spatial feature representations from two-dimensional images containing attitude tracking errors and controller outputs."
+    },
+    {
+      "node_id": "N5878",
+      "node_type": "17-Core Classifier Algorithm",
+      "node_name": "Fuzzy C-Means (FCM)",
+      "node_description": "An unsupervised clustering algorithm used to partition extracted feature spaces, determine cluster centers, and classify different equipment health states and fault modes | Performing unsupervised clustering on rolling bearing feature data to identify fault states and anomalous signals; Analyzing photovoltaic array fault data to determine cluster centers and classify fault types using fuzzy membership functions; Conducting unsupervised clustering on multi-order graph embedding features to output fault diagnosis results"
+    }
+  ],
+  "6LHBQ6AE": [
+    {
+      "node_id": "N4580",
+      "node_type": "15-Data Preprocessing Algorithm",
+      "node_name": "SVD",
+      "node_description": "Performs matrix decomposition on raw vibration signals, decomposed components, or feature maps to achieve adaptive noise reduction, signal filtering, and component reconstruction | Denoising proper rotation components from ITD decomposition by identifying noise terms via singular value difference spectrum; Filtering raw vibration signals to improve signal-to-noise ratio and reduce noise interference for subsequent EMD decomposition; Decomposing a constructed Hankel matrix to adaptively denoise and reconstruct feature maps output by the first convolutional layer"
+    },
+    {
+      "node_id": "N4714",
+      "node_type": "16-Feature Extraction Algorithm",
+      "node_name": "1DCNN",
+      "node_description": "Automatically and adaptively extracts multi-scale, high-dimensional, or discriminative feature representations from raw one-dimensional time-series signals, vibration data, or frequency spectra by leveraging convolutional and pooling layers. | Extracting feature representations from raw time-series signals using a wide convolutional kernel in the first layer followed by smaller kernels; Transforming raw magnetic field signals into low-dimensional feature representations as an encoder structure; Leveraging parallel convolutional and max pooling layers to extract high-order spatial-temporal features from coarse-grained signals."
+    },
+    {
+      "node_id": "N6272",
+      "node_type": "17-Core Classifier Algorithm",
+      "node_name": "Softmax Classifier",
+      "node_description": "Serves as the final decision-making layer in diagnostic networks to map extracted high-dimensional features into probability distributions across multiple health states, outputting final fault classification and diagnostic decisions. | Mapping high-dimensional image features to output predictive probabilities for motor health, demagnetization, and bearing faults; converting global fusion features to identify fault types and severity levels of hydraulic system components; predicting fault type, location, and direction for planetary gearboxes based on spatiotemporal features."
+    }
+  ],
+  "EEJ3TGLE": [
+    {
+      "node_id": "N4214",
+      "node_type": "15-Data Preprocessing Algorithm",
+      "node_name": "Autocorrelation",
+      "node_description": "Used to analyze signal self-similarity for noise reduction, feature enhancement, and periodicity parameter estimation in signal preprocessing | Enhancing features and denoising wavelet-decomposed signals to replace threshold denoising; Estimating input period parameters of envelope signals for deconvolution; Reducing noise and converting frequency-modulated vibration signals to amplitude-modulated signals."
+    },
+    {
+      "node_id": "N5050",
+      "node_type": "16-Feature Extraction Algorithm",
+      "node_name": "HAAPE",
+      "node_description": "Extracting representative features from raw or processed machinery signals through decomposition, dimensionality reduction, complexity measures, or statistical analysis to characterize operating conditions and facilitate fault diagnosis | using hierarchical amplitude-aware permutation entropy to extract high and low-frequency features from vibration signals for health state representation; applying unsupervised attribute clustering based on rough set theory to select representative features and reduce dimensionality; employing an improved multiscale dispersion entropy algorithm to extract complexity and irregularity features from raw vibration signals"
+    },
+    {
+      "node_id": "N5806",
+      "node_type": "17-Core Classifier Algorithm",
+      "node_name": "Envelope Spectrum Analysis",
+      "node_description": "Demodulates and analyzes the frequency components of reconstructed, filtered, or decomposed signals to identify fault characteristic frequencies and their harmonics, providing diagnostic decisions by comparing observed spectral peaks with theoretical fault signatures of mechanical components | Diagnosing bearing fault locations by comparing extracted mode envelope frequencies with theoretical calculations; Identifying solar gear faults by analyzing the characteristic frequencies and order ratios of enhanced signals; Detecting clearance faults in reciprocating compressor bearings by identifying double rotation frequency peaks in product function envelope spectra"
+    }
+  ],
+  "7PLRHJYY": [
+    {
+      "node_id": "N4442",
+      "node_type": "15-Data Preprocessing Algorithm",
+      "node_name": "Low-pass Filter",
+      "node_description": "A signal preprocessing method used to attenuate high-frequency noise, measurement errors, and unwanted harmonics from raw physical signals while preserving key low-frequency components, thereby smoothing the signal, reducing data dimensionality, and enhancing the signal-to-noise ratio for subsequent fault diagnosis. | Processing raw bearing vibration signals to eliminate high-frequency noise interference while preserving fault-related info; Filtering and downsampling stator current signals to remove high-frequency noise and reduce data volume; Filtering voltage signals after coordinate transformation to remove high-frequency interference and extract DC feature components."
+    },
+    {
+      "node_id": "N5050",
+      "node_type": "16-Feature Extraction Algorithm",
+      "node_name": "HAAPE",
+      "node_description": "Extracting representative features from raw or processed machinery signals through decomposition, dimensionality reduction, complexity measures, or statistical analysis to characterize operating conditions and facilitate fault diagnosis | using hierarchical amplitude-aware permutation entropy to extract high and low-frequency features from vibration signals for health state representation; applying unsupervised attribute clustering based on rough set theory to select representative features and reduce dimensionality; employing an improved multiscale dispersion entropy algorithm to extract complexity and irregularity features from raw vibration signals"
+    },
+    {
+      "node_id": "N5993",
+      "node_type": "17-Core Classifier Algorithm",
+      "node_name": "K-Nearest Neighbor (KNN)",
+      "node_description": "Used as a classifier to perform fault diagnosis, state classification, and severity evaluation of mechanical systems by measuring distance similarity between feature vectors in the feature space, or as an evaluation metric to select optimal feature subsets | Classifying bearing fault types and assessing severity using a Mahalanobis distance-based KNN on extracted autoregressive model coefficient vectors; Diagnosing normal, spalling, and crack states of gears by classifying sensitive feature vectors; Diagnosing and locating sensor drift faults by classifying cumulative residual vectors"
+    },
+    {
+      "node_id": "N6806",
+      "node_type": "19-Training Optimization Algorithm",
+      "node_name": "MM",
+      "node_description": "Training optimization algorithms and loss formulations are used to iteratively solve objective functions, estimate model parameters, and align domain feature distributions to improve model convergence and diagnostic accuracy. | Majorization Minimization algorithm is used to iteratively solve non smooth convex objective functions by constructing quadratic majorization functions; Expectation Maximization algorithm is applied to iteratively estimate unknown parameters in probabilistic principal component analysis models; Maximum mean discrepancy loss is accumulated to minimize distribution differences between source and target domains."
+    }
+  ],
+  "IR96MHDA": [
+    {
+      "node_id": "N4224",
+      "node_type": "15-Data Preprocessing Algorithm",
+      "node_name": "Band-pass Filter",
+      "node_description": "Used as a preprocessing method to filter raw signals by isolating specific target frequency bands, such as resonance bands or fault-characteristic frequencies, while suppressing out-of-band noise, DC bias, and irrelevant interference components to improve signal-to-noise ratio and enhance fault-related features | Preprocessing motor stator current signals to retain the 35 to 65 Hz fault modulation range while filtering out irrelevant noise; Filtering raw vibration signals to extract the high-frequency resonance band containing bearing fault information while isolating low-frequency gear meshing interference; Filtering displacement sensor signals in orthogonal directions to remove DC bias and retain the shaft fundamental and harmonic frequency components."
+    },
+    {
+      "node_id": "N5067",
+      "node_type": "16-Feature Extraction Algorithm",
+      "node_name": "Hilbert transform",
+      "node_description": "Processes raw, filtered, or decomposed signals to construct analytic signals and perform envelope demodulation, extracting time-frequency and amplitude-phase features such as instantaneous amplitude, instantaneous frequency, and envelope spectra for machinery fault diagnosis | Converting single-phase stator current into an analytic signal to facilitate projection to the rotor coordinate system; Demodulating intrinsic mode functions to calculate instantaneous amplitude and frequency for extracting time-frequency features; Performing envelope demodulation on bandpass filtered vibration signals to extract envelope spectra for representing fault impulses"
+    },
+    {
+      "node_id": "N5800",
+      "node_type": "17-Core Classifier Algorithm",
+      "node_name": "Envelope Analysis",
+      "node_description": "Demodulates and analyzes processed or reconstructed signals to extract fault characteristic frequencies and their harmonics, enabling the identification of defect locations and the execution of final fault diagnosis decisions | Demodulating key intrinsic mode functions to identify bearing fault locations by recognizing fault characteristic frequencies and harmonics in the envelope spectrum; Analyzing the envelope spectrum of angular domain signals after equal-angle resampling to diagnose motor bearing faults based on fault characteristic orders; Performing envelope analysis on selected target subband signals to determine early failure of valve springs by extracting periodic impact features."
+    },
+    {
+      "node_id": "N6703",
+      "node_type": "19-Training Optimization Algorithm",
+      "node_name": "Genetic Algorithm (GA)",
+      "node_description": "Used as a global search algorithm to optimize machine learning model hyperparameters, select diagnostic feature subsets, and adaptively tune parameters of signal processing or physical systems to improve fault diagnosis performance. | Optimizing the penalty factor and kernel parameters of support vector machines to improve classification accuracy; selecting the most discriminative feature subsets to reduce dimensionality; adaptively tuning the key parameters of stochastic resonance systems to maximize output signal-to-noise ratio."
+    }
+  ],
+  "Q95L7CJS": [
+    {
+      "node_id": "N5039",
+      "node_type": "16-Feature Extraction Algorithm",
+      "node_name": "Geometric Observer",
+      "node_description": "Reconstructing system residuals to extract decoupled fault features that are sensitive to target faults and robust to other faults | Designing the observer to extract residual signals sensitive to specific faults and robust to others as state features; Reconstructing system residuals to transform input-output signals into decoupled fault features sensitive only to specific faults"
+    },
+    {
+      "node_id": "N6212",
+      "node_type": "17-Core Classifier Algorithm",
+      "node_name": "Residual Evaluation",
+      "node_description": "Evaluates the deviations between measured and estimated system variables against predefined thresholds to facilitate fault detection, localization, and isolation decision-making | Calculating the root mean square of residuals within a time sliding window to output fault diagnosis and isolation decisions; comparing measured and estimated current residuals under specific switching states to detect and locate open-circuit faults"
+    }
+  ],
+  "ZP7GFGR8": [
+    {
+      "node_id": "N4351",
+      "node_type": "15-Data Preprocessing Algorithm",
+      "node_name": "Fourier Transform",
+      "node_description": "Converts raw time-domain signals such as vibration, current, and voltage into the frequency or time-frequency domain using Fast Fourier Transform or Short-Time Fourier Transform, facilitating spectral feature extraction, noise mitigation, and dimensionality reduction to generate optimized inputs for diagnostic models | Processing raw multi-sensor gearbox vibration signals using Fast Fourier Transform and linear normalization to reduce input dimensionality; Converting one-dimensional vibration signals into two-dimensional time-frequency images using Short-Time Fourier Transform combined with L2 normalization; Performing Fast Fourier Transform on stator current signals to extract amplitude and phase angle for calculating symmetrical components."
+    },
+    {
+      "node_id": "N4791",
+      "node_type": "16-Feature Extraction Algorithm",
+      "node_name": "CNN",
+      "node_description": "Serves as a feature extractor that automatically and adaptively learns deep, hierarchical, and spatial fault feature representations from raw signals, frequency-domain data, and transformed multi-dimensional images using alternating convolutional and pooling operations | Automatically extracting feature vectors from bearing vibration images using convolutional and pooling layers; Automatically extracting robust local spatial features from segmented vibration and current envelope signals using a one-dimensional architecture; Extracting spatial feature representations from two-dimensional images containing attitude tracking errors and controller outputs."
+    },
+    {
+      "node_id": "N6272",
+      "node_type": "17-Core Classifier Algorithm",
+      "node_name": "Softmax Classifier",
+      "node_description": "Serves as the final decision-making layer in diagnostic networks to map extracted high-dimensional features into probability distributions across multiple health states, outputting final fault classification and diagnostic decisions. | Mapping high-dimensional image features to output predictive probabilities for motor health, demagnetization, and bearing faults; converting global fusion features to identify fault types and severity levels of hydraulic system components; predicting fault type, location, and direction for planetary gearboxes based on spatiotemporal features."
+    },
+    {
+      "node_id": "N6439",
+      "node_type": "18-Data Generation Algorithm",
+      "node_name": "BPNN",
+      "node_description": "Acts as a generator or predictor within neural network frameworks to learn sample distributions, reconstruct signals from noise or features, and generate virtual fault samples or feature vectors to resolve data imbalance and expand datasets. | Constructing a backpropagation neural network to learn real sample distributions and generate virtual fault samples for dataset expansion; Generating minority class fault feature vectors via a generator and reconstructing them through a decoder to solve data imbalance; Generating target domain virtual fault features based on source domain fault features and target domain health features."
+    },
+    {
+      "node_id": "N6821",
+      "node_type": "19-Training Optimization Algorithm",
+      "node_name": "Maximum Mean Discrepancy (MMD)",
+      "node_description": "Used as a distance metric and optimization loss term to measure and minimize feature distribution discrepancies between different domains or sensors in a kernel space, facilitating domain adaptation, feature alignment, and generalization in cross-domain fault diagnosis and prognosis. | Minimizing distribution distance in reproducing kernel Hilbert space to align source and target features for cross-condition domain adaptation; Measuring spatial distribution discrepancies between heterogeneous sensor features to achieve subnetwork alignment and fusion; Evaluating similarity between current monitoring data and historical trajectories to initialize particle filter parameters."
+    }
+  ],
+  "95DV4BGW": [
+    {
+      "node_id": "N4351",
+      "node_type": "15-Data Preprocessing Algorithm",
+      "node_name": "Fourier Transform",
+      "node_description": "Converts raw time-domain signals such as vibration, current, and voltage into the frequency or time-frequency domain using Fast Fourier Transform or Short-Time Fourier Transform, facilitating spectral feature extraction, noise mitigation, and dimensionality reduction to generate optimized inputs for diagnostic models | Processing raw multi-sensor gearbox vibration signals using Fast Fourier Transform and linear normalization to reduce input dimensionality; Converting one-dimensional vibration signals into two-dimensional time-frequency images using Short-Time Fourier Transform combined with L2 normalization; Performing Fast Fourier Transform on stator current signals to extract amplitude and phase angle for calculating symmetrical components."
+    },
+    {
+      "node_id": "N4791",
+      "node_type": "16-Feature Extraction Algorithm",
+      "node_name": "CNN",
+      "node_description": "Serves as a feature extractor that automatically and adaptively learns deep, hierarchical, and spatial fault feature representations from raw signals, frequency-domain data, and transformed multi-dimensional images using alternating convolutional and pooling operations | Automatically extracting feature vectors from bearing vibration images using convolutional and pooling layers; Automatically extracting robust local spatial features from segmented vibration and current envelope signals using a one-dimensional architecture; Extracting spatial feature representations from two-dimensional images containing attitude tracking errors and controller outputs."
+    },
+    {
+      "node_id": "N6272",
+      "node_type": "17-Core Classifier Algorithm",
+      "node_name": "Softmax Classifier",
+      "node_description": "Serves as the final decision-making layer in diagnostic networks to map extracted high-dimensional features into probability distributions across multiple health states, outputting final fault classification and diagnostic decisions. | Mapping high-dimensional image features to output predictive probabilities for motor health, demagnetization, and bearing faults; converting global fusion features to identify fault types and severity levels of hydraulic system components; predicting fault type, location, and direction for planetary gearboxes based on spatiotemporal features."
+    },
+    {
+      "node_id": "N6799",
+      "node_type": "19-Training Optimization Algorithm",
+      "node_name": "MAML",
+      "node_description": "An optimization-based meta-learning algorithm that initializes and optimizes neural network parameters to enable rapid model adaptation to new tasks or conditions with minimal training samples and gradient steps | Initializing and optimizing network parameters to train generative adversarial networks under few-shot settings; Using bi-level gradient optimization during meta-training for fast adaptation to new working conditions; Optimizing initial network parameters to quickly adapt to new fault diagnosis tasks with limited samples."
+    }
+  ],
+  "E6IAIDDP": [
+    {
+      "node_id": "N4351",
+      "node_type": "15-Data Preprocessing Algorithm",
+      "node_name": "Fourier Transform",
+      "node_description": "Converts raw time-domain signals such as vibration, current, and voltage into the frequency or time-frequency domain using Fast Fourier Transform or Short-Time Fourier Transform, facilitating spectral feature extraction, noise mitigation, and dimensionality reduction to generate optimized inputs for diagnostic models | Processing raw multi-sensor gearbox vibration signals using Fast Fourier Transform and linear normalization to reduce input dimensionality; Converting one-dimensional vibration signals into two-dimensional time-frequency images using Short-Time Fourier Transform combined with L2 normalization; Performing Fast Fourier Transform on stator current signals to extract amplitude and phase angle for calculating symmetrical components."
+    },
+    {
+      "node_id": "N5439",
+      "node_type": "16-Feature Extraction Algorithm",
+      "node_name": "Sparse Filtering",
+      "node_description": "An unsupervised feature learning algorithm that utilizes a multi-layer structure to adaptively extract sparse, low-dimensional, and state-representative features from raw vibration signals or time-frequency domain data | Acting as a core two-layer network to learn the sparse distribution representation of time-frequency features; Using an unsupervised two-layer neural network to adaptively learn local features from raw vibration signals and averaging them for the final representation; Extracting state-representative features from frequency-domain data to reduce dimensionality."
+    },
+    {
+      "node_id": "N6272",
+      "node_type": "17-Core Classifier Algorithm",
+      "node_name": "Softmax Classifier",
+      "node_description": "Serves as the final decision-making layer in diagnostic networks to map extracted high-dimensional features into probability distributions across multiple health states, outputting final fault classification and diagnostic decisions. | Mapping high-dimensional image features to output predictive probabilities for motor health, demagnetization, and bearing faults; converting global fusion features to identify fault types and severity levels of hydraulic system components; predicting fault type, location, and direction for planetary gearboxes based on spatiotemporal features."
+    },
+    {
+      "node_id": "N6821",
+      "node_type": "19-Training Optimization Algorithm",
+      "node_name": "Maximum Mean Discrepancy (MMD)",
+      "node_description": "Used as a distance metric and optimization loss term to measure and minimize feature distribution discrepancies between different domains or sensors in a kernel space, facilitating domain adaptation, feature alignment, and generalization in cross-domain fault diagnosis and prognosis. | Minimizing distribution distance in reproducing kernel Hilbert space to align source and target features for cross-condition domain adaptation; Measuring spatial distribution discrepancies between heterogeneous sensor features to achieve subnetwork alignment and fusion; Evaluating similarity between current monitoring data and historical trajectories to initialize particle filter parameters."
+    }
+  ],
+  "AXB3YMZY": [
+    {
+      "node_id": "N4351",
+      "node_type": "15-Data Preprocessing Algorithm",
+      "node_name": "Fourier Transform",
+      "node_description": "Converts raw time-domain signals such as vibration, current, and voltage into the frequency or time-frequency domain using Fast Fourier Transform or Short-Time Fourier Transform, facilitating spectral feature extraction, noise mitigation, and dimensionality reduction to generate optimized inputs for diagnostic models | Processing raw multi-sensor gearbox vibration signals using Fast Fourier Transform and linear normalization to reduce input dimensionality; Converting one-dimensional vibration signals into two-dimensional time-frequency images using Short-Time Fourier Transform combined with L2 normalization; Performing Fast Fourier Transform on stator current signals to extract amplitude and phase angle for calculating symmetrical components."
+    },
+    {
+      "node_id": "N4725",
+      "node_type": "16-Feature Extraction Algorithm",
+      "node_name": "AMMA",
+      "node_description": "Extracting multi-scale, structural, or temporal features from sensor signals through mathematical decomposition, neural networks, or morphological operations to characterize system degradation and faults | Demodulating reconstructed principal components using adaptive multi-scale morphological analysis to obtain early bearing fault features; Extracting multi-scale features and decoupling spatial-channel correlations using improved separable convolutions with attention mechanisms; Decomposing preprocessed signals through symplectic geometry mode decomposition to extract fault-rich components"
+    },
+    {
+      "node_id": "N6272",
+      "node_type": "17-Core Classifier Algorithm",
+      "node_name": "Softmax Classifier",
+      "node_description": "Serves as the final decision-making layer in diagnostic networks to map extracted high-dimensional features into probability distributions across multiple health states, outputting final fault classification and diagnostic decisions. | Mapping high-dimensional image features to output predictive probabilities for motor health, demagnetization, and bearing faults; converting global fusion features to identify fault types and severity levels of hydraulic system components; predicting fault type, location, and direction for planetary gearboxes based on spatiotemporal features."
+    },
+    {
+      "node_id": "N6805",
+      "node_type": "19-Training Optimization Algorithm",
+      "node_name": "MK-MMD",
+      "node_description": "Used as a domain adaptation strategy and distance loss metric to minimize feature distribution discrepancy between source and target domains, enabling the extraction of domain-invariant features | Minimized high-dimensional feature distribution discrepancy between source and target domains to extract domain-invariant features; Served as a distance loss metric to align feature distributions under cross-operating conditions; Introduced as a regularization term to minimize degradation feature distribution distance for cross-failure behavior adaptation"
+    }
+  ],
+  "MPA3LV6I": [
+    {
+      "node_id": "N4351",
+      "node_type": "15-Data Preprocessing Algorithm",
+      "node_name": "Fourier Transform",
+      "node_description": "Converts raw time-domain signals such as vibration, current, and voltage into the frequency or time-frequency domain using Fast Fourier Transform or Short-Time Fourier Transform, facilitating spectral feature extraction, noise mitigation, and dimensionality reduction to generate optimized inputs for diagnostic models | Processing raw multi-sensor gearbox vibration signals using Fast Fourier Transform and linear normalization to reduce input dimensionality; Converting one-dimensional vibration signals into two-dimensional time-frequency images using Short-Time Fourier Transform combined with L2 normalization; Performing Fast Fourier Transform on stator current signals to extract amplitude and phase angle for calculating symmetrical components."
+    },
+    {
+      "node_id": "N4791",
+      "node_type": "16-Feature Extraction Algorithm",
+      "node_name": "CNN",
+      "node_description": "Serves as a feature extractor that automatically and adaptively learns deep, hierarchical, and spatial fault feature representations from raw signals, frequency-domain data, and transformed multi-dimensional images using alternating convolutional and pooling operations | Automatically extracting feature vectors from bearing vibration images using convolutional and pooling layers; Automatically extracting robust local spatial features from segmented vibration and current envelope signals using a one-dimensional architecture; Extracting spatial feature representations from two-dimensional images containing attitude tracking errors and controller outputs."
+    },
+    {
+      "node_id": "N5963",
+      "node_type": "17-Core Classifier Algorithm",
+      "node_name": "ISVM",
+      "node_description": "Serving as an online classification decision model to perform fault diagnosis and classification based on system features or signals | Online fault classification and diagnosis of extracted low-dimensional features; Online classification and diagnosis of analog circuit faults using an improved classifier decision model"
+    },
+    {
+      "node_id": "N6966",
+      "node_type": "19-Training Optimization Algorithm",
+      "node_name": "Transfer learning",
+      "node_description": "Transfer learning leverages prior knowledge by migrating pretrained network parameters from a source domain to a target model, facilitating parameter initialization, freezing, or fine tuning to accelerate training convergence, reduce computational costs, and alleviate overfitting under small sample conditions in fault diagnosis. | pre training models on standard datasets and fine tuning on target domains to prevent overfitting; utilizing ImageNet pretrained weights to initialize feature extractors and accelerate convergence; transferring offline model parameters to online networks to speed up online training"
+    }
+  ],
+  "JMCM2BHR": [
+    {
+      "node_id": "N4351",
+      "node_type": "15-Data Preprocessing Algorithm",
+      "node_name": "Fourier Transform",
+      "node_description": "Converts raw time-domain signals such as vibration, current, and voltage into the frequency or time-frequency domain using Fast Fourier Transform or Short-Time Fourier Transform, facilitating spectral feature extraction, noise mitigation, and dimensionality reduction to generate optimized inputs for diagnostic models | Processing raw multi-sensor gearbox vibration signals using Fast Fourier Transform and linear normalization to reduce input dimensionality; Converting one-dimensional vibration signals into two-dimensional time-frequency images using Short-Time Fourier Transform combined with L2 normalization; Performing Fast Fourier Transform on stator current signals to extract amplitude and phase angle for calculating symmetrical components."
+    },
+    {
+      "node_id": "N5050",
+      "node_type": "16-Feature Extraction Algorithm",
+      "node_name": "HAAPE",
+      "node_description": "Extracting representative features from raw or processed machinery signals through decomposition, dimensionality reduction, complexity measures, or statistical analysis to characterize operating conditions and facilitate fault diagnosis | using hierarchical amplitude-aware permutation entropy to extract high and low-frequency features from vibration signals for health state representation; applying unsupervised attribute clustering based on rough set theory to select representative features and reduce dimensionality; employing an improved multiscale dispersion entropy algorithm to extract complexity and irregularity features from raw vibration signals"
+    },
+    {
+      "node_id": "N6272",
+      "node_type": "17-Core Classifier Algorithm",
+      "node_name": "Softmax Classifier",
+      "node_description": "Serves as the final decision-making layer in diagnostic networks to map extracted high-dimensional features into probability distributions across multiple health states, outputting final fault classification and diagnostic decisions. | Mapping high-dimensional image features to output predictive probabilities for motor health, demagnetization, and bearing faults; converting global fusion features to identify fault types and severity levels of hydraulic system components; predicting fault type, location, and direction for planetary gearboxes based on spatiotemporal features."
+    },
+    {
+      "node_id": "N6688",
+      "node_type": "19-Training Optimization Algorithm",
+      "node_name": "Fine-tuning",
+      "node_description": "Optimizes and updates the weight parameters of a pre-trained model using limited labeled target domain data to align distribution discrepancies, adapt to varying operating conditions, and enhance diagnostic accuracy | Fine-tuning a source domain pre-trained model with low learning rates and limited target samples to resolve distribution discrepancy under varying conditions; Globally retraining pre-trained model parameters with a small target dataset to facilitate cross-condition and cross-equipment transfer learning; Optimizing the connection weights of the entire network through supervised backpropagation after unsupervised pre-training to boost fault classification performance."
+    }
+  ],
+  "VV9QRE4B": [
+    {
+      "node_id": "N4286",
+      "node_type": "15-Data Preprocessing Algorithm",
+      "node_name": "Data Normalization",
+      "node_description": "Standardizing raw sensor measurements or extracted feature vectors to a specific range or distribution to eliminate dimensional differences, mitigate the effects of varying operational conditions, and improve model training efficiency and convergence stability. | Scaling raw motor vibration signals to the range of negative one to one to accelerate neural network training convergence; Normalizing stator currents with rated currents to eliminate the impact of load variations on fault diagnostics; Scaling extracted time-domain features to the range of zero to one to prevent dominant eigenvalues in classifier inputs."
+    },
+    {
+      "node_id": "N4714",
+      "node_type": "16-Feature Extraction Algorithm",
+      "node_name": "1DCNN",
+      "node_description": "Automatically and adaptively extracts multi-scale, high-dimensional, or discriminative feature representations from raw one-dimensional time-series signals, vibration data, or frequency spectra by leveraging convolutional and pooling layers. | Extracting feature representations from raw time-series signals using a wide convolutional kernel in the first layer followed by smaller kernels; Transforming raw magnetic field signals into low-dimensional feature representations as an encoder structure; Leveraging parallel convolutional and max pooling layers to extract high-order spatial-temporal features from coarse-grained signals."
+    },
+    {
+      "node_id": "N6272",
+      "node_type": "17-Core Classifier Algorithm",
+      "node_name": "Softmax Classifier",
+      "node_description": "Serves as the final decision-making layer in diagnostic networks to map extracted high-dimensional features into probability distributions across multiple health states, outputting final fault classification and diagnostic decisions. | Mapping high-dimensional image features to output predictive probabilities for motor health, demagnetization, and bearing faults; converting global fusion features to identify fault types and severity levels of hydraulic system components; predicting fault type, location, and direction for planetary gearboxes based on spatiotemporal features."
+    },
+    {
+      "node_id": "N6966",
+      "node_type": "19-Training Optimization Algorithm",
+      "node_name": "Transfer learning",
+      "node_description": "Transfer learning leverages prior knowledge by migrating pretrained network parameters from a source domain to a target model, facilitating parameter initialization, freezing, or fine tuning to accelerate training convergence, reduce computational costs, and alleviate overfitting under small sample conditions in fault diagnosis. | pre training models on standard datasets and fine tuning on target domains to prevent overfitting; utilizing ImageNet pretrained weights to initialize feature extractors and accelerate convergence; transferring offline model parameters to online networks to speed up online training"
+    }
+  ],
+  "YPJLLSHM": [
+    {
+      "node_id": "N4678",
+      "node_type": "15-Data Preprocessing Algorithm",
+      "node_name": "Wavelet Packet Transform",
+      "node_description": "Decomposing raw sensor signals into multiple frequency sub-bands through multi-scale time-frequency analysis to perform denoising, signal reconstruction, and feature extraction for health monitoring | Decomposing raw vibration signals to calculate the energy values of eight sub-bands for feature extraction; Denoising contact resistance signals of electrical connectors to reduce noise interference; Decomposing and reconstructing one-dimensional vibration signals into two-dimensional wavelet coefficient matrices as neural network inputs"
+    },
+    {
+      "node_id": "N5417",
+      "node_type": "16-Feature Extraction Algorithm",
+      "node_name": "Shift-Invariant Sparse Coding",
+      "node_description": "Used to learn basis functions or structured dictionaries to perform sparse coding on input signals, extracting representative features or reconstructing latent components representing fault characteristics | Self-learning feature basis functions from segmented signals and solving sparse coefficients to reconstruct latent components representing different fault structural characteristics; Performing sparse coding on input wavelet packet vectors using structured dictionaries and summing absolute values of coefficients to extract supervised sparse wavelet features"
+    },
+    {
+      "node_id": "N5993",
+      "node_type": "17-Core Classifier Algorithm",
+      "node_name": "K-Nearest Neighbor (KNN)",
+      "node_description": "Used as a classifier to perform fault diagnosis, state classification, and severity evaluation of mechanical systems by measuring distance similarity between feature vectors in the feature space, or as an evaluation metric to select optimal feature subsets | Classifying bearing fault types and assessing severity using a Mahalanobis distance-based KNN on extracted autoregressive model coefficient vectors; Diagnosing normal, spalling, and crack states of gears by classifying sensitive feature vectors; Diagnosing and locating sensor drift faults by classifying cumulative residual vectors"
+    },
+    {
+      "node_id": "N6914",
+      "node_type": "19-Training Optimization Algorithm",
+      "node_name": "SALSA",
+      "node_description": "An optimization algorithm designed to solve basis pursuit denoising and L1-norm regularization problems by iteratively computing sparse representation coefficients | used to solve L1-norm regularization optimization in basis pursuit denoising to obtain sparse representation coefficients; applied to solve the basis pursuit denoising optimization problem to iteratively solve for sparse representation coefficients"
+    }
+  ],
+  "EPI9LJ3F": [
+    {
+      "node_id": "N4605",
+      "node_type": "15-Data Preprocessing Algorithm",
+      "node_name": "Sliding Window",
+      "node_description": "A data preprocessing method that segments continuous time-series signals into overlapping or non-overlapping windows of fixed length to construct model training samples, capture localized features, perform real-time rolling calculations, and achieve data augmentation. | Segmenting raw vibration signals with overlapping windows to generate training samples for deep learning models; Dividing stator current signals into single-cycle frames to isolate transient characteristics for online fault detection; Splitting multivariate sensor time-series data into sub-sequences to capture dynamic temporal features."
+    },
+    {
+      "node_id": "N4791",
+      "node_type": "16-Feature Extraction Algorithm",
+      "node_name": "CNN",
+      "node_description": "Serves as a feature extractor that automatically and adaptively learns deep, hierarchical, and spatial fault feature representations from raw signals, frequency-domain data, and transformed multi-dimensional images using alternating convolutional and pooling operations | Automatically extracting feature vectors from bearing vibration images using convolutional and pooling layers; Automatically extracting robust local spatial features from segmented vibration and current envelope signals using a one-dimensional architecture; Extracting spatial feature representations from two-dimensional images containing attitude tracking errors and controller outputs."
+    },
+    {
+      "node_id": "N6272",
+      "node_type": "17-Core Classifier Algorithm",
+      "node_name": "Softmax Classifier",
+      "node_description": "Serves as the final decision-making layer in diagnostic networks to map extracted high-dimensional features into probability distributions across multiple health states, outputting final fault classification and diagnostic decisions. | Mapping high-dimensional image features to output predictive probabilities for motor health, demagnetization, and bearing faults; converting global fusion features to identify fault types and severity levels of hydraulic system components; predicting fault type, location, and direction for planetary gearboxes based on spatiotemporal features."
+    },
+    {
+      "node_id": "N6700",
+      "node_type": "19-Training Optimization Algorithm",
+      "node_name": "GRL",
+      "node_description": "Implements adversarial domain adaptation by reversing gradients during backpropagation to facilitate the extraction of domain-invariant features and minimize distribution discrepancy between source and target domains | Introduced a gradient reversal layer for adversarial domain adaptation training to extract domain-invariant features and minimize source-target distribution discrepancy; Utilized a gradient reversal layer to achieve adversarial domain adaptation and reduce distribution differences between source and target domains"
+    }
+  ],
+  "SJRY3KMZ": [
+    {
+      "node_id": "N4351",
+      "node_type": "15-Data Preprocessing Algorithm",
+      "node_name": "Fourier Transform",
+      "node_description": "Converts raw time-domain signals such as vibration, current, and voltage into the frequency or time-frequency domain using Fast Fourier Transform or Short-Time Fourier Transform, facilitating spectral feature extraction, noise mitigation, and dimensionality reduction to generate optimized inputs for diagnostic models | Processing raw multi-sensor gearbox vibration signals using Fast Fourier Transform and linear normalization to reduce input dimensionality; Converting one-dimensional vibration signals into two-dimensional time-frequency images using Short-Time Fourier Transform combined with L2 normalization; Performing Fast Fourier Transform on stator current signals to extract amplitude and phase angle for calculating symmetrical components."
+    },
+    {
+      "node_id": "N5350",
+      "node_type": "16-Feature Extraction Algorithm",
+      "node_name": "ResNet50",
+      "node_description": "Serves as a feature extractor or backbone network to extract high-dimensional, deep, and domain-invariant feature representations from input signals or images through convolutional operations | Extracting high-dimensional hidden features from dual-channel time-frequency images; extracting multi-layer domain-invariant deep features from frequency domain signals; serving as a backbone for instance segmentation to extract deep features from infrared insulator images."
+    },
+    {
+      "node_id": "N6272",
+      "node_type": "17-Core Classifier Algorithm",
+      "node_name": "Softmax Classifier",
+      "node_description": "Serves as the final decision-making layer in diagnostic networks to map extracted high-dimensional features into probability distributions across multiple health states, outputting final fault classification and diagnostic decisions. | Mapping high-dimensional image features to output predictive probabilities for motor health, demagnetization, and bearing faults; converting global fusion features to identify fault types and severity levels of hydraulic system components; predicting fault type, location, and direction for planetary gearboxes based on spatiotemporal features."
+    },
+    {
+      "node_id": "N6581",
+      "node_type": "19-Training Optimization Algorithm",
+      "node_name": "BP-MLE",
+      "node_description": "Optimization and learning algorithms designed to enhance model training, parameter estimation, and domain adaptation by addressing incomplete data challenges or minimizing distribution discrepancies | A Bayesian network parameter learning algorithm combining backpropagation neural network imputation and maximum likelihood estimation to address incomplete data; A multi-layer domain adaptation method utilizing multi-kernel maximum mean discrepancy and pseudo-label learning to minimize distribution differences between source and target domains"
+    }
+  ],
+  "5FPCBRG5": [
+    {
+      "node_id": "N4286",
+      "node_type": "15-Data Preprocessing Algorithm",
+      "node_name": "Data Normalization",
+      "node_description": "Standardizing raw sensor measurements or extracted feature vectors to a specific range or distribution to eliminate dimensional differences, mitigate the effects of varying operational conditions, and improve model training efficiency and convergence stability. | Scaling raw motor vibration signals to the range of negative one to one to accelerate neural network training convergence; Normalizing stator currents with rated currents to eliminate the impact of load variations on fault diagnostics; Scaling extracted time-domain features to the range of zero to one to prevent dominant eigenvalues in classifier inputs."
+    },
+    {
+      "node_id": "N4791",
+      "node_type": "16-Feature Extraction Algorithm",
+      "node_name": "CNN",
+      "node_description": "Serves as a feature extractor that automatically and adaptively learns deep, hierarchical, and spatial fault feature representations from raw signals, frequency-domain data, and transformed multi-dimensional images using alternating convolutional and pooling operations | Automatically extracting feature vectors from bearing vibration images using convolutional and pooling layers; Automatically extracting robust local spatial features from segmented vibration and current envelope signals using a one-dimensional architecture; Extracting spatial feature representations from two-dimensional images containing attitude tracking errors and controller outputs."
+    },
+    {
+      "node_id": "N6272",
+      "node_type": "17-Core Classifier Algorithm",
+      "node_name": "Softmax Classifier",
+      "node_description": "Serves as the final decision-making layer in diagnostic networks to map extracted high-dimensional features into probability distributions across multiple health states, outputting final fault classification and diagnostic decisions. | Mapping high-dimensional image features to output predictive probabilities for motor health, demagnetization, and bearing faults; converting global fusion features to identify fault types and severity levels of hydraulic system components; predicting fault type, location, and direction for planetary gearboxes based on spatiotemporal features."
+    }
+  ],
+  "ALSYJAGG": [
+    {
+      "node_id": "N4351",
+      "node_type": "15-Data Preprocessing Algorithm",
+      "node_name": "Fourier Transform",
+      "node_description": "Converts raw time-domain signals such as vibration, current, and voltage into the frequency or time-frequency domain using Fast Fourier Transform or Short-Time Fourier Transform, facilitating spectral feature extraction, noise mitigation, and dimensionality reduction to generate optimized inputs for diagnostic models | Processing raw multi-sensor gearbox vibration signals using Fast Fourier Transform and linear normalization to reduce input dimensionality; Converting one-dimensional vibration signals into two-dimensional time-frequency images using Short-Time Fourier Transform combined with L2 normalization; Performing Fast Fourier Transform on stator current signals to extract amplitude and phase angle for calculating symmetrical components."
+    },
+    {
+      "node_id": "N4791",
+      "node_type": "16-Feature Extraction Algorithm",
+      "node_name": "CNN",
+      "node_description": "Serves as a feature extractor that automatically and adaptively learns deep, hierarchical, and spatial fault feature representations from raw signals, frequency-domain data, and transformed multi-dimensional images using alternating convolutional and pooling operations | Automatically extracting feature vectors from bearing vibration images using convolutional and pooling layers; Automatically extracting robust local spatial features from segmented vibration and current envelope signals using a one-dimensional architecture; Extracting spatial feature representations from two-dimensional images containing attitude tracking errors and controller outputs."
+    },
+    {
+      "node_id": "N6272",
+      "node_type": "17-Core Classifier Algorithm",
+      "node_name": "Softmax Classifier",
+      "node_description": "Serves as the final decision-making layer in diagnostic networks to map extracted high-dimensional features into probability distributions across multiple health states, outputting final fault classification and diagnostic decisions. | Mapping high-dimensional image features to output predictive probabilities for motor health, demagnetization, and bearing faults; converting global fusion features to identify fault types and severity levels of hydraulic system components; predicting fault type, location, and direction for planetary gearboxes based on spatiotemporal features."
+    }
+  ],
+  "Q8PEX93T": [
+    {
+      "node_id": "N5061",
+      "node_type": "16-Feature Extraction Algorithm",
+      "node_name": "Hierarchical Symbolic Analysis",
+      "node_description": "An algorithm that extracts probabilistic features representing system health states by decomposing raw signals hierarchically and applying symbolic analysis to capture state transition patterns. | Extracting probability feature vectors representing system states from raw vibration data; Decomposing signals into high and low frequency components to extract multi-scale state transition probability features."
+    },
+    {
+      "node_id": "N5706",
+      "node_type": "17-Core Classifier Algorithm",
+      "node_name": "Convolutional Neural Network (CNN)",
+      "node_description": "Serving as a core classifier or discriminator that automatically extracts deep spatial or structural features from inputs such as raw signals time frequency images and feature vectors to perform pattern recognition and output fault diagnosis decisions | Extracting features from input GASF images to output diagnosis decisions for mechanical structural fault states; Training on expanded balanced bearing datasets using multilayer convolutional structures for final fault classification; Training on optimized feature subsets to classify hydraulic directional valve fault states and output probability distributions"
+    },
+    {
+      "node_id": "N6884",
+      "node_type": "19-Training Optimization Algorithm",
+      "node_name": "Particle Swarm Optimization (PSO)",
+      "node_description": "An evolutionary optimization algorithm used to perform global parameter search and hyperparameter tuning for machine learning classifiers, neural network architectures, and signal processing methods to enhance diagnostic accuracy and feature extraction quality. | Optimizing the penalty factor and kernel parameters of support vector machines; tuning the structural hyperparameters and learning rates of neural networks; adaptively determining the mode number and penalty factor of variational mode decomposition."
+    }
+  ],
+  "4ZUPTH4B": [
+    {
+      "node_id": "N4791",
+      "node_type": "16-Feature Extraction Algorithm",
+      "node_name": "CNN",
+      "node_description": "Serves as a feature extractor that automatically and adaptively learns deep, hierarchical, and spatial fault feature representations from raw signals, frequency-domain data, and transformed multi-dimensional images using alternating convolutional and pooling operations | Automatically extracting feature vectors from bearing vibration images using convolutional and pooling layers; Automatically extracting robust local spatial features from segmented vibration and current envelope signals using a one-dimensional architecture; Extracting spatial feature representations from two-dimensional images containing attitude tracking errors and controller outputs."
+    },
+    {
+      "node_id": "N6272",
+      "node_type": "17-Core Classifier Algorithm",
+      "node_name": "Softmax Classifier",
+      "node_description": "Serves as the final decision-making layer in diagnostic networks to map extracted high-dimensional features into probability distributions across multiple health states, outputting final fault classification and diagnostic decisions. | Mapping high-dimensional image features to output predictive probabilities for motor health, demagnetization, and bearing faults; converting global fusion features to identify fault types and severity levels of hydraulic system components; predicting fault type, location, and direction for planetary gearboxes based on spatiotemporal features."
+    },
+    {
+      "node_id": "N6836",
+      "node_type": "19-Training Optimization Algorithm",
+      "node_name": "Monte-Carlo policy gradient",
+      "node_description": "Used as a reinforcement learning optimization algorithm to train search policies or update controller parameters, guiding the automated search for optimal structures or neural network architectures. | Training and optimizing search policies in a Markov decision process formulated for syntax tree structure search; Updating recurrent neural network controller parameters using classification accuracy as a reward to search for optimal network architectures."
+    }
+  ],
+  "NR48YI76": [
+    {
+      "node_id": "N4552",
+      "node_type": "15-Data Preprocessing Algorithm",
+      "node_name": "RSSD",
+      "node_description": "An algorithm used to decompose raw vibration or composite fault signals into different resonance components to achieve signal decoupling, noise reduction, and transient feature enhancement | Decomposing composite fault signals into high and low resonance components for adaptive decoupling of different fault sources; decomposing original vibration signals combined with subband reconstruction to reduce background noise and enhance impulse features"
+    },
+    {
+      "node_id": "N5554",
+      "node_type": "16-Feature Extraction Algorithm",
+      "node_name": "WT",
+      "node_description": "Performs time-frequency analysis and multi-scale decomposition on signals to extract representative fault characteristics and time-frequency representations | Transforming 1D vibration signals into 2D time-frequency images to extract time-frequency features; Extracting abnormal frequency features to characterize intermittent faults; Performing multi-scale decomposition on reconstructed low-resonance components to extract bearing fault features."
+    },
+    {
+      "node_id": "N6323",
+      "node_type": "17-Core Classifier Algorithm",
+      "node_name": "TLFD",
+      "node_description": "Serving as the core decision-making, classification, or estimation model to identify fault categories, assess health degradation, and predict remaining useful life of industrial components based on feature inputs or system residues | Classifying and diagnosing multiple fault modes of aircraft fuel systems as the core decision model; Predicting bearing degradation trends and remaining useful life by combining self-attention and ConvLSTM; Utilizing twin support vector machines with a partial binary tree to diagnose transformer fault types"
+    },
+    {
+      "node_id": "N6703",
+      "node_type": "19-Training Optimization Algorithm",
+      "node_name": "Genetic Algorithm (GA)",
+      "node_description": "Used as a global search algorithm to optimize machine learning model hyperparameters, select diagnostic feature subsets, and adaptively tune parameters of signal processing or physical systems to improve fault diagnosis performance. | Optimizing the penalty factor and kernel parameters of support vector machines to improve classification accuracy; selecting the most discriminative feature subsets to reduce dimensionality; adaptively tuning the key parameters of stochastic resonance systems to maximize output signal-to-noise ratio."
+    }
+  ],
+  "8TR7I85X": [
+    {
+      "node_id": "N4286",
+      "node_type": "15-Data Preprocessing Algorithm",
+      "node_name": "Data Normalization",
+      "node_description": "Standardizing raw sensor measurements or extracted feature vectors to a specific range or distribution to eliminate dimensional differences, mitigate the effects of varying operational conditions, and improve model training efficiency and convergence stability. | Scaling raw motor vibration signals to the range of negative one to one to accelerate neural network training convergence; Normalizing stator currents with rated currents to eliminate the impact of load variations on fault diagnostics; Scaling extracted time-domain features to the range of zero to one to prevent dominant eigenvalues in classifier inputs."
+    },
+    {
+      "node_id": "N5429",
+      "node_type": "16-Feature Extraction Algorithm",
+      "node_name": "Singular Value Decomposition",
+      "node_description": "Decomposes constructed matrices, covariance matrices, or coefficient matrices to extract characteristic features, determine system order, and partition feature subspaces for process monitoring and system identification. | Extracting singular value feature vectors from sliding matrices to capture periodic impulse characteristics; Decomposing regression coefficient matrices to partition key performance indicator related and unrelated subspaces; Decomposing input-output covariance matrices to determine system order and extract residual spaces."
+    },
+    {
+      "node_id": "N6204",
+      "node_type": "17-Core Classifier Algorithm",
+      "node_name": "Reconstruction-based Contribution",
+      "node_description": "Identifies and localizes the root causes of faults by calculating the reconstruction contribution of individual variables or components to monitoring statistics | Identifying and locating root cause variables by calculating reconstruction contributions to fault detection statistics; Diagnosing and locating fault sources based on squared prediction error statistics; Diagnosing and localizing multiplicative faults by calculating component reconstruction contributions to Hotelling T2 statistics"
+    }
+  ],
+  "SGDT4UGZ": [
+    {
+      "node_id": "N4472",
+      "node_type": "15-Data Preprocessing Algorithm",
+      "node_name": "Min-Max Normalization",
+      "node_description": "Scales raw sensor measurements, signal data, or extracted features into a unified numerical range, typically 0 to 1 or -1 to 1, to eliminate dimensional discrepancies, normalize data distributions, and enhance the training stability and convergence rate of neural networks and machine learning models. | Normalizing one-dimensional vibration signals and converting them into two-dimensional grayscale images as network inputs; Linearly scaling SCADA data to the range of 0 to 1 to eliminate dimensional impacts and accelerate model training convergence; Processing reactor operating parameter data to eliminate physical dimension discrepancies for support vector machine classification."
+    },
+    {
+      "node_id": "N5185",
+      "node_type": "16-Feature Extraction Algorithm",
+      "node_name": "MMCNN",
+      "node_description": "Extracting multidimensional, multiscale, and complementary fault features or health indicators from raw signals, time frequency representations, or sensor data by constructing various neural network architectures | Extracting complementary fault features under different rotational frequencies from 2D time frequency diagrams using a multimode convolutional neural network; Parallelly extracting and fusing fault features from 1D and 2D inputs using a dual stream convolutional neural network; Adaptively extracting multiscale fault features directly from 1D raw vibration signals using a multiscale residual convolutional neural network."
+    },
+    {
+      "node_id": "N6308",
+      "node_type": "17-Core Classifier Algorithm",
+      "node_name": "Support Vector Machine (SVM)",
+      "node_description": "Acts as a terminal classification and regression decision model that accepts extracted, reduced, or fused feature vectors to perform pattern recognition, fault diagnosis, severity assessment, and health status evaluation for industrial systems and components. | classifying rolling bearing fault types and severity levels based on vibration and entropy features; predicting battery remaining useful life using classification for life stages and regression for near-end-of-life estimation; identifying transformer fault types based on feature vectors output from fuzzy logic."
+    },
+    {
+      "node_id": "N6884",
+      "node_type": "19-Training Optimization Algorithm",
+      "node_name": "Particle Swarm Optimization (PSO)",
+      "node_description": "An evolutionary optimization algorithm used to perform global parameter search and hyperparameter tuning for machine learning classifiers, neural network architectures, and signal processing methods to enhance diagnostic accuracy and feature extraction quality. | Optimizing the penalty factor and kernel parameters of support vector machines; tuning the structural hyperparameters and learning rates of neural networks; adaptively determining the mode number and penalty factor of variational mode decomposition."
+    }
+  ],
+  "3JRQZDJ9": [
+    {
+      "node_id": "N4512",
+      "node_type": "15-Data Preprocessing Algorithm",
+      "node_name": "Overlap Sampling",
+      "node_description": "Segmenting raw vibration signals or feature data using a sliding window mechanism for data augmentation, which expands the training dataset to prevent overfitting and enhance model generalization and robustness | Slicing raw bearing vibration signals and adding Gaussian noise to expand training samples and improve noise robustness; Segmenting feature data using time windows to expand data samples; Segmenting raw vibration signals to augment training samples and prevent overfitting"
+    },
+    {
+      "node_id": "N4714",
+      "node_type": "16-Feature Extraction Algorithm",
+      "node_name": "1DCNN",
+      "node_description": "Automatically and adaptively extracts multi-scale, high-dimensional, or discriminative feature representations from raw one-dimensional time-series signals, vibration data, or frequency spectra by leveraging convolutional and pooling layers. | Extracting feature representations from raw time-series signals using a wide convolutional kernel in the first layer followed by smaller kernels; Transforming raw magnetic field signals into low-dimensional feature representations as an encoder structure; Leveraging parallel convolutional and max pooling layers to extract high-order spatial-temporal features from coarse-grained signals."
+    },
+    {
+      "node_id": "N6272",
+      "node_type": "17-Core Classifier Algorithm",
+      "node_name": "Softmax Classifier",
+      "node_description": "Serves as the final decision-making layer in diagnostic networks to map extracted high-dimensional features into probability distributions across multiple health states, outputting final fault classification and diagnostic decisions. | Mapping high-dimensional image features to output predictive probabilities for motor health, demagnetization, and bearing faults; converting global fusion features to identify fault types and severity levels of hydraulic system components; predicting fault type, location, and direction for planetary gearboxes based on spatiotemporal features."
+    },
+    {
+      "node_id": "N6639",
+      "node_type": "19-Training Optimization Algorithm",
+      "node_name": "Deep CORAL",
+      "node_description": "A domain adaptation algorithm designed to align feature distributions of different domains by minimizing the covariance of their second-order statistics. | Minimizing the covariance of second-order statistics combined with center loss for unsupervised domain adaptation; Aligning source and target feature distributions using second-order statistical feature fusion; Reducing feature distribution discrepancies between real and generated data."
+    }
+  ],
+  "LFE7F9QI": [
+    {
+      "node_id": "N4791",
+      "node_type": "16-Feature Extraction Algorithm",
+      "node_name": "CNN",
+      "node_description": "Serves as a feature extractor that automatically and adaptively learns deep, hierarchical, and spatial fault feature representations from raw signals, frequency-domain data, and transformed multi-dimensional images using alternating convolutional and pooling operations | Automatically extracting feature vectors from bearing vibration images using convolutional and pooling layers; Automatically extracting robust local spatial features from segmented vibration and current envelope signals using a one-dimensional architecture; Extracting spatial feature representations from two-dimensional images containing attitude tracking errors and controller outputs."
+    },
+    {
+      "node_id": "N6272",
+      "node_type": "17-Core Classifier Algorithm",
+      "node_name": "Softmax Classifier",
+      "node_description": "Serves as the final decision-making layer in diagnostic networks to map extracted high-dimensional features into probability distributions across multiple health states, outputting final fault classification and diagnostic decisions. | Mapping high-dimensional image features to output predictive probabilities for motor health, demagnetization, and bearing faults; converting global fusion features to identify fault types and severity levels of hydraulic system components; predicting fault type, location, and direction for planetary gearboxes based on spatiotemporal features."
+    },
+    {
+      "node_id": "N6816",
+      "node_type": "19-Training Optimization Algorithm",
+      "node_name": "Margin Loss",
+      "node_description": "Serving as an optimization metric to constrain network training, aimed at reducing intra-class variance and increasing inter-class separation to improve classification accuracy and model generalization | Used as a cost function to minimize intra-class differences and expand inter-class distances; designed as a generalized large margin loss to constrain feature layer training for optimizing fault classification accuracy and generalization"
+    }
+  ],
+  "KW5PXDNA": [
+    {
+      "node_id": "N4472",
+      "node_type": "15-Data Preprocessing Algorithm",
+      "node_name": "Min-Max Normalization",
+      "node_description": "Scales raw sensor measurements, signal data, or extracted features into a unified numerical range, typically 0 to 1 or -1 to 1, to eliminate dimensional discrepancies, normalize data distributions, and enhance the training stability and convergence rate of neural networks and machine learning models. | Normalizing one-dimensional vibration signals and converting them into two-dimensional grayscale images as network inputs; Linearly scaling SCADA data to the range of 0 to 1 to eliminate dimensional impacts and accelerate model training convergence; Processing reactor operating parameter data to eliminate physical dimension discrepancies for support vector machine classification."
+    },
+    {
+      "node_id": "N5114",
+      "node_type": "16-Feature Extraction Algorithm",
+      "node_name": "K-Means",
+      "node_description": "Cluster operational, health, or load data to partition degradation stages, filter fault parameters, and establish health baselines | Analyzing health score sequences to identify mutation points for engine degradation stage partitioning; Processing SCADA parameters to filter and extract fault feature parameters; Clustering load data to convert it into distinct power consumption pattern features."
+    },
+    {
+      "node_id": "N6015",
+      "node_type": "17-Core Classifier Algorithm",
+      "node_name": "LSTM",
+      "node_description": "As a core deep learning algorithm for sequence modeling, it extracts temporal features and dependencies from time-series data to perform trend forecasting, remaining useful life estimation, and fault classification or diagnosis | classifying seventeen reciprocating compressor valve fault states based on dimension-reduced time-domain indicators; predicting the remaining useful life of aeroengines by modeling multi-stage time-series data; forecasting battery system voltage evolution to serve as a baseline for fault prediction"
+    }
+  ],
+  "N7538AVL": [
+    {
+      "node_id": "N4594",
+      "node_type": "15-Data Preprocessing Algorithm",
+      "node_name": "Signal Segmentation",
+      "node_description": "Dividing raw or continuous physical signals into shorter, discrete segments of fixed, equal, or periodic lengths to prepare standardized analysis samples, reduce input data dimensionality, and facilitate subsequent feature extraction or signal reconstruction. | Dividing raw gearbox vibration signals into equal-length segments to prepare analysis samples; Segmenting continuous vibration signals to obtain single-rotation data; Applying sliding window segmentation on voltage and current signals to reduce input dimensionality."
+    },
+    {
+      "node_id": "N4791",
+      "node_type": "16-Feature Extraction Algorithm",
+      "node_name": "CNN",
+      "node_description": "Serves as a feature extractor that automatically and adaptively learns deep, hierarchical, and spatial fault feature representations from raw signals, frequency-domain data, and transformed multi-dimensional images using alternating convolutional and pooling operations | Automatically extracting feature vectors from bearing vibration images using convolutional and pooling layers; Automatically extracting robust local spatial features from segmented vibration and current envelope signals using a one-dimensional architecture; Extracting spatial feature representations from two-dimensional images containing attitude tracking errors and controller outputs."
+    },
+    {
+      "node_id": "N6272",
+      "node_type": "17-Core Classifier Algorithm",
+      "node_name": "Softmax Classifier",
+      "node_description": "Serves as the final decision-making layer in diagnostic networks to map extracted high-dimensional features into probability distributions across multiple health states, outputting final fault classification and diagnostic decisions. | Mapping high-dimensional image features to output predictive probabilities for motor health, demagnetization, and bearing faults; converting global fusion features to identify fault types and severity levels of hydraulic system components; predicting fault type, location, and direction for planetary gearboxes based on spatiotemporal features."
+    },
+    {
+      "node_id": "N6652",
+      "node_type": "19-Training Optimization Algorithm",
+      "node_name": "Domain Adaptation",
+      "node_description": "Minimizes feature distribution discrepancies between source and target domains through joint loss optimization to facilitate cross-domain knowledge transfer and model generalization | Minimizing first- and second-order feature distribution differences using Maximum Mean Discrepancy and Correlation Alignment loss; Aligning cross-machine feature distributions by jointly optimizing classification loss, domain discriminator error, and Maximum Mean Discrepancy; Optimizing cross-domain feature distributions and class separation through joint constraint training with multi-layer Maximum Mean Discrepancy and pseudo-label learning"
+    }
+  ],
+  "P6FJD8BS": [
+    {
+      "node_id": "N5185",
+      "node_type": "16-Feature Extraction Algorithm",
+      "node_name": "MMCNN",
+      "node_description": "Extracting multidimensional, multiscale, and complementary fault features or health indicators from raw signals, time frequency representations, or sensor data by constructing various neural network architectures | Extracting complementary fault features under different rotational frequencies from 2D time frequency diagrams using a multimode convolutional neural network; Parallelly extracting and fusing fault features from 1D and 2D inputs using a dual stream convolutional neural network; Adaptively extracting multiscale fault features directly from 1D raw vibration signals using a multiscale residual convolutional neural network."
+    },
+    {
+      "node_id": "N6272",
+      "node_type": "17-Core Classifier Algorithm",
+      "node_name": "Softmax Classifier",
+      "node_description": "Serves as the final decision-making layer in diagnostic networks to map extracted high-dimensional features into probability distributions across multiple health states, outputting final fault classification and diagnostic decisions. | Mapping high-dimensional image features to output predictive probabilities for motor health, demagnetization, and bearing faults; converting global fusion features to identify fault types and severity levels of hydraulic system components; predicting fault type, location, and direction for planetary gearboxes based on spatiotemporal features."
+    }
+  ],
+  "RVYNEJBL": [
+    {
+      "node_id": "N4286",
+      "node_type": "15-Data Preprocessing Algorithm",
+      "node_name": "Data Normalization",
+      "node_description": "Standardizing raw sensor measurements or extracted feature vectors to a specific range or distribution to eliminate dimensional differences, mitigate the effects of varying operational conditions, and improve model training efficiency and convergence stability. | Scaling raw motor vibration signals to the range of negative one to one to accelerate neural network training convergence; Normalizing stator currents with rated currents to eliminate the impact of load variations on fault diagnostics; Scaling extracted time-domain features to the range of zero to one to prevent dominant eigenvalues in classifier inputs."
+    },
+    {
+      "node_id": "N4925",
+      "node_type": "16-Feature Extraction Algorithm",
+      "node_name": "EMD",
+      "node_description": "Decomposes complex or non-stationary signals into intrinsic mode functions to extract time-domain, frequency-domain, or time-frequency domain features for condition monitoring and fault diagnosis | Decomposing signals into intrinsic mode functions and extracting energy entropy of the first few components to construct fault feature vectors; Decomposing motor current signals into intrinsic mode functions and residuals to extract statistical features; Decomposing signals under non-stationary conditions to extract time-frequency features related to rotor or bearing faults."
+    },
+    {
+      "node_id": "N6308",
+      "node_type": "17-Core Classifier Algorithm",
+      "node_name": "Support Vector Machine (SVM)",
+      "node_description": "Acts as a terminal classification and regression decision model that accepts extracted, reduced, or fused feature vectors to perform pattern recognition, fault diagnosis, severity assessment, and health status evaluation for industrial systems and components. | classifying rolling bearing fault types and severity levels based on vibration and entropy features; predicting battery remaining useful life using classification for life stages and regression for near-end-of-life estimation; identifying transformer fault types based on feature vectors output from fuzzy logic."
+    },
+    {
+      "node_id": "N6668",
+      "node_type": "19-Training Optimization Algorithm",
+      "node_name": "ESP",
+      "node_description": "An optimization algorithm class designed to enhance machine learning model training by accelerating convergence, preventing error saturation, selecting optimal features, and tuning network weights through adaptive heuristic search or penalty functions. | Using an error saturation prevention function as a penalty term to accelerate backpropagation convergence; Employing adaptive genetic or swarm intelligence algorithms to select optimal features and determine network parameters; Introducing adaptive weight updates to improve model generalization and retain knowledge during continuous learning."
+    }
+  ],
+  "KC8MEE2V": [
+    {
+      "node_id": "N4351",
+      "node_type": "15-Data Preprocessing Algorithm",
+      "node_name": "Fourier Transform",
+      "node_description": "Converts raw time-domain signals such as vibration, current, and voltage into the frequency or time-frequency domain using Fast Fourier Transform or Short-Time Fourier Transform, facilitating spectral feature extraction, noise mitigation, and dimensionality reduction to generate optimized inputs for diagnostic models | Processing raw multi-sensor gearbox vibration signals using Fast Fourier Transform and linear normalization to reduce input dimensionality; Converting one-dimensional vibration signals into two-dimensional time-frequency images using Short-Time Fourier Transform combined with L2 normalization; Performing Fast Fourier Transform on stator current signals to extract amplitude and phase angle for calculating symmetrical components."
+    },
+    {
+      "node_id": "N4791",
+      "node_type": "16-Feature Extraction Algorithm",
+      "node_name": "CNN",
+      "node_description": "Serves as a feature extractor that automatically and adaptively learns deep, hierarchical, and spatial fault feature representations from raw signals, frequency-domain data, and transformed multi-dimensional images using alternating convolutional and pooling operations | Automatically extracting feature vectors from bearing vibration images using convolutional and pooling layers; Automatically extracting robust local spatial features from segmented vibration and current envelope signals using a one-dimensional architecture; Extracting spatial feature representations from two-dimensional images containing attitude tracking errors and controller outputs."
+    },
+    {
+      "node_id": "N6272",
+      "node_type": "17-Core Classifier Algorithm",
+      "node_name": "Softmax Classifier",
+      "node_description": "Serves as the final decision-making layer in diagnostic networks to map extracted high-dimensional features into probability distributions across multiple health states, outputting final fault classification and diagnostic decisions. | Mapping high-dimensional image features to output predictive probabilities for motor health, demagnetization, and bearing faults; converting global fusion features to identify fault types and severity levels of hydraulic system components; predicting fault type, location, and direction for planetary gearboxes based on spatiotemporal features."
+    },
+    {
+      "node_id": "N6653",
+      "node_type": "19-Training Optimization Algorithm",
+      "node_name": "Domain Adversarial Training (DAT)",
+      "node_description": "Minimizes domain discrepancies and aligns feature distributions between source and target domains through adversarial learning between feature extractors and domain discriminators to enhance cross-domain diagnostics | Integrating a gradient reversal layer and using Kronecker products of features and labels to construct joint distribution representations for cross-domain feature alignment; Constructing a weighted domain discriminator to perform weighted alignment and resolve negative transfer in partial domain adaptation; Combining Wasserstein distance, gradient penalty, and conditional label mapping to achieve class-level feature alignment across operating conditions."
+    }
+  ],
+  "C9GABGHM": [
+    {
+      "node_id": "N5386",
+      "node_type": "16-Feature Extraction Algorithm",
+      "node_name": "SRCKF",
+      "node_description": "Extracting system fault features through state estimation or representation learning from raw signals to support anomaly detection and health monitoring. | Estimating system state vectors using square root cubature Kalman filtering to extract sensor fault features; Improving sparse filtering with multi-scale and multi-pooling fusion to automatically extract fault features from raw vibration signals."
+    },
+    {
+      "node_id": "N6272",
+      "node_type": "17-Core Classifier Algorithm",
+      "node_name": "Softmax Classifier",
+      "node_description": "Serves as the final decision-making layer in diagnostic networks to map extracted high-dimensional features into probability distributions across multiple health states, outputting final fault classification and diagnostic decisions. | Mapping high-dimensional image features to output predictive probabilities for motor health, demagnetization, and bearing faults; converting global fusion features to identify fault types and severity levels of hydraulic system components; predicting fault type, location, and direction for planetary gearboxes based on spatiotemporal features."
+    }
+  ],
+  "T2774L99": [
+    {
+      "node_id": "N4317",
+      "node_type": "15-Data Preprocessing Algorithm",
+      "node_name": "Edited cepstrum",
+      "node_description": "A signal preprocessing method used to filter out periodic and harmonic interference components from raw vibration signals to highlight fault-related impulse features | Preprocessing raw vibration signals to filter out periodic gear meshing interference and highlight bearing fault impulse characteristics; Extracting and filtering large harmonic interference components from raw vibration signals using sparse coding based on a predefined Fourier dictionary"
+    },
+    {
+      "node_id": "N5050",
+      "node_type": "16-Feature Extraction Algorithm",
+      "node_name": "HAAPE",
+      "node_description": "Extracting representative features from raw or processed machinery signals through decomposition, dimensionality reduction, complexity measures, or statistical analysis to characterize operating conditions and facilitate fault diagnosis | using hierarchical amplitude-aware permutation entropy to extract high and low-frequency features from vibration signals for health state representation; applying unsupervised attribute clustering based on rough set theory to select representative features and reduce dimensionality; employing an improved multiscale dispersion entropy algorithm to extract complexity and irregularity features from raw vibration signals"
+    },
+    {
+      "node_id": "N5806",
+      "node_type": "17-Core Classifier Algorithm",
+      "node_name": "Envelope Spectrum Analysis",
+      "node_description": "Demodulates and analyzes the frequency components of reconstructed, filtered, or decomposed signals to identify fault characteristic frequencies and their harmonics, providing diagnostic decisions by comparing observed spectral peaks with theoretical fault signatures of mechanical components | Diagnosing bearing fault locations by comparing extracted mode envelope frequencies with theoretical calculations; Identifying solar gear faults by analyzing the characteristic frequencies and order ratios of enhanced signals; Detecting clearance faults in reciprocating compressor bearings by identifying double rotation frequency peaks in product function envelope spectra"
+    },
+    {
+      "node_id": "N6917",
+      "node_type": "19-Training Optimization Algorithm",
+      "node_name": "SDANN",
+      "node_description": "Optimizing model training and feature representation alignment across different domains or operating conditions through adversarial adaptation, distance-based constraints, and parameter fine-tuning to enhance generalization and diagnostic accuracy | Aligning marginal and joint distributions of source and target domain features using residual joint adaptation networks and joint maximum mean discrepancy; Dynamically allocating weights in multi-source domain weighted adversarial training to prevent negative transfer; Resolving partial domain adaptation under inconsistent label spaces through class and instance level dual weighting mechanisms"
+    }
+  ],
+  "W8V67CX6": [
+    {
+      "node_id": "N5468",
+      "node_type": "16-Feature Extraction Algorithm",
+      "node_name": "Statistical Feature Extraction",
+      "node_description": "Calculating mathematical and statistical indicators from time and frequency domain signals to construct feature vectors that represent the operating state and degradation of mechanical systems | Extracting standard deviation, skewness, and kurtosis from time-domain vibration and current signals; computing thirty statistical features like RMS and shape factor from power spectral density; extracting forty-eight statistical indicators including variance and peak amplitude from multi-band vibration spectra"
+    },
+    {
+      "node_id": "N6308",
+      "node_type": "17-Core Classifier Algorithm",
+      "node_name": "Support Vector Machine (SVM)",
+      "node_description": "Acts as a terminal classification and regression decision model that accepts extracted, reduced, or fused feature vectors to perform pattern recognition, fault diagnosis, severity assessment, and health status evaluation for industrial systems and components. | classifying rolling bearing fault types and severity levels based on vibration and entropy features; predicting battery remaining useful life using classification for life stages and regression for near-end-of-life estimation; identifying transformer fault types based on feature vectors output from fuzzy logic."
+    }
+  ],
+  "A2MXXZ6T": [
+    {
+      "node_id": "N4422",
+      "node_type": "15-Data Preprocessing Algorithm",
+      "node_name": "LOESS",
+      "node_description": "Used as a data preprocessing and smoothing method to denoise raw signals, extracted features, and health indicators through local regression, thereby reducing measurement noise, eliminating outliers, and revealing underlying degradation trends | smoothing raw vibration signal spectra to eliminate extreme points for determining initial modal numbers; processing stack voltage data to reduce random fluctuations and replace anomalous pulse peaks; filtering noise from extracted features and health indicators to capture true degradation trends"
+    },
+    {
+      "node_id": "N6298",
+      "node_type": "17-Core Classifier Algorithm",
+      "node_name": "State-space model",
+      "node_description": "Establishing mathematical representations of system degradation dynamics through state transition and observation equations to estimate health states and forecast remaining useful life | Constructing a two-factor state-space model with particle filtering for online remaining useful life prediction of mechanical equipment; Combining a Wiener process state equation and an observation equation to evaluate degradation levels and predict remaining useful life"
+    }
+  ],
+  "ZT9IQBYV": [
+    {
+      "node_id": "N6208",
+      "node_type": "17-Core Classifier Algorithm",
+      "node_name": "Relevance Vector Machine (RVM)",
+      "node_description": "Acts as a core Bayesian machine learning algorithm utilized for both multi-class pattern classification to diagnose machinery faults and regression modeling to predict system degradation trends and remaining useful life | Used as a binary tree classifier to diagnose mechanical faults in load tap changers; maps battery capacity degradation to estimate remaining useful life with uncertainty distributions; serves as a decision fusion layer to output remaining useful life predictions and confidence intervals"
+    },
+    {
+      "node_id": "N6767",
+      "node_type": "19-Training Optimization Algorithm",
+      "node_name": "Kalman filter",
+      "node_description": "Used for real-time state estimation and parameter optimization to dynamically update model variables and prediction outputs | Online updating of hidden adaptive drift rates; Optimizing relevance vector machine prediction outputs to iteratively retrain model parameters"
+    }
+  ],
+  "7ZGVDR6Q": [
+    {
+      "node_id": "N5295",
+      "node_type": "16-Feature Extraction Algorithm",
+      "node_name": "Permutation Entropy",
+      "node_description": "Extracting permutation entropy from vibration signals or decomposed components to construct feature vectors that represent the health conditions and fault severity of rotating machinery. | Calculating the permutation entropy of selected intrinsic mode functions to characterize gearbox fault severity; Calculating the permutation entropy of the first few intrinsic mode functions to construct feature vectors reflecting multi-scale intrinsic signal characteristics; Extracting multiple entropy features from vibration signals to characterize different fault states of ball bearings."
+    },
+    {
+      "node_id": "N6308",
+      "node_type": "17-Core Classifier Algorithm",
+      "node_name": "Support Vector Machine (SVM)",
+      "node_description": "Acts as a terminal classification and regression decision model that accepts extracted, reduced, or fused feature vectors to perform pattern recognition, fault diagnosis, severity assessment, and health status evaluation for industrial systems and components. | classifying rolling bearing fault types and severity levels based on vibration and entropy features; predicting battery remaining useful life using classification for life stages and regression for near-end-of-life estimation; identifying transformer fault types based on feature vectors output from fuzzy logic."
+    }
+  ]
+}

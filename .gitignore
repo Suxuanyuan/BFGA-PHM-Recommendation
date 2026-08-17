@@ -1,0 +1,74 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.eggs/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# ===== Virtual environments =====
+venv/
+.venv/
+env/
+ENV/
+*.venv
+
+# ===== IDEs and editors =====
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ===== Environment / secrets (NEVER commit credentials) =====
+.env
+.env.local
+.env.*.local
+*.env
+!.env.example
+
+# ===== Jupyter notebooks =====
+.ipynb_checkpoints/
+*.ipynb
+
+# ===== Documentation & manuscripts (do NOT upload) =====
+docs/
+*.doc
+*.docx
+*.pdf
+
+# ===== BFGA / project specific =====
+
+# CEG graph reasoning output artefacts
+data/output/
+data/agent_graph_reasoning/
+data/run_logs/
+*.log
+
+# Generated extraction artefacts from the 01-CEG-modeling pipeline
+# (LLM extraction intermediate JSON/markdown kept inside `code/` for full reproduction
+# but the very heavy `runs/` working dirs are not)
+code/01-cognitive evidence graph modeling/01_CEG schema/**/runs/
+code/01-cognitive evidence graph modeling/02_CEG modeling guided by three topologies/**/runs/
+
+# Local cached large files
+*.tmp
+*.bak
+*.bak.*
+*.swp
+.DS_Store
+
+# Outputs
+*.out
+*.pid
+*.pid.lock

@@ -1,0 +1,22 @@
+# BFGA-PHM-Recommendation: Python dependencies.
+#
+# This repo works on Python 3.10+.
+#
+# Core libraries
+# --------------
+# requests is the only *required* runtime dependency — all LLM calls go through it.
+# numpy + scipy are only required by `code/01-cognitive evidence graph modeling/
+# 02_CEG modeling guided by three topologies/023_graph aggregation/` which computes
+# edge weight aggregation via a Gaussian KDE. If you only run the BFGA recommendation
+# stage you can install just `requests`.
+#
+# The CEG graph reasoning stage (`v7_modules/`) uses only the Python standard
+# library, so it does NOT need numpy/scipy.
+
+requests>=2.28.0
+
+# Optional: only required by the CEG graph aggregation scripts
+# (uncomment if you re-run those; the released `CEG data for 2027cases.json`
+# was already produced with these and is bundled)
+# numpy>=1.23
+# scipy>=1.10

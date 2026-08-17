@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: |
+  If you use this repository, please cite the companion paper.
+type: software
+title: "BFGA-PHM-Recommendation"
+version: 1.0.0
+date-released: 2026-07-15
+license: Apache-2.0
+license-url: https://www.apache.org/licenses/LICENSE-2.0
+repository-code: https://github.com/Suxuanyuan/BFGA-PHM-Recommendation
+keywords:
+  - PHM
+  - prognostics and health management
+  - agent
+  - graph reasoning
+  - cognitive evidence graph
+  - recommendation system
+authors:
+  - family-names: Su
+    given-names: Xuanyuan
+preferred-citation:
+  type: article
+  title: "Human-like belief-feedback agent: A cognitive evidence graph-walking framework for trustworthy PHM algorithm recommendation"
+  authors:
+    - family-names: Su
+      given-names: Xuanyuan
+  journal: "Reliability Engineering & System Safety"
+  year: 2026
+  url: https://github.com/Suxuanyuan/BFGA-PHM-Recommendation

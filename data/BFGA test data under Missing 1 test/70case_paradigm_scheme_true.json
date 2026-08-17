@@ -1,0 +1,1546 @@
+{
+  "V4UQ9AUE": [
+    {
+      "node_id": "N7002",
+      "node_type": "15-Data Preprocessing Algorithm-Induction",
+      "node_name": "Signal Demodulation and Envelope Extraction Algorithm",
+      "node_description": "Extracts low-frequency modulated impulsive envelopes from high-frequency resonant carriers through nonlinear operations (e.g., analytic signal construction, rectification, energy operator)"
+    },
+    {
+      "node_id": "N7020",
+      "node_type": "16-Feature Extraction Algorithm-Induction",
+      "node_name": "Deep Representation and Neural Network Feature Extraction Algorithm",
+      "node_description": "Adaptively learns deep spatiotemporal feature representations from multi-source data via multi-layer nonlinear network structures with convolution, recurrence, or self-attention mechanisms"
+    },
+    {
+      "node_id": "N7030",
+      "node_type": "17-Core Classifier Algorithm-Induction",
+      "node_name": "Deep Learning Classification and Regression Network",
+      "node_description": "End-to-end learns high-order features and directly outputs classification probabilities or regression predictions via multi-layer nonlinear transformations of deep neural networks"
+    }
+  ],
+  "PLPK6U6Q": [
+    {
+      "node_id": "N7011",
+      "node_type": "15-Data Preprocessing Algorithm-Induction",
+      "node_name": "Time-Frequency Analysis and Integral Transform Algorithm",
+      "node_description": "Projects 1-D time-domain signals into a joint time-frequency bispectral space via mathematical integral transform to characterize local signal features across time and frequency"
+    },
+    {
+      "node_id": "N7019",
+      "node_type": "16-Feature Extraction Algorithm-Induction",
+      "node_name": "Time-Frequency Domain Statistical and Dimensionless Feature Extraction Algorithm",
+      "node_description": "Directly computes signal energy, distribution, and waveform distortion features in the time or frequency domain via mathematical statistical formulas to construct scalar indicators characterizing equipment state"
+    },
+    {
+      "node_id": "N7032",
+      "node_type": "17-Core Classifier Algorithm-Induction",
+      "node_name": "Classical Supervised Learning Classifier",
+      "node_description": "Constructs optimal classification hyperplanes or distance metric boundaries in handcrafted feature space through supervised learning"
+    },
+    {
+      "node_id": "N7046",
+      "node_type": "19-Training Optimization Algorithm-Induction",
+      "node_name": "Swarm Intelligence and Heuristic Optimization Algorithm",
+      "node_description": "Performs global search in multi-dimensional parameter space to determine optimal model hyperparameters by simulating natural swarm behavior or heuristic rules"
+    }
+  ],
+  "2LP67RE5": [
+    {
+      "node_id": "N7008",
+      "node_type": "15-Data Preprocessing Algorithm-Induction",
+      "node_name": "Data Normalization and Scaling Transform Algorithm",
+      "node_description": "Scales amplitude or feature values of multi-source heterogeneous data to a unified numeric range (e.g., [0,1] or [-1,1]) or standard distribution via linear or nonlinear mapping"
+    },
+    {
+      "node_id": "N7024",
+      "node_type": "16-Feature Extraction Algorithm-Induction",
+      "node_name": "Nonlinear Dynamics and Information Entropy Feature Extraction Algorithm",
+      "node_description": "Quantifies system state complexity and disorder by computing signal entropy at different time scales using statistical physics and nonlinear dynamics theory"
+    },
+    {
+      "node_id": "N7032",
+      "node_type": "17-Core Classifier Algorithm-Induction",
+      "node_name": "Classical Supervised Learning Classifier",
+      "node_description": "Constructs optimal classification hyperplanes or distance metric boundaries in handcrafted feature space through supervised learning"
+    }
+  ],
+  "J8RY3KA6": [
+    {
+      "node_id": "N7011",
+      "node_type": "15-Data Preprocessing Algorithm-Induction",
+      "node_name": "Time-Frequency Analysis and Integral Transform Algorithm",
+      "node_description": "Projects 1-D time-domain signals into a joint time-frequency bispectral space via mathematical integral transform to characterize local signal features across time and frequency"
+    },
+    {
+      "node_id": "N7017",
+      "node_type": "16-Feature Extraction Algorithm-Induction",
+      "node_name": "Unsupervised Reconstruction and Autoencoder Feature Learning Algorithm",
+      "node_description": "Adaptively learns compact, sparse, or robust feature representations of input data in the latent space by minimizing reconstruction error through encoder-decoder architecture"
+    },
+    {
+      "node_id": "N7030",
+      "node_type": "17-Core Classifier Algorithm-Induction",
+      "node_name": "Deep Learning Classification and Regression Network",
+      "node_description": "End-to-end learns high-order features and directly outputs classification probabilities or regression predictions via multi-layer nonlinear transformations of deep neural networks"
+    },
+    {
+      "node_id": "N7049",
+      "node_type": "19-Training Optimization Algorithm-Induction",
+      "node_name": "Transfer Learning and Domain Adaptation",
+      "node_description": "Achieves cross-condition, cross-equipment transfer of diagnostic knowledge by aligning feature distributions between source and target domains"
+    }
+  ],
+  "G7JD3IWQ": [
+    {
+      "node_id": "N7008",
+      "node_type": "15-Data Preprocessing Algorithm-Induction",
+      "node_name": "Data Normalization and Scaling Transform Algorithm",
+      "node_description": "Scales amplitude or feature values of multi-source heterogeneous data to a unified numeric range (e.g., [0,1] or [-1,1]) or standard distribution via linear or nonlinear mapping"
+    },
+    {
+      "node_id": "N7031",
+      "node_type": "17-Core Classifier Algorithm-Induction",
+      "node_name": "State Observer and Filter Estimation Method",
+      "node_description": "Reconstructs system states via recursive filtering or observers based on system dynamics equations or state-space models, generating residuals or updating degradation parameters"
+    },
+    {
+      "node_id": "N7048",
+      "node_type": "19-Training Optimization Algorithm-Induction",
+      "node_name": "Bayesian Inference and Probabilistic Parameter Estimation",
+      "node_description": "Infers posterior distributions of model parameters under Bayesian framework via prior distributions and likelihood functions to quantify prediction uncertainty"
+    }
+  ],
+  "HTRI3EBM": [
+    {
+      "node_id": "N7011",
+      "node_type": "15-Data Preprocessing Algorithm-Induction",
+      "node_name": "Time-Frequency Analysis and Integral Transform Algorithm",
+      "node_description": "Projects 1-D time-domain signals into a joint time-frequency bispectral space via mathematical integral transform to characterize local signal features across time and frequency"
+    },
+    {
+      "node_id": "N7017",
+      "node_type": "16-Feature Extraction Algorithm-Induction",
+      "node_name": "Unsupervised Reconstruction and Autoencoder Feature Learning Algorithm",
+      "node_description": "Adaptively learns compact, sparse, or robust feature representations of input data in the latent space by minimizing reconstruction error through encoder-decoder architecture"
+    },
+    {
+      "node_id": "N7030",
+      "node_type": "17-Core Classifier Algorithm-Induction",
+      "node_name": "Deep Learning Classification and Regression Network",
+      "node_description": "End-to-end learns high-order features and directly outputs classification probabilities or regression predictions via multi-layer nonlinear transformations of deep neural networks"
+    },
+    {
+      "node_id": "N7049",
+      "node_type": "19-Training Optimization Algorithm-Induction",
+      "node_name": "Transfer Learning and Domain Adaptation",
+      "node_description": "Achieves cross-condition, cross-equipment transfer of diagnostic knowledge by aligning feature distributions between source and target domains"
+    }
+  ],
+  "CIVJRAHU": [
+    {
+      "node_id": "N7008",
+      "node_type": "15-Data Preprocessing Algorithm-Induction",
+      "node_name": "Data Normalization and Scaling Transform Algorithm",
+      "node_description": "Scales amplitude or feature values of multi-source heterogeneous data to a unified numeric range (e.g., [0,1] or [-1,1]) or standard distribution via linear or nonlinear mapping"
+    },
+    {
+      "node_id": "N7019",
+      "node_type": "16-Feature Extraction Algorithm-Induction",
+      "node_name": "Time-Frequency Domain Statistical and Dimensionless Feature Extraction Algorithm",
+      "node_description": "Directly computes signal energy, distribution, and waveform distortion features in the time or frequency domain via mathematical statistical formulas to construct scalar indicators characterizing equipment state"
+    },
+    {
+      "node_id": "N7025",
+      "node_type": "17-Core Classifier Algorithm-Induction",
+      "node_name": "Traditional Statistical and Threshold-Based Discrimination Method",
+      "node_description": "Performs fault determination by directly setting thresholds based on statistical distributions, residual analysis, or physical quantities"
+    }
+  ],
+  "M4GBADCQ": [
+    {
+      "node_id": "N7011",
+      "node_type": "15-Data Preprocessing Algorithm-Induction",
+      "node_name": "Time-Frequency Analysis and Integral Transform Algorithm",
+      "node_description": "Projects 1-D time-domain signals into a joint time-frequency bispectral space via mathematical integral transform to characterize local signal features across time and frequency"
+    },
+    {
+      "node_id": "N7020",
+      "node_type": "16-Feature Extraction Algorithm-Induction",
+      "node_name": "Deep Representation and Neural Network Feature Extraction Algorithm",
+      "node_description": "Adaptively learns deep spatiotemporal feature representations from multi-source data via multi-layer nonlinear network structures with convolution, recurrence, or self-attention mechanisms"
+    },
+    {
+      "node_id": "N7032",
+      "node_type": "17-Core Classifier Algorithm-Induction",
+      "node_name": "Classical Supervised Learning Classifier",
+      "node_description": "Constructs optimal classification hyperplanes or distance metric boundaries in handcrafted feature space through supervised learning"
+    }
+  ],
+  "JLJHZUIN": [
+    {
+      "node_id": "N7008",
+      "node_type": "15-Data Preprocessing Algorithm-Induction",
+      "node_name": "Data Normalization and Scaling Transform Algorithm",
+      "node_description": "Scales amplitude or feature values of multi-source heterogeneous data to a unified numeric range (e.g., [0,1] or [-1,1]) or standard distribution via linear or nonlinear mapping"
+    },
+    {
+      "node_id": "N7024",
+      "node_type": "16-Feature Extraction Algorithm-Induction",
+      "node_name": "Nonlinear Dynamics and Information Entropy Feature Extraction Algorithm",
+      "node_description": "Quantifies system state complexity and disorder by computing signal entropy at different time scales using statistical physics and nonlinear dynamics theory"
+    },
+    {
+      "node_id": "N7032",
+      "node_type": "17-Core Classifier Algorithm-Induction",
+      "node_name": "Classical Supervised Learning Classifier",
+      "node_description": "Constructs optimal classification hyperplanes or distance metric boundaries in handcrafted feature space through supervised learning"
+    },
+    {
+      "node_id": "N7046",
+      "node_type": "19-Training Optimization Algorithm-Induction",
+      "node_name": "Swarm Intelligence and Heuristic Optimization Algorithm",
+      "node_description": "Performs global search in multi-dimensional parameter space to determine optimal model hyperparameters by simulating natural swarm behavior or heuristic rules"
+    }
+  ],
+  "MXCIHZ8N": [
+    {
+      "node_id": "N7019",
+      "node_type": "16-Feature Extraction Algorithm-Induction",
+      "node_name": "Time-Frequency Domain Statistical and Dimensionless Feature Extraction Algorithm",
+      "node_description": "Directly computes signal energy, distribution, and waveform distortion features in the time or frequency domain via mathematical statistical formulas to construct scalar indicators characterizing equipment state"
+    },
+    {
+      "node_id": "N7031",
+      "node_type": "17-Core Classifier Algorithm-Induction",
+      "node_name": "State Observer and Filter Estimation Method",
+      "node_description": "Reconstructs system states via recursive filtering or observers based on system dynamics equations or state-space models, generating residuals or updating degradation parameters"
+    }
+  ],
+  "4CSQUA9Y": [
+    {
+      "node_id": "N7008",
+      "node_type": "15-Data Preprocessing Algorithm-Induction",
+      "node_name": "Data Normalization and Scaling Transform Algorithm",
+      "node_description": "Scales amplitude or feature values of multi-source heterogeneous data to a unified numeric range (e.g., [0,1] or [-1,1]) or standard distribution via linear or nonlinear mapping"
+    },
+    {
+      "node_id": "N7020",
+      "node_type": "16-Feature Extraction Algorithm-Induction",
+      "node_name": "Deep Representation and Neural Network Feature Extraction Algorithm",
+      "node_description": "Adaptively learns deep spatiotemporal feature representations from multi-source data via multi-layer nonlinear network structures with convolution, recurrence, or self-attention mechanisms"
+    },
+    {
+      "node_id": "N7030",
+      "node_type": "17-Core Classifier Algorithm-Induction",
+      "node_name": "Deep Learning Classification and Regression Network",
+      "node_description": "End-to-end learns high-order features and directly outputs classification probabilities or regression predictions via multi-layer nonlinear transformations of deep neural networks"
+    },
+    {
+      "node_id": "N7042",
+      "node_type": "19-Training Optimization Algorithm-Induction",
+      "node_name": "Multi-Task and Joint Learning",
+      "node_description": "Improves feature richness by simultaneously training and optimizing multiple related tasks (e.g., classification and regression, detection and recognition) through shared underlying feature representations"
+    }
+  ],
+  "GL28S47U": [
+    {
+      "node_id": "N7005",
+      "node_type": "15-Data Preprocessing Algorithm-Induction",
+      "node_name": "Data Framing and Sliding Window Segmentation Algorithm",
+      "node_description": "Segments continuous ultra-long time-series signals into multiple local data segments or sample frames using fixed or adaptive-length windows"
+    },
+    {
+      "node_id": "N7020",
+      "node_type": "16-Feature Extraction Algorithm-Induction",
+      "node_name": "Deep Representation and Neural Network Feature Extraction Algorithm",
+      "node_description": "Adaptively learns deep spatiotemporal feature representations from multi-source data via multi-layer nonlinear network structures with convolution, recurrence, or self-attention mechanisms"
+    },
+    {
+      "node_id": "N7030",
+      "node_type": "17-Core Classifier Algorithm-Induction",
+      "node_name": "Deep Learning Classification and Regression Network",
+      "node_description": "End-to-end learns high-order features and directly outputs classification probabilities or regression predictions via multi-layer nonlinear transformations of deep neural networks"
+    },
+    {
+      "node_id": "N7042",
+      "node_type": "19-Training Optimization Algorithm-Induction",
+      "node_name": "Multi-Task and Joint Learning",
+      "node_description": "Improves feature richness by simultaneously training and optimizing multiple related tasks (e.g., classification and regression, detection and recognition) through shared underlying feature representations"
+    }
+  ],
+  "4Q5VTDX2": [
+    {
+      "node_id": "N7024",
+      "node_type": "16-Feature Extraction Algorithm-Induction",
+      "node_name": "Nonlinear Dynamics and Information Entropy Feature Extraction Algorithm",
+      "node_description": "Quantifies system state complexity and disorder by computing signal entropy at different time scales using statistical physics and nonlinear dynamics theory"
+    },
+    {
+      "node_id": "N7032",
+      "node_type": "17-Core Classifier Algorithm-Induction",
+      "node_name": "Classical Supervised Learning Classifier",
+      "node_description": "Constructs optimal classification hyperplanes or distance metric boundaries in handcrafted feature space through supervised learning"
+    }
+  ],
+  "7DZ4QNQ4": [
+    {
+      "node_id": "N7005",
+      "node_type": "15-Data Preprocessing Algorithm-Induction",
+      "node_name": "Data Framing and Sliding Window Segmentation Algorithm",
+      "node_description": "Segments continuous ultra-long time-series signals into multiple local data segments or sample frames using fixed or adaptive-length windows"
+    },
+    {
+      "node_id": "N7018",
+      "node_type": "16-Feature Extraction Algorithm-Induction",
+      "node_name": "Time-Frequency Analysis and Adaptive Signal Decomposition Algorithm",
+      "node_description": "Projects 1-D time-domain signals to a joint time-frequency domain via mathematical transform, or adaptively decomposes signals into multiple monocomponent modes based on local signal features to extract local time-frequency features"
+    },
+    {
+      "node_id": "N7025",
+      "node_type": "17-Core Classifier Algorithm-Induction",
+      "node_name": "Traditional Statistical and Threshold-Based Discrimination Method",
+      "node_description": "Performs fault determination by directly setting thresholds based on statistical distributions, residual analysis, or physical quantities"
+    }
+  ],
+  "W2TLLZVM": [
+    {
+      "node_id": "N7008",
+      "node_type": "15-Data Preprocessing Algorithm-Induction",
+      "node_name": "Data Normalization and Scaling Transform Algorithm",
+      "node_description": "Scales amplitude or feature values of multi-source heterogeneous data to a unified numeric range (e.g., [0,1] or [-1,1]) or standard distribution via linear or nonlinear mapping"
+    },
+    {
+      "node_id": "N7020",
+      "node_type": "16-Feature Extraction Algorithm-Induction",
+      "node_name": "Deep Representation and Neural Network Feature Extraction Algorithm",
+      "node_description": "Adaptively learns deep spatiotemporal feature representations from multi-source data via multi-layer nonlinear network structures with convolution, recurrence, or self-attention mechanisms"
+    },
+    {
+      "node_id": "N7030",
+      "node_type": "17-Core Classifier Algorithm-Induction",
+      "node_name": "Deep Learning Classification and Regression Network",
+      "node_description": "End-to-end learns high-order features and directly outputs classification probabilities or regression predictions via multi-layer nonlinear transformations of deep neural networks"
+    },
+    {
+      "node_id": "N7049",
+      "node_type": "19-Training Optimization Algorithm-Induction",
+      "node_name": "Transfer Learning and Domain Adaptation",
+      "node_description": "Achieves cross-condition, cross-equipment transfer of diagnostic knowledge by aligning feature distributions between source and target domains"
+    }
+  ],
+  "PPMG4PRM": [
+    {
+      "node_id": "N7011",
+      "node_type": "15-Data Preprocessing Algorithm-Induction",
+      "node_name": "Time-Frequency Analysis and Integral Transform Algorithm",
+      "node_description": "Projects 1-D time-domain signals into a joint time-frequency bispectral space via mathematical integral transform to characterize local signal features across time and frequency"
+    },
+    {
+      "node_id": "N7017",
+      "node_type": "16-Feature Extraction Algorithm-Induction",
+      "node_name": "Unsupervised Reconstruction and Autoencoder Feature Learning Algorithm",
+      "node_description": "Adaptively learns compact, sparse, or robust feature representations of input data in the latent space by minimizing reconstruction error through encoder-decoder architecture"
+    },
+    {
+      "node_id": "N7030",
+      "node_type": "17-Core Classifier Algorithm-Induction",
+      "node_name": "Deep Learning Classification and Regression Network",
+      "node_description": "End-to-end learns high-order features and directly outputs classification probabilities or regression predictions via multi-layer nonlinear transformations of deep neural networks"
+    },
+    {
+      "node_id": "N7049",
+      "node_type": "19-Training Optimization Algorithm-Induction",
+      "node_name": "Transfer Learning and Domain Adaptation",
+      "node_description": "Achieves cross-condition, cross-equipment transfer of diagnostic knowledge by aligning feature distributions between source and target domains"
+    }
+  ],
+  "ES4HC236": [
+    {
+      "node_id": "N7011",
+      "node_type": "15-Data Preprocessing Algorithm-Induction",
+      "node_name": "Time-Frequency Analysis and Integral Transform Algorithm",
+      "node_description": "Projects 1-D time-domain signals into a joint time-frequency bispectral space via mathematical integral transform to characterize local signal features across time and frequency"
+    },
+    {
+      "node_id": "N7018",
+      "node_type": "16-Feature Extraction Algorithm-Induction",
+      "node_name": "Time-Frequency Analysis and Adaptive Signal Decomposition Algorithm",
+      "node_description": "Projects 1-D time-domain signals to a joint time-frequency domain via mathematical transform, or adaptively decomposes signals into multiple monocomponent modes based on local signal features to extract local time-frequency features"
+    },
+    {
+      "node_id": "N7025",
+      "node_type": "17-Core Classifier Algorithm-Induction",
+      "node_name": "Traditional Statistical and Threshold-Based Discrimination Method",
+      "node_description": "Performs fault determination by directly setting thresholds based on statistical distributions, residual analysis, or physical quantities"
+    },
+    {
+      "node_id": "N7037",
+      "node_type": "18-Data Generation Algorithm-Induction",
+      "node_name": "Physics and Dynamics Mechanism Simulation Algorithm",
+      "node_description": "Establishes mathematical physics equations based on physical laws, electromagnetic theory, heat transfer, and multi-body dynamics, simulating system dynamic responses under different operating conditions and fault states via numerical solvers (e.g., finite element analysis, Runge-Kutta method) to generate high-fidelity simulation data"
+    }
+  ],
+  "QSIUJHZG": [
+    {
+      "node_id": "N7003",
+      "node_type": "15-Data Preprocessing Algorithm-Induction",
+      "node_name": "Conventional Time-Domain Filtering and Denoising Algorithm",
+      "node_description": "Filters out high-frequency noise, low-frequency interference, or specific harmonic components from signals using the transmission characteristics or statistical patterns of specific frequency bands"
+    },
+    {
+      "node_id": "N7024",
+      "node_type": "16-Feature Extraction Algorithm-Induction",
+      "node_name": "Nonlinear Dynamics and Information Entropy Feature Extraction Algorithm",
+      "node_description": "Quantifies system state complexity and disorder by computing signal entropy at different time scales using statistical physics and nonlinear dynamics theory"
+    },
+    {
+      "node_id": "N7026",
+      "node_type": "17-Core Classifier Algorithm-Induction",
+      "node_name": "Signal Processing and Spectral Feature Matching Method",
+      "node_description": "Extracts characteristic frequencies through time-frequency demodulation, order tracking, and other signal processing techniques, and directly compares them with theoretical physical characteristic frequencies for matching"
+    },
+    {
+      "node_id": "N7046",
+      "node_type": "19-Training Optimization Algorithm-Induction",
+      "node_name": "Swarm Intelligence and Heuristic Optimization Algorithm",
+      "node_description": "Performs global search in multi-dimensional parameter space to determine optimal model hyperparameters by simulating natural swarm behavior or heuristic rules"
+    }
+  ],
+  "VW62J9J5": [
+    {
+      "node_id": "N7008",
+      "node_type": "15-Data Preprocessing Algorithm-Induction",
+      "node_name": "Data Normalization and Scaling Transform Algorithm",
+      "node_description": "Scales amplitude or feature values of multi-source heterogeneous data to a unified numeric range (e.g., [0,1] or [-1,1]) or standard distribution via linear or nonlinear mapping"
+    },
+    {
+      "node_id": "N7020",
+      "node_type": "16-Feature Extraction Algorithm-Induction",
+      "node_name": "Deep Representation and Neural Network Feature Extraction Algorithm",
+      "node_description": "Adaptively learns deep spatiotemporal feature representations from multi-source data via multi-layer nonlinear network structures with convolution, recurrence, or self-attention mechanisms"
+    },
+    {
+      "node_id": "N7030",
+      "node_type": "17-Core Classifier Algorithm-Induction",
+      "node_name": "Deep Learning Classification and Regression Network",
+      "node_description": "End-to-end learns high-order features and directly outputs classification probabilities or regression predictions via multi-layer nonlinear transformations of deep neural networks"
+    },
+    {
+      "node_id": "N7037",
+      "node_type": "18-Data Generation Algorithm-Induction",
+      "node_name": "Physics and Dynamics Mechanism Simulation Algorithm",
+      "node_description": "Establishes mathematical physics equations based on physical laws, electromagnetic theory, heat transfer, and multi-body dynamics, simulating system dynamic responses under different operating conditions and fault states via numerical solvers (e.g., finite element analysis, Runge-Kutta method) to generate high-fidelity simulation data"
+    },
+    {
+      "node_id": "N7042",
+      "node_type": "19-Training Optimization Algorithm-Induction",
+      "node_name": "Multi-Task and Joint Learning",
+      "node_description": "Improves feature richness by simultaneously training and optimizing multiple related tasks (e.g., classification and regression, detection and recognition) through shared underlying feature representations"
+    }
+  ],
+  "IDP29JMR": [
+    {
+      "node_id": "N7018",
+      "node_type": "16-Feature Extraction Algorithm-Induction",
+      "node_name": "Time-Frequency Analysis and Adaptive Signal Decomposition Algorithm",
+      "node_description": "Projects 1-D time-domain signals to a joint time-frequency domain via mathematical transform, or adaptively decomposes signals into multiple monocomponent modes based on local signal features to extract local time-frequency features"
+    },
+    {
+      "node_id": "N7029",
+      "node_type": "17-Core Classifier Algorithm-Induction",
+      "node_name": "Fuzzy Logic and Rule-Based Reasoning System",
+      "node_description": "Combines qualitative expert knowledge with quantitative measurement data for reasoning and decision-making based on fuzzy set theory, If-Then logic rules, or Boolean algebra"
+    }
+  ],
+  "BDSZ85BY": [
+    {
+      "node_id": "N7003",
+      "node_type": "15-Data Preprocessing Algorithm-Induction",
+      "node_name": "Conventional Time-Domain Filtering and Denoising Algorithm",
+      "node_description": "Filters out high-frequency noise, low-frequency interference, or specific harmonic components from signals using the transmission characteristics or statistical patterns of specific frequency bands"
+    },
+    {
+      "node_id": "N7018",
+      "node_type": "16-Feature Extraction Algorithm-Induction",
+      "node_name": "Time-Frequency Analysis and Adaptive Signal Decomposition Algorithm",
+      "node_description": "Projects 1-D time-domain signals to a joint time-frequency domain via mathematical transform, or adaptively decomposes signals into multiple monocomponent modes based on local signal features to extract local time-frequency features"
+    },
+    {
+      "node_id": "N7026",
+      "node_type": "17-Core Classifier Algorithm-Induction",
+      "node_name": "Signal Processing and Spectral Feature Matching Method",
+      "node_description": "Extracts characteristic frequencies through time-frequency demodulation, order tracking, and other signal processing techniques, and directly compares them with theoretical physical characteristic frequencies for matching"
+    },
+    {
+      "node_id": "N7046",
+      "node_type": "19-Training Optimization Algorithm-Induction",
+      "node_name": "Swarm Intelligence and Heuristic Optimization Algorithm",
+      "node_description": "Performs global search in multi-dimensional parameter space to determine optimal model hyperparameters by simulating natural swarm behavior or heuristic rules"
+    }
+  ],
+  "HNHC8HF5": [
+    {
+      "node_id": "N7008",
+      "node_type": "15-Data Preprocessing Algorithm-Induction",
+      "node_name": "Data Normalization and Scaling Transform Algorithm",
+      "node_description": "Scales amplitude or feature values of multi-source heterogeneous data to a unified numeric range (e.g., [0,1] or [-1,1]) or standard distribution via linear or nonlinear mapping"
+    },
+    {
+      "node_id": "N7020",
+      "node_type": "16-Feature Extraction Algorithm-Induction",
+      "node_name": "Deep Representation and Neural Network Feature Extraction Algorithm",
+      "node_description": "Adaptively learns deep spatiotemporal feature representations from multi-source data via multi-layer nonlinear network structures with convolution, recurrence, or self-attention mechanisms"
+    },
+    {
+      "node_id": "N7030",
+      "node_type": "17-Core Classifier Algorithm-Induction",
+      "node_name": "Deep Learning Classification and Regression Network",
+      "node_description": "End-to-end learns high-order features and directly outputs classification probabilities or regression predictions via multi-layer nonlinear transformations of deep neural networks"
+    },
+    {
+      "node_id": "N7042",
+      "node_type": "19-Training Optimization Algorithm-Induction",
+      "node_name": "Multi-Task and Joint Learning",
+      "node_description": "Improves feature richness by simultaneously training and optimizing multiple related tasks (e.g., classification and regression, detection and recognition) through shared underlying feature representations"
+    }
+  ],
+  "89FBE9W7": [
+    {
+      "node_id": "N7018",
+      "node_type": "16-Feature Extraction Algorithm-Induction",
+      "node_name": "Time-Frequency Analysis and Adaptive Signal Decomposition Algorithm",
+      "node_description": "Projects 1-D time-domain signals to a joint time-frequency domain via mathematical transform, or adaptively decomposes signals into multiple monocomponent modes based on local signal features to extract local time-frequency features"
+    },
+    {
+      "node_id": "N7032",
+      "node_type": "17-Core Classifier Algorithm-Induction",
+      "node_name": "Classical Supervised Learning Classifier",
+      "node_description": "Constructs optimal classification hyperplanes or distance metric boundaries in handcrafted feature space through supervised learning"
+    }
+  ],
+  "I9Y7XCUQ": [
+    {
+      "node_id": "N7011",
+      "node_type": "15-Data Preprocessing Algorithm-Induction",
+      "node_name": "Time-Frequency Analysis and Integral Transform Algorithm",
+      "node_description": "Projects 1-D time-domain signals into a joint time-frequency bispectral space via mathematical integral transform to characterize local signal features across time and frequency"
+    },
+    {
+      "node_id": "N7020",
+      "node_type": "16-Feature Extraction Algorithm-Induction",
+      "node_name": "Deep Representation and Neural Network Feature Extraction Algorithm",
+      "node_description": "Adaptively learns deep spatiotemporal feature representations from multi-source data via multi-layer nonlinear network structures with convolution, recurrence, or self-attention mechanisms"
+    },
+    {
+      "node_id": "N7030",
+      "node_type": "17-Core Classifier Algorithm-Induction",
+      "node_name": "Deep Learning Classification and Regression Network",
+      "node_description": "End-to-end learns high-order features and directly outputs classification probabilities or regression predictions via multi-layer nonlinear transformations of deep neural networks"
+    }
+  ],
+  "IK4D6KTP": [
+    {
+      "node_id": "N7017",
+      "node_type": "16-Feature Extraction Algorithm-Induction",
+      "node_name": "Unsupervised Reconstruction and Autoencoder Feature Learning Algorithm",
+      "node_description": "Adaptively learns compact, sparse, or robust feature representations of input data in the latent space by minimizing reconstruction error through encoder-decoder architecture"
+    },
+    {
+      "node_id": "N7030",
+      "node_type": "17-Core Classifier Algorithm-Induction",
+      "node_name": "Deep Learning Classification and Regression Network",
+      "node_description": "End-to-end learns high-order features and directly outputs classification probabilities or regression predictions via multi-layer nonlinear transformations of deep neural networks"
+    }
+  ],
+  "PJV3HZV9": [
+    {
+      "node_id": "N7015",
+      "node_type": "15-Data Preprocessing Algorithm-Induction",
+      "node_name": "Angular Domain Resampling and Order Tracking Algorithm",
+      "node_description": "Converts non-stationary time-domain signals sampled at equal time intervals into angular-domain stationary signals sampled at equal angle intervals using rotational speed or phase information"
+    },
+    {
+      "node_id": "N7017",
+      "node_type": "16-Feature Extraction Algorithm-Induction",
+      "node_name": "Unsupervised Reconstruction and Autoencoder Feature Learning Algorithm",
+      "node_description": "Adaptively learns compact, sparse, or robust feature representations of input data in the latent space by minimizing reconstruction error through encoder-decoder architecture"
+    },
+    {
+      "node_id": "N7032",
+      "node_type": "17-Core Classifier Algorithm-Induction",
+      "node_name": "Classical Supervised Learning Classifier",
+      "node_description": "Constructs optimal classification hyperplanes or distance metric boundaries in handcrafted feature space through supervised learning"
+    },
+    {
+      "node_id": "N7049",
+      "node_type": "19-Training Optimization Algorithm-Induction",
+      "node_name": "Transfer Learning and Domain Adaptation",
+      "node_description": "Achieves cross-condition, cross-equipment transfer of diagnostic knowledge by aligning feature distributions between source and target domains"
+    }
+  ],
+  "8AFQM964": [
+    {
+      "node_id": "N7018",
+      "node_type": "16-Feature Extraction Algorithm-Induction",
+      "node_name": "Time-Frequency Analysis and Adaptive Signal Decomposition Algorithm",
+      "node_description": "Projects 1-D time-domain signals to a joint time-frequency domain via mathematical transform, or adaptively decomposes signals into multiple monocomponent modes based on local signal features to extract local time-frequency features"
+    },
+    {
+      "node_id": "N7032",
+      "node_type": "17-Core Classifier Algorithm-Induction",
+      "node_name": "Classical Supervised Learning Classifier",
+      "node_description": "Constructs optimal classification hyperplanes or distance metric boundaries in handcrafted feature space through supervised learning"
+    },
+    {
+      "node_id": "N7046",
+      "node_type": "19-Training Optimization Algorithm-Induction",
+      "node_name": "Swarm Intelligence and Heuristic Optimization Algorithm",
+      "node_description": "Performs global search in multi-dimensional parameter space to determine optimal model hyperparameters by simulating natural swarm behavior or heuristic rules"
+    }
+  ],
+  "XRUQGDZ4": [
+    {
+      "node_id": "N7011",
+      "node_type": "15-Data Preprocessing Algorithm-Induction",
+      "node_name": "Time-Frequency Analysis and Integral Transform Algorithm",
+      "node_description": "Projects 1-D time-domain signals into a joint time-frequency bispectral space via mathematical integral transform to characterize local signal features across time and frequency"
+    },
+    {
+      "node_id": "N7020",
+      "node_type": "16-Feature Extraction Algorithm-Induction",
+      "node_name": "Deep Representation and Neural Network Feature Extraction Algorithm",
+      "node_description": "Adaptively learns deep spatiotemporal feature representations from multi-source data via multi-layer nonlinear network structures with convolution, recurrence, or self-attention mechanisms"
+    },
+    {
+      "node_id": "N7030",
+      "node_type": "17-Core Classifier Algorithm-Induction",
+      "node_name": "Deep Learning Classification and Regression Network",
+      "node_description": "End-to-end learns high-order features and directly outputs classification probabilities or regression predictions via multi-layer nonlinear transformations of deep neural networks"
+    },
+    {
+      "node_id": "N7049",
+      "node_type": "19-Training Optimization Algorithm-Induction",
+      "node_name": "Transfer Learning and Domain Adaptation",
+      "node_description": "Achieves cross-condition, cross-equipment transfer of diagnostic knowledge by aligning feature distributions between source and target domains"
+    }
+  ],
+  "TB2IP634": [
+    {
+      "node_id": "N7003",
+      "node_type": "15-Data Preprocessing Algorithm-Induction",
+      "node_name": "Conventional Time-Domain Filtering and Denoising Algorithm",
+      "node_description": "Filters out high-frequency noise, low-frequency interference, or specific harmonic components from signals using the transmission characteristics or statistical patterns of specific frequency bands"
+    },
+    {
+      "node_id": "N7018",
+      "node_type": "16-Feature Extraction Algorithm-Induction",
+      "node_name": "Time-Frequency Analysis and Adaptive Signal Decomposition Algorithm",
+      "node_description": "Projects 1-D time-domain signals to a joint time-frequency domain via mathematical transform, or adaptively decomposes signals into multiple monocomponent modes based on local signal features to extract local time-frequency features"
+    },
+    {
+      "node_id": "N7032",
+      "node_type": "17-Core Classifier Algorithm-Induction",
+      "node_name": "Classical Supervised Learning Classifier",
+      "node_description": "Constructs optimal classification hyperplanes or distance metric boundaries in handcrafted feature space through supervised learning"
+    },
+    {
+      "node_id": "N7046",
+      "node_type": "19-Training Optimization Algorithm-Induction",
+      "node_name": "Swarm Intelligence and Heuristic Optimization Algorithm",
+      "node_description": "Performs global search in multi-dimensional parameter space to determine optimal model hyperparameters by simulating natural swarm behavior or heuristic rules"
+    }
+  ],
+  "TLVNPMZ5": [
+    {
+      "node_id": "N7006",
+      "node_type": "15-Data Preprocessing Algorithm-Induction",
+      "node_name": "Data Augmentation and Sample Expansion Algorithm",
+      "node_description": "Expands the training dataset by introducing artificial perturbations (e.g., noise addition, translation, cropping, scaling) to original samples while preserving labels"
+    },
+    {
+      "node_id": "N7020",
+      "node_type": "16-Feature Extraction Algorithm-Induction",
+      "node_name": "Deep Representation and Neural Network Feature Extraction Algorithm",
+      "node_description": "Adaptively learns deep spatiotemporal feature representations from multi-source data via multi-layer nonlinear network structures with convolution, recurrence, or self-attention mechanisms"
+    },
+    {
+      "node_id": "N7030",
+      "node_type": "17-Core Classifier Algorithm-Induction",
+      "node_name": "Deep Learning Classification and Regression Network",
+      "node_description": "End-to-end learns high-order features and directly outputs classification probabilities or regression predictions via multi-layer nonlinear transformations of deep neural networks"
+    },
+    {
+      "node_id": "N7049",
+      "node_type": "19-Training Optimization Algorithm-Induction",
+      "node_name": "Transfer Learning and Domain Adaptation",
+      "node_description": "Achieves cross-condition, cross-equipment transfer of diagnostic knowledge by aligning feature distributions between source and target domains"
+    }
+  ],
+  "57LP6DL6": [
+    {
+      "node_id": "N7008",
+      "node_type": "15-Data Preprocessing Algorithm-Induction",
+      "node_name": "Data Normalization and Scaling Transform Algorithm",
+      "node_description": "Scales amplitude or feature values of multi-source heterogeneous data to a unified numeric range (e.g., [0,1] or [-1,1]) or standard distribution via linear or nonlinear mapping"
+    },
+    {
+      "node_id": "N7023",
+      "node_type": "16-Feature Extraction Algorithm-Induction",
+      "node_name": "Linear and Nonlinear Dimensionality Reduction and Manifold Learning Algorithm",
+      "node_description": "Projects high-dimensional feature space to low-dimensional space while eliminating redundancy and preserving global variance or local topological manifold structure of the data"
+    },
+    {
+      "node_id": "N7032",
+      "node_type": "17-Core Classifier Algorithm-Induction",
+      "node_name": "Classical Supervised Learning Classifier",
+      "node_description": "Constructs optimal classification hyperplanes or distance metric boundaries in handcrafted feature space through supervised learning"
+    }
+  ],
+  "C97VPD9A": [
+    {
+      "node_id": "N7014",
+      "node_type": "15-Data Preprocessing Algorithm-Induction",
+      "node_name": "Adaptive Signal Decomposition and Decoupling Algorithm",
+      "node_description": "Adaptively decomposes signals into several physically meaningful monocomponent or narrowband mode functions based on their local time-varying characteristics"
+    },
+    {
+      "node_id": "N7030",
+      "node_type": "17-Core Classifier Algorithm-Induction",
+      "node_name": "Deep Learning Classification and Regression Network",
+      "node_description": "End-to-end learns high-order features and directly outputs classification probabilities or regression predictions via multi-layer nonlinear transformations of deep neural networks"
+    }
+  ],
+  "ZUQZN9HL": [
+    {
+      "node_id": "N7011",
+      "node_type": "15-Data Preprocessing Algorithm-Induction",
+      "node_name": "Time-Frequency Analysis and Integral Transform Algorithm",
+      "node_description": "Projects 1-D time-domain signals into a joint time-frequency bispectral space via mathematical integral transform to characterize local signal features across time and frequency"
+    },
+    {
+      "node_id": "N7030",
+      "node_type": "17-Core Classifier Algorithm-Induction",
+      "node_name": "Deep Learning Classification and Regression Network",
+      "node_description": "End-to-end learns high-order features and directly outputs classification probabilities or regression predictions via multi-layer nonlinear transformations of deep neural networks"
+    },
+    {
+      "node_id": "N7038",
+      "node_type": "18-Data Generation Algorithm-Induction",
+      "node_name": "Generative Adversarial Network",
+      "node_description": "Learns the probability distribution of real fault data through alternating adversarial optimization between generator and discriminator, generating highly realistic virtual fault samples"
+    }
+  ],
+  "ZN4Z6QPP": [
+    {
+      "node_id": "N7023",
+      "node_type": "16-Feature Extraction Algorithm-Induction",
+      "node_name": "Linear and Nonlinear Dimensionality Reduction and Manifold Learning Algorithm",
+      "node_description": "Projects high-dimensional feature space to low-dimensional space while eliminating redundancy and preserving global variance or local topological manifold structure of the data"
+    },
+    {
+      "node_id": "N7030",
+      "node_type": "17-Core Classifier Algorithm-Induction",
+      "node_name": "Deep Learning Classification and Regression Network",
+      "node_description": "End-to-end learns high-order features and directly outputs classification probabilities or regression predictions via multi-layer nonlinear transformations of deep neural networks"
+    }
+  ],
+  "9WYMRQ2V": [
+    {
+      "node_id": "N7008",
+      "node_type": "15-Data Preprocessing Algorithm-Induction",
+      "node_name": "Data Normalization and Scaling Transform Algorithm",
+      "node_description": "Scales amplitude or feature values of multi-source heterogeneous data to a unified numeric range (e.g., [0,1] or [-1,1]) or standard distribution via linear or nonlinear mapping"
+    },
+    {
+      "node_id": "N7020",
+      "node_type": "16-Feature Extraction Algorithm-Induction",
+      "node_name": "Deep Representation and Neural Network Feature Extraction Algorithm",
+      "node_description": "Adaptively learns deep spatiotemporal feature representations from multi-source data via multi-layer nonlinear network structures with convolution, recurrence, or self-attention mechanisms"
+    },
+    {
+      "node_id": "N7027",
+      "node_type": "17-Core Classifier Algorithm-Induction",
+      "node_name": "Unsupervised Clustering and Manifold Learning",
+      "node_description": "Performs natural clustering partitioning of unlabeled data based on geometric distance, density distribution, or topological similarity between samples"
+    }
+  ],
+  "6LHBQ6AE": [
+    {
+      "node_id": "N7009",
+      "node_type": "15-Data Preprocessing Algorithm-Induction",
+      "node_name": "Data Dimensionality Reduction and Projection Transform Algorithm",
+      "node_description": "Maps high-dimensional multi-source sensor feature space to a low-dimensional manifold space via orthogonal projection or sparse representation, preserving core degradation information"
+    },
+    {
+      "node_id": "N7020",
+      "node_type": "16-Feature Extraction Algorithm-Induction",
+      "node_name": "Deep Representation and Neural Network Feature Extraction Algorithm",
+      "node_description": "Adaptively learns deep spatiotemporal feature representations from multi-source data via multi-layer nonlinear network structures with convolution, recurrence, or self-attention mechanisms"
+    },
+    {
+      "node_id": "N7030",
+      "node_type": "17-Core Classifier Algorithm-Induction",
+      "node_name": "Deep Learning Classification and Regression Network",
+      "node_description": "End-to-end learns high-order features and directly outputs classification probabilities or regression predictions via multi-layer nonlinear transformations of deep neural networks"
+    }
+  ],
+  "EEJ3TGLE": [
+    {
+      "node_id": "N7003",
+      "node_type": "15-Data Preprocessing Algorithm-Induction",
+      "node_name": "Conventional Time-Domain Filtering and Denoising Algorithm",
+      "node_description": "Filters out high-frequency noise, low-frequency interference, or specific harmonic components from signals using the transmission characteristics or statistical patterns of specific frequency bands"
+    },
+    {
+      "node_id": "N7024",
+      "node_type": "16-Feature Extraction Algorithm-Induction",
+      "node_name": "Nonlinear Dynamics and Information Entropy Feature Extraction Algorithm",
+      "node_description": "Quantifies system state complexity and disorder by computing signal entropy at different time scales using statistical physics and nonlinear dynamics theory"
+    },
+    {
+      "node_id": "N7026",
+      "node_type": "17-Core Classifier Algorithm-Induction",
+      "node_name": "Signal Processing and Spectral Feature Matching Method",
+      "node_description": "Extracts characteristic frequencies through time-frequency demodulation, order tracking, and other signal processing techniques, and directly compares them with theoretical physical characteristic frequencies for matching"
+    }
+  ],
+  "7PLRHJYY": [
+    {
+      "node_id": "N7003",
+      "node_type": "15-Data Preprocessing Algorithm-Induction",
+      "node_name": "Conventional Time-Domain Filtering and Denoising Algorithm",
+      "node_description": "Filters out high-frequency noise, low-frequency interference, or specific harmonic components from signals using the transmission characteristics or statistical patterns of specific frequency bands"
+    },
+    {
+      "node_id": "N7024",
+      "node_type": "16-Feature Extraction Algorithm-Induction",
+      "node_name": "Nonlinear Dynamics and Information Entropy Feature Extraction Algorithm",
+      "node_description": "Quantifies system state complexity and disorder by computing signal entropy at different time scales using statistical physics and nonlinear dynamics theory"
+    },
+    {
+      "node_id": "N7032",
+      "node_type": "17-Core Classifier Algorithm-Induction",
+      "node_name": "Classical Supervised Learning Classifier",
+      "node_description": "Constructs optimal classification hyperplanes or distance metric boundaries in handcrafted feature space through supervised learning"
+    },
+    {
+      "node_id": "N7045",
+      "node_type": "19-Training Optimization Algorithm-Induction",
+      "node_name": "Numerical Optimization and Sparse Reconstruction Algorithm",
+      "node_description": "Achieves sparse signal representation and feature extraction by solving constrained convex/non-convex optimization problems using mathematical programming and splitting algorithms"
+    }
+  ],
+  "IR96MHDA": [
+    {
+      "node_id": "N7003",
+      "node_type": "15-Data Preprocessing Algorithm-Induction",
+      "node_name": "Conventional Time-Domain Filtering and Denoising Algorithm",
+      "node_description": "Filters out high-frequency noise, low-frequency interference, or specific harmonic components from signals using the transmission characteristics or statistical patterns of specific frequency bands"
+    },
+    {
+      "node_id": "N7018",
+      "node_type": "16-Feature Extraction Algorithm-Induction",
+      "node_name": "Time-Frequency Analysis and Adaptive Signal Decomposition Algorithm",
+      "node_description": "Projects 1-D time-domain signals to a joint time-frequency domain via mathematical transform, or adaptively decomposes signals into multiple monocomponent modes based on local signal features to extract local time-frequency features"
+    },
+    {
+      "node_id": "N7026",
+      "node_type": "17-Core Classifier Algorithm-Induction",
+      "node_name": "Signal Processing and Spectral Feature Matching Method",
+      "node_description": "Extracts characteristic frequencies through time-frequency demodulation, order tracking, and other signal processing techniques, and directly compares them with theoretical physical characteristic frequencies for matching"
+    },
+    {
+      "node_id": "N7046",
+      "node_type": "19-Training Optimization Algorithm-Induction",
+      "node_name": "Swarm Intelligence and Heuristic Optimization Algorithm",
+      "node_description": "Performs global search in multi-dimensional parameter space to determine optimal model hyperparameters by simulating natural swarm behavior or heuristic rules"
+    }
+  ],
+  "Q95L7CJS": [
+    {
+      "node_id": "N7016",
+      "node_type": "16-Feature Extraction Algorithm-Induction",
+      "node_name": "Residual Feature Extraction Algorithm Based on State Observer and Filtering",
+      "node_description": "Generates residual features by estimating the deviation between system output and actual measurements based on physics-based models or data-driven state equations"
+    },
+    {
+      "node_id": "N7025",
+      "node_type": "17-Core Classifier Algorithm-Induction",
+      "node_name": "Traditional Statistical and Threshold-Based Discrimination Method",
+      "node_description": "Performs fault determination by directly setting thresholds based on statistical distributions, residual analysis, or physical quantities"
+    }
+  ],
+  "ZP7GFGR8": [
+    {
+      "node_id": "N7011",
+      "node_type": "15-Data Preprocessing Algorithm-Induction",
+      "node_name": "Time-Frequency Analysis and Integral Transform Algorithm",
+      "node_description": "Projects 1-D time-domain signals into a joint time-frequency bispectral space via mathematical integral transform to characterize local signal features across time and frequency"
+    },
+    {
+      "node_id": "N7020",
+      "node_type": "16-Feature Extraction Algorithm-Induction",
+      "node_name": "Deep Representation and Neural Network Feature Extraction Algorithm",
+      "node_description": "Adaptively learns deep spatiotemporal feature representations from multi-source data via multi-layer nonlinear network structures with convolution, recurrence, or self-attention mechanisms"
+    },
+    {
+      "node_id": "N7030",
+      "node_type": "17-Core Classifier Algorithm-Induction",
+      "node_name": "Deep Learning Classification and Regression Network",
+      "node_description": "End-to-end learns high-order features and directly outputs classification probabilities or regression predictions via multi-layer nonlinear transformations of deep neural networks"
+    },
+    {
+      "node_id": "N7035",
+      "node_type": "18-Data Generation Algorithm-Induction",
+      "node_name": "Deep Learning-Based reconstruction and Prediction Generation Algorithm",
+      "node_description": "Generates virtual samples or extended degradation trajectories using the reconstruction or prediction capabilities of non-adversarial deep neural networks (e.g., autoencoders, recurrent neural networks, transposed convolutional networks) via feature mapping, temporal extrapolation, or latent space reconstruction"
+    },
+    {
+      "node_id": "N7049",
+      "node_type": "19-Training Optimization Algorithm-Induction",
+      "node_name": "Transfer Learning and Domain Adaptation",
+      "node_description": "Achieves cross-condition, cross-equipment transfer of diagnostic knowledge by aligning feature distributions between source and target domains"
+    }
+  ],
+  "95DV4BGW": [
+    {
+      "node_id": "N7011",
+      "node_type": "15-Data Preprocessing Algorithm-Induction",
+      "node_name": "Time-Frequency Analysis and Integral Transform Algorithm",
+      "node_description": "Projects 1-D time-domain signals into a joint time-frequency bispectral space via mathematical integral transform to characterize local signal features across time and frequency"
+    },
+    {
+      "node_id": "N7020",
+      "node_type": "16-Feature Extraction Algorithm-Induction",
+      "node_name": "Deep Representation and Neural Network Feature Extraction Algorithm",
+      "node_description": "Adaptively learns deep spatiotemporal feature representations from multi-source data via multi-layer nonlinear network structures with convolution, recurrence, or self-attention mechanisms"
+    },
+    {
+      "node_id": "N7030",
+      "node_type": "17-Core Classifier Algorithm-Induction",
+      "node_name": "Deep Learning Classification and Regression Network",
+      "node_description": "End-to-end learns high-order features and directly outputs classification probabilities or regression predictions via multi-layer nonlinear transformations of deep neural networks"
+    },
+    {
+      "node_id": "N7049",
+      "node_type": "19-Training Optimization Algorithm-Induction",
+      "node_name": "Transfer Learning and Domain Adaptation",
+      "node_description": "Achieves cross-condition, cross-equipment transfer of diagnostic knowledge by aligning feature distributions between source and target domains"
+    }
+  ],
+  "E6IAIDDP": [
+    {
+      "node_id": "N7011",
+      "node_type": "15-Data Preprocessing Algorithm-Induction",
+      "node_name": "Time-Frequency Analysis and Integral Transform Algorithm",
+      "node_description": "Projects 1-D time-domain signals into a joint time-frequency bispectral space via mathematical integral transform to characterize local signal features across time and frequency"
+    },
+    {
+      "node_id": "N7022",
+      "node_type": "16-Feature Extraction Algorithm-Induction",
+      "node_name": "Sparse Representation and Dictionary Learning Algorithm",
+      "node_description": "Performs sparse projection of signals on an overcomplete redundant dictionary, reconstructing and extracting target impulsive features using linear combinations of very few atoms"
+    },
+    {
+      "node_id": "N7030",
+      "node_type": "17-Core Classifier Algorithm-Induction",
+      "node_name": "Deep Learning Classification and Regression Network",
+      "node_description": "End-to-end learns high-order features and directly outputs classification probabilities or regression predictions via multi-layer nonlinear transformations of deep neural networks"
+    },
+    {
+      "node_id": "N7049",
+      "node_type": "19-Training Optimization Algorithm-Induction",
+      "node_name": "Transfer Learning and Domain Adaptation",
+      "node_description": "Achieves cross-condition, cross-equipment transfer of diagnostic knowledge by aligning feature distributions between source and target domains"
+    }
+  ],
+  "AXB3YMZY": [
+    {
+      "node_id": "N7011",
+      "node_type": "15-Data Preprocessing Algorithm-Induction",
+      "node_name": "Time-Frequency Analysis and Integral Transform Algorithm",
+      "node_description": "Projects 1-D time-domain signals into a joint time-frequency bispectral space via mathematical integral transform to characterize local signal features across time and frequency"
+    },
+    {
+      "node_id": "N7018",
+      "node_type": "16-Feature Extraction Algorithm-Induction",
+      "node_name": "Time-Frequency Analysis and Adaptive Signal Decomposition Algorithm",
+      "node_description": "Projects 1-D time-domain signals to a joint time-frequency domain via mathematical transform, or adaptively decomposes signals into multiple monocomponent modes based on local signal features to extract local time-frequency features"
+    },
+    {
+      "node_id": "N7030",
+      "node_type": "17-Core Classifier Algorithm-Induction",
+      "node_name": "Deep Learning Classification and Regression Network",
+      "node_description": "End-to-end learns high-order features and directly outputs classification probabilities or regression predictions via multi-layer nonlinear transformations of deep neural networks"
+    },
+    {
+      "node_id": "N7049",
+      "node_type": "19-Training Optimization Algorithm-Induction",
+      "node_name": "Transfer Learning and Domain Adaptation",
+      "node_description": "Achieves cross-condition, cross-equipment transfer of diagnostic knowledge by aligning feature distributions between source and target domains"
+    }
+  ],
+  "MPA3LV6I": [
+    {
+      "node_id": "N7011",
+      "node_type": "15-Data Preprocessing Algorithm-Induction",
+      "node_name": "Time-Frequency Analysis and Integral Transform Algorithm",
+      "node_description": "Projects 1-D time-domain signals into a joint time-frequency bispectral space via mathematical integral transform to characterize local signal features across time and frequency"
+    },
+    {
+      "node_id": "N7020",
+      "node_type": "16-Feature Extraction Algorithm-Induction",
+      "node_name": "Deep Representation and Neural Network Feature Extraction Algorithm",
+      "node_description": "Adaptively learns deep spatiotemporal feature representations from multi-source data via multi-layer nonlinear network structures with convolution, recurrence, or self-attention mechanisms"
+    },
+    {
+      "node_id": "N7032",
+      "node_type": "17-Core Classifier Algorithm-Induction",
+      "node_name": "Classical Supervised Learning Classifier",
+      "node_description": "Constructs optimal classification hyperplanes or distance metric boundaries in handcrafted feature space through supervised learning"
+    },
+    {
+      "node_id": "N7049",
+      "node_type": "19-Training Optimization Algorithm-Induction",
+      "node_name": "Transfer Learning and Domain Adaptation",
+      "node_description": "Achieves cross-condition, cross-equipment transfer of diagnostic knowledge by aligning feature distributions between source and target domains"
+    }
+  ],
+  "JMCM2BHR": [
+    {
+      "node_id": "N7011",
+      "node_type": "15-Data Preprocessing Algorithm-Induction",
+      "node_name": "Time-Frequency Analysis and Integral Transform Algorithm",
+      "node_description": "Projects 1-D time-domain signals into a joint time-frequency bispectral space via mathematical integral transform to characterize local signal features across time and frequency"
+    },
+    {
+      "node_id": "N7024",
+      "node_type": "16-Feature Extraction Algorithm-Induction",
+      "node_name": "Nonlinear Dynamics and Information Entropy Feature Extraction Algorithm",
+      "node_description": "Quantifies system state complexity and disorder by computing signal entropy at different time scales using statistical physics and nonlinear dynamics theory"
+    },
+    {
+      "node_id": "N7030",
+      "node_type": "17-Core Classifier Algorithm-Induction",
+      "node_name": "Deep Learning Classification and Regression Network",
+      "node_description": "End-to-end learns high-order features and directly outputs classification probabilities or regression predictions via multi-layer nonlinear transformations of deep neural networks"
+    },
+    {
+      "node_id": "N7049",
+      "node_type": "19-Training Optimization Algorithm-Induction",
+      "node_name": "Transfer Learning and Domain Adaptation",
+      "node_description": "Achieves cross-condition, cross-equipment transfer of diagnostic knowledge by aligning feature distributions between source and target domains"
+    }
+  ],
+  "VV9QRE4B": [
+    {
+      "node_id": "N7008",
+      "node_type": "15-Data Preprocessing Algorithm-Induction",
+      "node_name": "Data Normalization and Scaling Transform Algorithm",
+      "node_description": "Scales amplitude or feature values of multi-source heterogeneous data to a unified numeric range (e.g., [0,1] or [-1,1]) or standard distribution via linear or nonlinear mapping"
+    },
+    {
+      "node_id": "N7020",
+      "node_type": "16-Feature Extraction Algorithm-Induction",
+      "node_name": "Deep Representation and Neural Network Feature Extraction Algorithm",
+      "node_description": "Adaptively learns deep spatiotemporal feature representations from multi-source data via multi-layer nonlinear network structures with convolution, recurrence, or self-attention mechanisms"
+    },
+    {
+      "node_id": "N7030",
+      "node_type": "17-Core Classifier Algorithm-Induction",
+      "node_name": "Deep Learning Classification and Regression Network",
+      "node_description": "End-to-end learns high-order features and directly outputs classification probabilities or regression predictions via multi-layer nonlinear transformations of deep neural networks"
+    },
+    {
+      "node_id": "N7049",
+      "node_type": "19-Training Optimization Algorithm-Induction",
+      "node_name": "Transfer Learning and Domain Adaptation",
+      "node_description": "Achieves cross-condition, cross-equipment transfer of diagnostic knowledge by aligning feature distributions between source and target domains"
+    }
+  ],
+  "YPJLLSHM": [
+    {
+      "node_id": "N7011",
+      "node_type": "15-Data Preprocessing Algorithm-Induction",
+      "node_name": "Time-Frequency Analysis and Integral Transform Algorithm",
+      "node_description": "Projects 1-D time-domain signals into a joint time-frequency bispectral space via mathematical integral transform to characterize local signal features across time and frequency"
+    },
+    {
+      "node_id": "N7022",
+      "node_type": "16-Feature Extraction Algorithm-Induction",
+      "node_name": "Sparse Representation and Dictionary Learning Algorithm",
+      "node_description": "Performs sparse projection of signals on an overcomplete redundant dictionary, reconstructing and extracting target impulsive features using linear combinations of very few atoms"
+    },
+    {
+      "node_id": "N7032",
+      "node_type": "17-Core Classifier Algorithm-Induction",
+      "node_name": "Classical Supervised Learning Classifier",
+      "node_description": "Constructs optimal classification hyperplanes or distance metric boundaries in handcrafted feature space through supervised learning"
+    },
+    {
+      "node_id": "N7045",
+      "node_type": "19-Training Optimization Algorithm-Induction",
+      "node_name": "Numerical Optimization and Sparse Reconstruction Algorithm",
+      "node_description": "Achieves sparse signal representation and feature extraction by solving constrained convex/non-convex optimization problems using mathematical programming and splitting algorithms"
+    }
+  ],
+  "EPI9LJ3F": [
+    {
+      "node_id": "N7005",
+      "node_type": "15-Data Preprocessing Algorithm-Induction",
+      "node_name": "Data Framing and Sliding Window Segmentation Algorithm",
+      "node_description": "Segments continuous ultra-long time-series signals into multiple local data segments or sample frames using fixed or adaptive-length windows"
+    },
+    {
+      "node_id": "N7020",
+      "node_type": "16-Feature Extraction Algorithm-Induction",
+      "node_name": "Deep Representation and Neural Network Feature Extraction Algorithm",
+      "node_description": "Adaptively learns deep spatiotemporal feature representations from multi-source data via multi-layer nonlinear network structures with convolution, recurrence, or self-attention mechanisms"
+    },
+    {
+      "node_id": "N7030",
+      "node_type": "17-Core Classifier Algorithm-Induction",
+      "node_name": "Deep Learning Classification and Regression Network",
+      "node_description": "End-to-end learns high-order features and directly outputs classification probabilities or regression predictions via multi-layer nonlinear transformations of deep neural networks"
+    },
+    {
+      "node_id": "N7049",
+      "node_type": "19-Training Optimization Algorithm-Induction",
+      "node_name": "Transfer Learning and Domain Adaptation",
+      "node_description": "Achieves cross-condition, cross-equipment transfer of diagnostic knowledge by aligning feature distributions between source and target domains"
+    }
+  ],
+  "SJRY3KMZ": [
+    {
+      "node_id": "N7011",
+      "node_type": "15-Data Preprocessing Algorithm-Induction",
+      "node_name": "Time-Frequency Analysis and Integral Transform Algorithm",
+      "node_description": "Projects 1-D time-domain signals into a joint time-frequency bispectral space via mathematical integral transform to characterize local signal features across time and frequency"
+    },
+    {
+      "node_id": "N7020",
+      "node_type": "16-Feature Extraction Algorithm-Induction",
+      "node_name": "Deep Representation and Neural Network Feature Extraction Algorithm",
+      "node_description": "Adaptively learns deep spatiotemporal feature representations from multi-source data via multi-layer nonlinear network structures with convolution, recurrence, or self-attention mechanisms"
+    },
+    {
+      "node_id": "N7030",
+      "node_type": "17-Core Classifier Algorithm-Induction",
+      "node_name": "Deep Learning Classification and Regression Network",
+      "node_description": "End-to-end learns high-order features and directly outputs classification probabilities or regression predictions via multi-layer nonlinear transformations of deep neural networks"
+    },
+    {
+      "node_id": "N7048",
+      "node_type": "19-Training Optimization Algorithm-Induction",
+      "node_name": "Bayesian Inference and Probabilistic Parameter Estimation",
+      "node_description": "Infers posterior distributions of model parameters under Bayesian framework via prior distributions and likelihood functions to quantify prediction uncertainty"
+    }
+  ],
+  "5FPCBRG5": [
+    {
+      "node_id": "N7008",
+      "node_type": "15-Data Preprocessing Algorithm-Induction",
+      "node_name": "Data Normalization and Scaling Transform Algorithm",
+      "node_description": "Scales amplitude or feature values of multi-source heterogeneous data to a unified numeric range (e.g., [0,1] or [-1,1]) or standard distribution via linear or nonlinear mapping"
+    },
+    {
+      "node_id": "N7020",
+      "node_type": "16-Feature Extraction Algorithm-Induction",
+      "node_name": "Deep Representation and Neural Network Feature Extraction Algorithm",
+      "node_description": "Adaptively learns deep spatiotemporal feature representations from multi-source data via multi-layer nonlinear network structures with convolution, recurrence, or self-attention mechanisms"
+    },
+    {
+      "node_id": "N7030",
+      "node_type": "17-Core Classifier Algorithm-Induction",
+      "node_name": "Deep Learning Classification and Regression Network",
+      "node_description": "End-to-end learns high-order features and directly outputs classification probabilities or regression predictions via multi-layer nonlinear transformations of deep neural networks"
+    }
+  ],
+  "ALSYJAGG": [
+    {
+      "node_id": "N7011",
+      "node_type": "15-Data Preprocessing Algorithm-Induction",
+      "node_name": "Time-Frequency Analysis and Integral Transform Algorithm",
+      "node_description": "Projects 1-D time-domain signals into a joint time-frequency bispectral space via mathematical integral transform to characterize local signal features across time and frequency"
+    },
+    {
+      "node_id": "N7020",
+      "node_type": "16-Feature Extraction Algorithm-Induction",
+      "node_name": "Deep Representation and Neural Network Feature Extraction Algorithm",
+      "node_description": "Adaptively learns deep spatiotemporal feature representations from multi-source data via multi-layer nonlinear network structures with convolution, recurrence, or self-attention mechanisms"
+    },
+    {
+      "node_id": "N7030",
+      "node_type": "17-Core Classifier Algorithm-Induction",
+      "node_name": "Deep Learning Classification and Regression Network",
+      "node_description": "End-to-end learns high-order features and directly outputs classification probabilities or regression predictions via multi-layer nonlinear transformations of deep neural networks"
+    }
+  ],
+  "Q8PEX93T": [
+    {
+      "node_id": "N7024",
+      "node_type": "16-Feature Extraction Algorithm-Induction",
+      "node_name": "Nonlinear Dynamics and Information Entropy Feature Extraction Algorithm",
+      "node_description": "Quantifies system state complexity and disorder by computing signal entropy at different time scales using statistical physics and nonlinear dynamics theory"
+    },
+    {
+      "node_id": "N7030",
+      "node_type": "17-Core Classifier Algorithm-Induction",
+      "node_name": "Deep Learning Classification and Regression Network",
+      "node_description": "End-to-end learns high-order features and directly outputs classification probabilities or regression predictions via multi-layer nonlinear transformations of deep neural networks"
+    },
+    {
+      "node_id": "N7046",
+      "node_type": "19-Training Optimization Algorithm-Induction",
+      "node_name": "Swarm Intelligence and Heuristic Optimization Algorithm",
+      "node_description": "Performs global search in multi-dimensional parameter space to determine optimal model hyperparameters by simulating natural swarm behavior or heuristic rules"
+    }
+  ],
+  "4ZUPTH4B": [
+    {
+      "node_id": "N7020",
+      "node_type": "16-Feature Extraction Algorithm-Induction",
+      "node_name": "Deep Representation and Neural Network Feature Extraction Algorithm",
+      "node_description": "Adaptively learns deep spatiotemporal feature representations from multi-source data via multi-layer nonlinear network structures with convolution, recurrence, or self-attention mechanisms"
+    },
+    {
+      "node_id": "N7030",
+      "node_type": "17-Core Classifier Algorithm-Induction",
+      "node_name": "Deep Learning Classification and Regression Network",
+      "node_description": "End-to-end learns high-order features and directly outputs classification probabilities or regression predictions via multi-layer nonlinear transformations of deep neural networks"
+    },
+    {
+      "node_id": "N7046",
+      "node_type": "19-Training Optimization Algorithm-Induction",
+      "node_name": "Swarm Intelligence and Heuristic Optimization Algorithm",
+      "node_description": "Performs global search in multi-dimensional parameter space to determine optimal model hyperparameters by simulating natural swarm behavior or heuristic rules"
+    }
+  ],
+  "NR48YI76": [
+    {
+      "node_id": "N7014",
+      "node_type": "15-Data Preprocessing Algorithm-Induction",
+      "node_name": "Adaptive Signal Decomposition and Decoupling Algorithm",
+      "node_description": "Adaptively decomposes signals into several physically meaningful monocomponent or narrowband mode functions based on their local time-varying characteristics"
+    },
+    {
+      "node_id": "N7018",
+      "node_type": "16-Feature Extraction Algorithm-Induction",
+      "node_name": "Time-Frequency Analysis and Adaptive Signal Decomposition Algorithm",
+      "node_description": "Projects 1-D time-domain signals to a joint time-frequency domain via mathematical transform, or adaptively decomposes signals into multiple monocomponent modes based on local signal features to extract local time-frequency features"
+    },
+    {
+      "node_id": "N7029",
+      "node_type": "17-Core Classifier Algorithm-Induction",
+      "node_name": "Fuzzy Logic and Rule-Based Reasoning System",
+      "node_description": "Combines qualitative expert knowledge with quantitative measurement data for reasoning and decision-making based on fuzzy set theory, If-Then logic rules, or Boolean algebra"
+    },
+    {
+      "node_id": "N7046",
+      "node_type": "19-Training Optimization Algorithm-Induction",
+      "node_name": "Swarm Intelligence and Heuristic Optimization Algorithm",
+      "node_description": "Performs global search in multi-dimensional parameter space to determine optimal model hyperparameters by simulating natural swarm behavior or heuristic rules"
+    }
+  ],
+  "8TR7I85X": [
+    {
+      "node_id": "N7008",
+      "node_type": "15-Data Preprocessing Algorithm-Induction",
+      "node_name": "Data Normalization and Scaling Transform Algorithm",
+      "node_description": "Scales amplitude or feature values of multi-source heterogeneous data to a unified numeric range (e.g., [0,1] or [-1,1]) or standard distribution via linear or nonlinear mapping"
+    },
+    {
+      "node_id": "N7023",
+      "node_type": "16-Feature Extraction Algorithm-Induction",
+      "node_name": "Linear and Nonlinear Dimensionality Reduction and Manifold Learning Algorithm",
+      "node_description": "Projects high-dimensional feature space to low-dimensional space while eliminating redundancy and preserving global variance or local topological manifold structure of the data"
+    },
+    {
+      "node_id": "N7025",
+      "node_type": "17-Core Classifier Algorithm-Induction",
+      "node_name": "Traditional Statistical and Threshold-Based Discrimination Method",
+      "node_description": "Performs fault determination by directly setting thresholds based on statistical distributions, residual analysis, or physical quantities"
+    }
+  ],
+  "SGDT4UGZ": [
+    {
+      "node_id": "N7008",
+      "node_type": "15-Data Preprocessing Algorithm-Induction",
+      "node_name": "Data Normalization and Scaling Transform Algorithm",
+      "node_description": "Scales amplitude or feature values of multi-source heterogeneous data to a unified numeric range (e.g., [0,1] or [-1,1]) or standard distribution via linear or nonlinear mapping"
+    },
+    {
+      "node_id": "N7020",
+      "node_type": "16-Feature Extraction Algorithm-Induction",
+      "node_name": "Deep Representation and Neural Network Feature Extraction Algorithm",
+      "node_description": "Adaptively learns deep spatiotemporal feature representations from multi-source data via multi-layer nonlinear network structures with convolution, recurrence, or self-attention mechanisms"
+    },
+    {
+      "node_id": "N7032",
+      "node_type": "17-Core Classifier Algorithm-Induction",
+      "node_name": "Classical Supervised Learning Classifier",
+      "node_description": "Constructs optimal classification hyperplanes or distance metric boundaries in handcrafted feature space through supervised learning"
+    },
+    {
+      "node_id": "N7046",
+      "node_type": "19-Training Optimization Algorithm-Induction",
+      "node_name": "Swarm Intelligence and Heuristic Optimization Algorithm",
+      "node_description": "Performs global search in multi-dimensional parameter space to determine optimal model hyperparameters by simulating natural swarm behavior or heuristic rules"
+    }
+  ],
+  "3JRQZDJ9": [
+    {
+      "node_id": "N7005",
+      "node_type": "15-Data Preprocessing Algorithm-Induction",
+      "node_name": "Data Framing and Sliding Window Segmentation Algorithm",
+      "node_description": "Segments continuous ultra-long time-series signals into multiple local data segments or sample frames using fixed or adaptive-length windows"
+    },
+    {
+      "node_id": "N7020",
+      "node_type": "16-Feature Extraction Algorithm-Induction",
+      "node_name": "Deep Representation and Neural Network Feature Extraction Algorithm",
+      "node_description": "Adaptively learns deep spatiotemporal feature representations from multi-source data via multi-layer nonlinear network structures with convolution, recurrence, or self-attention mechanisms"
+    },
+    {
+      "node_id": "N7030",
+      "node_type": "17-Core Classifier Algorithm-Induction",
+      "node_name": "Deep Learning Classification and Regression Network",
+      "node_description": "End-to-end learns high-order features and directly outputs classification probabilities or regression predictions via multi-layer nonlinear transformations of deep neural networks"
+    },
+    {
+      "node_id": "N7049",
+      "node_type": "19-Training Optimization Algorithm-Induction",
+      "node_name": "Transfer Learning and Domain Adaptation",
+      "node_description": "Achieves cross-condition, cross-equipment transfer of diagnostic knowledge by aligning feature distributions between source and target domains"
+    }
+  ],
+  "LFE7F9QI": [
+    {
+      "node_id": "N7020",
+      "node_type": "16-Feature Extraction Algorithm-Induction",
+      "node_name": "Deep Representation and Neural Network Feature Extraction Algorithm",
+      "node_description": "Adaptively learns deep spatiotemporal feature representations from multi-source data via multi-layer nonlinear network structures with convolution, recurrence, or self-attention mechanisms"
+    },
+    {
+      "node_id": "N7030",
+      "node_type": "17-Core Classifier Algorithm-Induction",
+      "node_name": "Deep Learning Classification and Regression Network",
+      "node_description": "End-to-end learns high-order features and directly outputs classification probabilities or regression predictions via multi-layer nonlinear transformations of deep neural networks"
+    },
+    {
+      "node_id": "N7043",
+      "node_type": "19-Training Optimization Algorithm-Induction",
+      "node_name": "Customized Loss Function and Regularization Constraint",
+      "node_description": "Guides network parameter optimization by designing dedicated loss function terms or regularization penalties for specific PHM problems (e.g., class imbalance, monotonic degradation)"
+    }
+  ],
+  "KW5PXDNA": [
+    {
+      "node_id": "N7008",
+      "node_type": "15-Data Preprocessing Algorithm-Induction",
+      "node_name": "Data Normalization and Scaling Transform Algorithm",
+      "node_description": "Scales amplitude or feature values of multi-source heterogeneous data to a unified numeric range (e.g., [0,1] or [-1,1]) or standard distribution via linear or nonlinear mapping"
+    },
+    {
+      "node_id": "N7023",
+      "node_type": "16-Feature Extraction Algorithm-Induction",
+      "node_name": "Linear and Nonlinear Dimensionality Reduction and Manifold Learning Algorithm",
+      "node_description": "Projects high-dimensional feature space to low-dimensional space while eliminating redundancy and preserving global variance or local topological manifold structure of the data"
+    },
+    {
+      "node_id": "N7030",
+      "node_type": "17-Core Classifier Algorithm-Induction",
+      "node_name": "Deep Learning Classification and Regression Network",
+      "node_description": "End-to-end learns high-order features and directly outputs classification probabilities or regression predictions via multi-layer nonlinear transformations of deep neural networks"
+    }
+  ],
+  "N7538AVL": [
+    {
+      "node_id": "N7005",
+      "node_type": "15-Data Preprocessing Algorithm-Induction",
+      "node_name": "Data Framing and Sliding Window Segmentation Algorithm",
+      "node_description": "Segments continuous ultra-long time-series signals into multiple local data segments or sample frames using fixed or adaptive-length windows"
+    },
+    {
+      "node_id": "N7020",
+      "node_type": "16-Feature Extraction Algorithm-Induction",
+      "node_name": "Deep Representation and Neural Network Feature Extraction Algorithm",
+      "node_description": "Adaptively learns deep spatiotemporal feature representations from multi-source data via multi-layer nonlinear network structures with convolution, recurrence, or self-attention mechanisms"
+    },
+    {
+      "node_id": "N7030",
+      "node_type": "17-Core Classifier Algorithm-Induction",
+      "node_name": "Deep Learning Classification and Regression Network",
+      "node_description": "End-to-end learns high-order features and directly outputs classification probabilities or regression predictions via multi-layer nonlinear transformations of deep neural networks"
+    },
+    {
+      "node_id": "N7049",
+      "node_type": "19-Training Optimization Algorithm-Induction",
+      "node_name": "Transfer Learning and Domain Adaptation",
+      "node_description": "Achieves cross-condition, cross-equipment transfer of diagnostic knowledge by aligning feature distributions between source and target domains"
+    }
+  ],
+  "P6FJD8BS": [
+    {
+      "node_id": "N7020",
+      "node_type": "16-Feature Extraction Algorithm-Induction",
+      "node_name": "Deep Representation and Neural Network Feature Extraction Algorithm",
+      "node_description": "Adaptively learns deep spatiotemporal feature representations from multi-source data via multi-layer nonlinear network structures with convolution, recurrence, or self-attention mechanisms"
+    },
+    {
+      "node_id": "N7030",
+      "node_type": "17-Core Classifier Algorithm-Induction",
+      "node_name": "Deep Learning Classification and Regression Network",
+      "node_description": "End-to-end learns high-order features and directly outputs classification probabilities or regression predictions via multi-layer nonlinear transformations of deep neural networks"
+    }
+  ],
+  "RVYNEJBL": [
+    {
+      "node_id": "N7008",
+      "node_type": "15-Data Preprocessing Algorithm-Induction",
+      "node_name": "Data Normalization and Scaling Transform Algorithm",
+      "node_description": "Scales amplitude or feature values of multi-source heterogeneous data to a unified numeric range (e.g., [0,1] or [-1,1]) or standard distribution via linear or nonlinear mapping"
+    },
+    {
+      "node_id": "N7018",
+      "node_type": "16-Feature Extraction Algorithm-Induction",
+      "node_name": "Time-Frequency Analysis and Adaptive Signal Decomposition Algorithm",
+      "node_description": "Projects 1-D time-domain signals to a joint time-frequency domain via mathematical transform, or adaptively decomposes signals into multiple monocomponent modes based on local signal features to extract local time-frequency features"
+    },
+    {
+      "node_id": "N7032",
+      "node_type": "17-Core Classifier Algorithm-Induction",
+      "node_name": "Classical Supervised Learning Classifier",
+      "node_description": "Constructs optimal classification hyperplanes or distance metric boundaries in handcrafted feature space through supervised learning"
+    },
+    {
+      "node_id": "N7046",
+      "node_type": "19-Training Optimization Algorithm-Induction",
+      "node_name": "Swarm Intelligence and Heuristic Optimization Algorithm",
+      "node_description": "Performs global search in multi-dimensional parameter space to determine optimal model hyperparameters by simulating natural swarm behavior or heuristic rules"
+    }
+  ],
+  "KC8MEE2V": [
+    {
+      "node_id": "N7011",
+      "node_type": "15-Data Preprocessing Algorithm-Induction",
+      "node_name": "Time-Frequency Analysis and Integral Transform Algorithm",
+      "node_description": "Projects 1-D time-domain signals into a joint time-frequency bispectral space via mathematical integral transform to characterize local signal features across time and frequency"
+    },
+    {
+      "node_id": "N7020",
+      "node_type": "16-Feature Extraction Algorithm-Induction",
+      "node_name": "Deep Representation and Neural Network Feature Extraction Algorithm",
+      "node_description": "Adaptively learns deep spatiotemporal feature representations from multi-source data via multi-layer nonlinear network structures with convolution, recurrence, or self-attention mechanisms"
+    },
+    {
+      "node_id": "N7030",
+      "node_type": "17-Core Classifier Algorithm-Induction",
+      "node_name": "Deep Learning Classification and Regression Network",
+      "node_description": "End-to-end learns high-order features and directly outputs classification probabilities or regression predictions via multi-layer nonlinear transformations of deep neural networks"
+    },
+    {
+      "node_id": "N7049",
+      "node_type": "19-Training Optimization Algorithm-Induction",
+      "node_name": "Transfer Learning and Domain Adaptation",
+      "node_description": "Achieves cross-condition, cross-equipment transfer of diagnostic knowledge by aligning feature distributions between source and target domains"
+    }
+  ],
+  "C9GABGHM": [
+    {
+      "node_id": "N7016",
+      "node_type": "16-Feature Extraction Algorithm-Induction",
+      "node_name": "Residual Feature Extraction Algorithm Based on State Observer and Filtering",
+      "node_description": "Generates residual features by estimating the deviation between system output and actual measurements based on physics-based models or data-driven state equations"
+    },
+    {
+      "node_id": "N7030",
+      "node_type": "17-Core Classifier Algorithm-Induction",
+      "node_name": "Deep Learning Classification and Regression Network",
+      "node_description": "End-to-end learns high-order features and directly outputs classification probabilities or regression predictions via multi-layer nonlinear transformations of deep neural networks"
+    }
+  ],
+  "T2774L99": [
+    {
+      "node_id": "N7002",
+      "node_type": "15-Data Preprocessing Algorithm-Induction",
+      "node_name": "Signal Demodulation and Envelope Extraction Algorithm",
+      "node_description": "Extracts low-frequency modulated impulsive envelopes from high-frequency resonant carriers through nonlinear operations (e.g., analytic signal construction, rectification, energy operator)"
+    },
+    {
+      "node_id": "N7024",
+      "node_type": "16-Feature Extraction Algorithm-Induction",
+      "node_name": "Nonlinear Dynamics and Information Entropy Feature Extraction Algorithm",
+      "node_description": "Quantifies system state complexity and disorder by computing signal entropy at different time scales using statistical physics and nonlinear dynamics theory"
+    },
+    {
+      "node_id": "N7026",
+      "node_type": "17-Core Classifier Algorithm-Induction",
+      "node_name": "Signal Processing and Spectral Feature Matching Method",
+      "node_description": "Extracts characteristic frequencies through time-frequency demodulation, order tracking, and other signal processing techniques, and directly compares them with theoretical physical characteristic frequencies for matching"
+    },
+    {
+      "node_id": "N7049",
+      "node_type": "19-Training Optimization Algorithm-Induction",
+      "node_name": "Transfer Learning and Domain Adaptation",
+      "node_description": "Achieves cross-condition, cross-equipment transfer of diagnostic knowledge by aligning feature distributions between source and target domains"
+    }
+  ],
+  "W8V67CX6": [
+    {
+      "node_id": "N7019",
+      "node_type": "16-Feature Extraction Algorithm-Induction",
+      "node_name": "Time-Frequency Domain Statistical and Dimensionless Feature Extraction Algorithm",
+      "node_description": "Directly computes signal energy, distribution, and waveform distortion features in the time or frequency domain via mathematical statistical formulas to construct scalar indicators characterizing equipment state"
+    },
+    {
+      "node_id": "N7032",
+      "node_type": "17-Core Classifier Algorithm-Induction",
+      "node_name": "Classical Supervised Learning Classifier",
+      "node_description": "Constructs optimal classification hyperplanes or distance metric boundaries in handcrafted feature space through supervised learning"
+    }
+  ],
+  "A2MXXZ6T": [
+    {
+      "node_id": "N7003",
+      "node_type": "15-Data Preprocessing Algorithm-Induction",
+      "node_name": "Conventional Time-Domain Filtering and Denoising Algorithm",
+      "node_description": "Filters out high-frequency noise, low-frequency interference, or specific harmonic components from signals using the transmission characteristics or statistical patterns of specific frequency bands"
+    },
+    {
+      "node_id": "N7031",
+      "node_type": "17-Core Classifier Algorithm-Induction",
+      "node_name": "State Observer and Filter Estimation Method",
+      "node_description": "Reconstructs system states via recursive filtering or observers based on system dynamics equations or state-space models, generating residuals or updating degradation parameters"
+    }
+  ],
+  "ZT9IQBYV": [
+    {
+      "node_id": "N7032",
+      "node_type": "17-Core Classifier Algorithm-Induction",
+      "node_name": "Classical Supervised Learning Classifier",
+      "node_description": "Constructs optimal classification hyperplanes or distance metric boundaries in handcrafted feature space through supervised learning"
+    },
+    {
+      "node_id": "N7047",
+      "node_type": "19-Training Optimization Algorithm-Induction",
+      "node_name": "Adaptive Control and Online Incremental Update",
+      "node_description": "Adapts to time-varying degradation characteristics of equipment by dynamically adjusting system control laws or updating degradation model parameters online based on real-time monitoring data"
+    }
+  ],
+  "7ZGVDR6Q": [
+    {
+      "node_id": "N7024",
+      "node_type": "16-Feature Extraction Algorithm-Induction",
+      "node_name": "Nonlinear Dynamics and Information Entropy Feature Extraction Algorithm",
+      "node_description": "Quantifies system state complexity and disorder by computing signal entropy at different time scales using statistical physics and nonlinear dynamics theory"
+    },
+    {
+      "node_id": "N7032",
+      "node_type": "17-Core Classifier Algorithm-Induction",
+      "node_name": "Classical Supervised Learning Classifier",
+      "node_description": "Constructs optimal classification hyperplanes or distance metric boundaries in handcrafted feature space through supervised learning"
+    }
+  ]
+}
